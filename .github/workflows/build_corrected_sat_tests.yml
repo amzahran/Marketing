@@ -14,37 +14,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Restore builder and capture diagnostics
+      - name: Restore verified builder
         run: |
           mkdir -p output work
-          cp sat_build/sat_true_latex_builder_v2.py.gz.b64 output/builder_from_repo.b64
-          wc -c sat_build/sat_true_latex_builder_v2.py.gz.b64 | tee output/builder_diagnostics.txt
-          sha256sum sat_build/sat_true_latex_builder_v2.py.gz.b64 | tee -a output/builder_diagnostics.txt
-          python - <<'PY' || true
+          python - <<'PY'
           from pathlib import Path
-          import base64, gzip, traceback
-          diag=Path('output/builder_diagnostics.txt')
-          try:
-              src = Path('sat_build/sat_true_latex_builder_v2.py.gz.b64').read_text(encoding='utf-8')
-              clean = ''.join(src.split())
-              clean += '=' * (-len(clean) % 4)
-              packed = base64.b64decode(clean)
-              code = gzip.decompress(packed)
-              Path('sat_true_latex_builder_v2.py').write_bytes(code)
-              with diag.open('a',encoding='utf-8') as f:
-                  f.write(f'base64_chars={len(clean)} gzip_bytes={len(packed)} python_bytes={len(code)}\n')
-          except Exception:
-              with diag.open('a',encoding='utf-8') as f:
-                  traceback.print_exc(file=f)
+          import base64, gzip, hashlib
+          p=Path('sat_build/sat_true_latex_builder_v2.py.gz.b64')
+          clean=''.join(p.read_text(encoding='utf-8').split())
+          # Correct one corrupted base64 character in the repository copy.
+          if hashlib.sha256(clean.encode()).hexdigest() != 'cf03d3e76fd3040af0b2335625e559cdd882ee40cf9e44b102fe5310b3619466':
+              assert len(clean)==18044
+              assert clean[11085]=='3'
+              clean=clean[:11085]+'8'+clean[11086:]
+          assert hashlib.sha256(clean.encode()).hexdigest() == 'cf03d3e76fd3040af0b2335625e559cdd882ee40cf9e44b102fe5310b3619466'
+          packed=base64.b64decode(clean)
+          code=gzip.decompress(packed)
+          assert hashlib.sha256(code).hexdigest() == '28d017f98614fb52502a12fa4f5b6b847678a9c22fdb06dba7f043d8943c4c7e'
+          Path('sat_true_latex_builder_v2.py').write_bytes(code)
+          Path('output/builder_diagnostics.txt').write_text(
+              f'base64_chars={len(clean)}\ngzip_bytes={len(packed)}\npython_bytes={len(code)}\npython_sha256={hashlib.sha256(code).hexdigest()}\n',
+              encoding='utf-8')
           PY
-          if [ -s sat_true_latex_builder_v2.py ]; then python -m py_compile sat_true_latex_builder_v2.py; fi
+          python -m py_compile sat_true_latex_builder_v2.py
 
       - name: Install dependencies
-        if: ${{ hashFiles('sat_true_latex_builder_v2.py') != '' }}
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4 lxml pillow cairosvg
 
       - name: Build corrected tests
-        if: ${{ hashFiles('sat_true_latex_builder_v2.py') != '' }}
         run: |
           python sat_true_latex_builder_v2.py \
             --index sat_build/filtered_question_index.csv \
