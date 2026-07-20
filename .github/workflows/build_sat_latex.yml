@@ -8,69 +8,22 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-
-      - name: Restore converter
-        run: |
-          cat sat_build/chunk_*.txt | base64 --decode | gzip --decompress > build_sat_tex.py
-          sed -i 's/import argparse, base64/import argparse, zlib, base64/' build_sat_tex.py
-          python -m py_compile build_sat_tex.py
-
-      - name: Get source question data
-        run: git clone --depth 1 https://github.com/mdn522/sat-question-bank.git source-bank
-
       - name: Probe current question site
         run: |
           mkdir -p probes
-          curl -L --fail --silent --show-error https://satquestionbank.org/question/ac472881 -o probes/ac472881.html
-          curl -L --fail --silent --show-error https://satquestionbank.org/question/9b0a4eae -o probes/9b0a4eae.html
-          grep -Eo 'https?[^" ]+|/api/[^" ]+' probes/ac472881.html | head -100 > probes/links.txt || true
-
-      - name: Install converter dependencies
-        run: python -m pip install --disable-pip-version-check beautifulsoup4 lxml cairosvg
-
-      - name: Generate true LaTeX tests
-        run: |
-          python build_sat_tex.py \
-            --json source-bank/data/cb-digital-questions.json \
-            --out output/Digital_SAT_LaTeX_Tests
-
-      - name: Convert usable SVG diagrams to PNG
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import cairosvg
-          root=Path('output/Digital_SAT_LaTeX_Tests')
-          for svg in list(root.rglob('*.svg')):
-              try:
-                  png=svg.with_suffix('.png')
-                  cairosvg.svg2png(bytestring=svg.read_bytes(), write_to=str(png))
-                  for tex in root.rglob('*.tex'):
-                      s=tex.read_text(encoding='utf-8')
-                      old='images/'+svg.name
-                      new='images/'+png.name
-                      if old in s:
-                          tex.write_text(s.replace(old,new),encoding='utf-8')
-                  svg.unlink()
-              except Exception as exc:
-                  print(f'Keeping SVG {svg}: {exc}')
-          PY
-
-      - name: Package files
-        run: |
-          cd output
-          zip -r -9 Digital_SAT_LaTeX_Tests.zip Digital_SAT_LaTeX_Tests
-
-      - name: Upload generated tests and source data
+          curl -L --silent --show-error -D probes/ac472881.headers https://satquestionbank.org/question/ac472881 -o probes/ac472881.html || true
+          curl -L --silent --show-error -D probes/9b0a4eae.headers https://satquestionbank.org/question/9b0a4eae -o probes/9b0a4eae.html || true
+          wc -c probes/* > probes/sizes.txt || true
+          grep -Eo 'https?[^" ]+|/api/[^" ]+' probes/ac472881.html | head -200 > probes/links.txt || true
+      - name: Upload probes
         uses: actions/upload-artifact@v4
         with:
           name: sat-latex-probe
-          path: |
-            probes
-            source-bank/data/cb-digital-questions.json
-          if-no-files-found: error
+          path: probes
+          if-no-files-found: warn
           retention-days: 7
