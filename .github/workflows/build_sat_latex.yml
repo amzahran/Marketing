@@ -10,27 +10,37 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - name: Download College Board frontend bundle
         run: |
-          set -eux
           mkdir -p probes
           base=https://satsuiteeducatorquestionbank.collegeboard.org
           ua='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/150 Safari/537.36'
-          curl -A "$ua" -L --silent --show-error "$base/" -o probes/index.html
-          js=$(grep -oE '/assets/index-[A-Za-z0-9_-]+\.js' probes/index.html | head -1)
+          curl --connect-timeout 10 --max-time 30 -A "$ua" -L -D probes/index.headers "$base/" -o probes/index.html || true
+          js=$(grep -oE '/assets/index-[A-Za-z0-9_-]+\.js' probes/index.html | head -1 || true)
           echo "$js" > probes/js_path.txt
-          curl -A "$ua" -L --silent --show-error -D probes/js.headers "$base$js" -o probes/index.js
-          grep -Eo 'https?://[^"'"'"' )]+' probes/index.js | sort -u > probes/http_urls.txt || true
-          grep -Eo '/[A-Za-z0-9_./-]*(api|question|search|export)[A-Za-z0-9_?&=./${}:-]*' probes/index.js | sort -u > probes/path_candidates.txt || true
-          grep -oE '.{0,180}(questionId|questionbank|graphql|baseURL|axios|fetch\().{0,300}' probes/index.js | head -1000 > probes/interesting.txt || true
-          wc -c probes/* > probes/sizes.txt
+          curl --connect-timeout 10 --max-time 90 -A "$ua" -L -D probes/js.headers "$base$js" -o probes/index.js || true
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('probes/index.js')
+          text=p.read_text(errors='ignore') if p.exists() else ''
+          Path('probes/http_urls.txt').write_text('\n'.join(sorted(set(re.findall(r'https?://[^"\' )]+',text)))))
+          keys=['questionId','graphql','axios','fetch(','baseURL','question-bank','questionbank','export','search']
+          out=[]
+          for k in keys:
+              for m in re.finditer(re.escape(k),text,re.I):
+                  out.append(text[max(0,m.start()-250):min(len(text),m.end()+500)])
+                  if len(out)>=1000: break
+          Path('probes/interesting.txt').write_text('\n\n---\n\n'.join(out))
+          PY
+          wc -c probes/* > probes/sizes.txt || true
       - name: Upload probes
         uses: actions/upload-artifact@v4
         with:
-          name: collegeboard-eqb-bundle
+          name: collegeboard-eqb-bundle-fast
           path: probes
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 7
