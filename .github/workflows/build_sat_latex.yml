@@ -10,32 +10,92 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch SAT Math question index
+      - name: Install requests
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Fetch complete filtered question records
         run: |
           mkdir -p qbank
-          curl --fail --connect-timeout 15 --max-time 180 \
-            -H 'Accept: application/json' \
-            -H 'Content-Type: application/json' \
-            -X POST \
-            --data '{"asmtEventId":99,"test":2,"domain":"H,P,Q,S"}' \
-            'https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-questions' \
-            -o qbank/sat_math_questions.json
-          python -m json.tool qbank/sat_math_questions.json > qbank/sat_math_questions_pretty.json
           python - <<'PY'
-          import json
-          d=json.load(open('qbank/sat_math_questions.json'))
-          print('questions',len(d))
-          from collections import Counter
-          print('difficulty',Counter(x.get('difficulty') for x in d))
-          print('domain',Counter(x.get('primary_class_cd_desc') for x in d))
+          import csv, json, time
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          import requests
+
+          rows=list(csv.DictReader(open('sat_build/filtered_question_index.csv',encoding='utf-8')))
+          out={}
+          errors=[]
+          session=requests.Session()
+          session.headers.update({'Accept':'application/json','User-Agent':'Mozilla/5.0'})
+
+          # Digital items can be retrieved in batches with the official PDF data endpoint.
+          digital=[r for r in rows if r['external_id']]
+          endpoint='https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/pdf-download'
+          for start in range(0,len(digital),50):
+              batch=digital[start:start+50]
+              ids=[r['external_id'] for r in batch]
+              last=None
+              for attempt in range(5):
+                  try:
+                      resp=session.post(endpoint,json={'external_ids':ids},timeout=180)
+                      resp.raise_for_status()
+                      data=resp.json()
+                      byid={(x.get('externalid') or x.get('external_id')):x for x in data}
+                      for r in batch:
+                          rec=byid.get(r['external_id'])
+                          if rec is None:
+                              errors.append({'qid':r['qid'],'kind':'digital','error':'missing in batch response'})
+                          else:
+                              out[r['qid']]={'meta':r,'record_type':'digital','record':rec}
+                      print('digital',min(start+50,len(digital)),'/',len(digital),flush=True)
+                      last=None
+                      break
+                  except Exception as exc:
+                      last=exc
+                      time.sleep(2**attempt)
+              if last is not None:
+                  for r in batch:
+                      errors.append({'qid':r['qid'],'kind':'digital','error':repr(last)})
+
+          # Legacy items are public JSON documents.
+          def get_legacy(r):
+              url=f"https://saic.collegeboard.org/disclosed/{r['ibn']}.json"
+              err=None
+              for attempt in range(5):
+                  try:
+                      resp=requests.get(url,headers={'Accept':'application/json','User-Agent':'Mozilla/5.0'},timeout=120)
+                      resp.raise_for_status()
+                      data=resp.json()
+                      if isinstance(data,list): data=data[0] if data else None
+                      if not data: raise RuntimeError('empty legacy response')
+                      return r,data,None
+                  except Exception as exc:
+                      err=exc; time.sleep(2**attempt)
+              return r,None,repr(err)
+
+          legacy=[r for r in rows if r['ibn']]
+          with ThreadPoolExecutor(max_workers=16) as ex:
+              futures=[ex.submit(get_legacy,r) for r in legacy]
+              for n,f in enumerate(as_completed(futures),1):
+                  r,rec,err=f.result()
+                  if err: errors.append({'qid':r['qid'],'kind':'legacy','error':err})
+                  else: out[r['qid']]={'meta':r,'record_type':'legacy','record':rec}
+                  if n%25==0 or n==len(legacy): print('legacy',n,'/',len(legacy),flush=True)
+
+          Path('qbank/filtered_full_records.json').write_text(json.dumps(out,ensure_ascii=False),encoding='utf-8')
+          with open('qbank/fetch_errors.csv','w',newline='',encoding='utf-8') as f:
+              w=csv.DictWriter(f,fieldnames=['qid','kind','error']);w.writeheader();w.writerows(errors)
+          Path('qbank/fetch_summary.txt').write_text(f"requested={len(rows)}\nfetched={len(out)}\nerrors={len(errors)}\n",encoding='utf-8')
+          print('requested',len(rows),'fetched',len(out),'errors',len(errors))
+          if len(out)<990:
+              raise SystemExit('Too many records failed')
           PY
-      - name: Upload question index
+      - name: Upload complete records
         uses: actions/upload-artifact@v4
         with:
-          name: qbank-sat-math-index
+          name: qbank-filtered-full-records
           path: qbank
           if-no-files-found: error
           retention-days: 7
