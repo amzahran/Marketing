@@ -1,0 +1,67 @@
+name: Build SAT LaTeX tests
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore converter
+        run: |
+          cat sat_build/chunk_*.txt | base64 --decode | gzip --decompress > build_sat_tex.py
+          sed -i 's/import argparse, base64/import argparse, zlib, base64/' build_sat_tex.py
+          python -m py_compile build_sat_tex.py
+
+      - name: Get source question data
+        run: git clone --depth 1 https://github.com/mdn522/sat-question-bank.git source-bank
+
+      - name: Install converter dependencies
+        run: python -m pip install --disable-pip-version-check beautifulsoup4 lxml cairosvg
+
+      - name: Generate true LaTeX tests
+        run: |
+          python build_sat_tex.py \
+            --json source-bank/data/cb-digital-questions.json \
+            --out output/Digital_SAT_LaTeX_Tests
+
+      - name: Convert SVG diagrams to PNG
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import cairosvg
+          root=Path('output/Digital_SAT_LaTeX_Tests')
+          for svg in root.rglob('*.svg'):
+              png=svg.with_suffix('.png')
+              cairosvg.svg2png(bytestring=svg.read_bytes(), write_to=str(png))
+              for tex in root.rglob('*.tex'):
+                  s=tex.read_text(encoding='utf-8')
+                  old='images/'+svg.name
+                  new='images/'+png.name
+                  if old in s:
+                      tex.write_text(s.replace(old,new),encoding='utf-8')
+              svg.unlink()
+          PY
+
+      - name: Package files
+        run: |
+          cd output
+          zip -r -9 Digital_SAT_LaTeX_Tests.zip Digital_SAT_LaTeX_Tests
+
+      - name: Upload generated tests
+        uses: actions/upload-artifact@v4
+        with:
+          name: sat-latex-tests
+          path: |
+            output/Digital_SAT_LaTeX_Tests.zip
+            output/Digital_SAT_LaTeX_Tests/Conversion_Audit.csv
+            output/Digital_SAT_LaTeX_Tests/Conversion_Summary.txt
+          if-no-files-found: error
+          retention-days: 7
