@@ -22,24 +22,87 @@ jobs:
           import base64, gzip, hashlib
           p=Path('sat_build/sat_true_latex_builder_v2.py.gz.b64')
           clean=''.join(p.read_text(encoding='utf-8').split())
-          # Correct one corrupted base64 character in the repository copy.
           if hashlib.sha256(clean.encode()).hexdigest() != 'cf03d3e76fd3040af0b2335625e559cdd882ee40cf9e44b102fe5310b3619466':
-              assert len(clean)==18044
-              assert clean[11085]=='3'
+              assert len(clean)==18044 and clean[11085]=='3'
               clean=clean[:11085]+'8'+clean[11086:]
           assert hashlib.sha256(clean.encode()).hexdigest() == 'cf03d3e76fd3040af0b2335625e559cdd882ee40cf9e44b102fe5310b3619466'
-          packed=base64.b64decode(clean)
-          code=gzip.decompress(packed)
+          code=gzip.decompress(base64.b64decode(clean))
           assert hashlib.sha256(code).hexdigest() == '28d017f98614fb52502a12fa4f5b6b847678a9c22fdb06dba7f043d8943c4c7e'
           Path('sat_true_latex_builder_v2.py').write_bytes(code)
-          Path('output/builder_diagnostics.txt').write_text(
-              f'base64_chars={len(clean)}\ngzip_bytes={len(packed)}\npython_bytes={len(code)}\npython_sha256={hashlib.sha256(code).hexdigest()}\n',
-              encoding='utf-8')
+          Path('output/builder_diagnostics.txt').write_text(f'python_bytes={len(code)}\npython_sha256={hashlib.sha256(code).hexdigest()}\n',encoding='utf-8')
           PY
           python -m py_compile sat_true_latex_builder_v2.py
 
-      - name: Install dependencies
-        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 lxml pillow cairosvg
+      - name: Install dependencies and source data
+        run: |
+          python -m pip install --disable-pip-version-check requests beautifulsoup4 lxml pillow cairosvg
+          git clone --depth 1 https://github.com/mdn522/sat-question-bank.git source-bank
+
+      - name: Prefetch complete official records
+        run: |
+          python - <<'PY'
+          import csv, json, time
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from collections import Counter
+          import requests
+
+          rows=list(csv.DictReader(open('sat_build/filtered_question_index.csv',encoding='utf-8-sig')))
+          old_raw=json.load(open('source-bank/data/cb-digital-questions.json',encoding='utf-8'))
+          old={str(v.get('questionId') or ''):v for v in old_raw.values()}
+          cache={}
+          errors=[]
+
+          for r in rows:
+              q=old.get(r['qid'])
+              if not q:
+                  continue
+              rec=q.get('content') or q
+              kind='legacy' if isinstance(rec,dict) and ('answer' in rec or 'prompt' in rec) else 'digital'
+              cache[r['qid']]={'meta':r,'record_type':kind,'record':rec}
+
+          missing=[r for r in rows if r['qid'] not in cache]
+          print('seeded',len(cache),'missing',len(missing),flush=True)
+          headers={'Accept':'application/json','Content-Type':'application/json','User-Agent':'Mozilla/5.0'}
+
+          def fetch_one(r):
+              last=None
+              for attempt in range(5):
+                  try:
+                      if r.get('external_id'):
+                          resp=requests.post(
+                              'https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-question',
+                              json={'external_id':r['external_id']},headers=headers,timeout=120)
+                          resp.raise_for_status(); data=resp.json(); kind='digital'
+                      elif r.get('ibn'):
+                          resp=requests.get(f"https://saic.collegeboard.org/disclosed/{r['ibn']}.json",headers=headers,timeout=120)
+                          resp.raise_for_status(); data=resp.json(); kind='legacy'
+                          if isinstance(data,list): data=data[0] if data else None
+                      else:
+                          raise RuntimeError('no identifier')
+                      if not isinstance(data,dict) or not data:
+                          raise RuntimeError(f'unexpected response {type(data).__name__}')
+                      return r,kind,data,None
+                  except Exception as exc:
+                      last=exc; time.sleep(min(12,1.5*(attempt+1)))
+              return r,'',None,repr(last)
+
+          with ThreadPoolExecutor(max_workers=32) as ex:
+              futs=[ex.submit(fetch_one,r) for r in missing]
+              for n,f in enumerate(as_completed(futs),1):
+                  r,kind,data,err=f.result()
+                  if err: errors.append({'qid':r['qid'],'difficulty':r['difficulty'],'domain':r['domain_code'],'error':err})
+                  else: cache[r['qid']]={'meta':r,'record_type':kind,'record':data}
+                  if n%25==0 or n==len(futs): print('prefetched',n,'/',len(futs),'cache',len(cache),'errors',len(errors),flush=True)
+
+          Path('work/full_records.json').write_text(json.dumps(cache,ensure_ascii=False),encoding='utf-8')
+          Path('output/prefetch_errors.json').write_text(json.dumps(errors,ensure_ascii=False,indent=2),encoding='utf-8')
+          summary=[f'requested={len(rows)}',f'seeded={len(rows)-len(missing)}',f'fetched_total={len(cache)}',f'errors={len(errors)}']
+          summary.append('cache_by_difficulty_domain='+repr(Counter((v['meta']['difficulty'],v['meta']['domain_code']) for v in cache.values())))
+          summary.append('errors_by_difficulty_domain='+repr(Counter((e['difficulty'],e['domain']) for e in errors)))
+          Path('output/prefetch_summary.txt').write_text('\n'.join(summary)+'\n',encoding='utf-8')
+          print('\n'.join(summary),flush=True)
+          PY
 
       - name: Build corrected tests
         run: |
@@ -68,8 +131,7 @@ jobs:
               for p in texs:
                   s=p.read_text(encoding='utf-8')
                   report.append(f'{p.parent.name}: questions={s.count(chr(92)+"begin{question}")}, medium={s.count(chr(92)+"difficulty{medium}")}, hard={s.count(chr(92)+"difficulty{hard}")}')
-          else:
-              report.append('tests=0')
+          else: report.append('tests=0')
           Path('output/independent_audit.txt').write_text('\n'.join(report)+'\n',encoding='utf-8')
           PY
 
