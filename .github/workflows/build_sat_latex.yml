@@ -10,21 +10,32 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch lookup
+      - name: Fetch SAT Math question index
         run: |
           mkdir -p qbank
-          curl --fail --connect-timeout 15 --max-time 120 \
+          curl --fail --connect-timeout 15 --max-time 180 \
             -H 'Accept: application/json' \
-            'https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/lookup' \
-            -o qbank/lookup.json
-          python -m json.tool qbank/lookup.json > qbank/lookup_pretty.json
-      - name: Upload lookup
+            -H 'Content-Type: application/json' \
+            -X POST \
+            --data '{"asmtEventId":99,"test":2,"domain":"H,P,Q,S"}' \
+            'https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-questions' \
+            -o qbank/sat_math_questions.json
+          python -m json.tool qbank/sat_math_questions.json > qbank/sat_math_questions_pretty.json
+          python - <<'PY'
+          import json
+          d=json.load(open('qbank/sat_math_questions.json'))
+          print('questions',len(d))
+          from collections import Counter
+          print('difficulty',Counter(x.get('difficulty') for x in d))
+          print('domain',Counter(x.get('primary_class_cd_desc') for x in d))
+          PY
+      - name: Upload question index
         uses: actions/upload-artifact@v4
         with:
-          name: qbank-lookup
+          name: qbank-sat-math-index
           path: qbank
           if-no-files-found: error
           retention-days: 7
