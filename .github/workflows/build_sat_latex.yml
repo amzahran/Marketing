@@ -13,17 +13,37 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Probe current question site
+      - name: Probe College Board question bank frontend
         run: |
-          mkdir -p probes
-          curl -L --silent --show-error -D probes/ac472881.headers https://satquestionbank.org/question/ac472881 -o probes/ac472881.html || true
-          curl -L --silent --show-error -D probes/9b0a4eae.headers https://satquestionbank.org/question/9b0a4eae -o probes/9b0a4eae.html || true
-          wc -c probes/* > probes/sizes.txt || true
-          grep -Eo 'https?[^" ]+|/api/[^" ]+' probes/ac472881.html | head -200 > probes/links.txt || true
+          set -eux
+          mkdir -p probes/assets
+          base=https://satsuiteeducatorquestionbank.collegeboard.org
+          curl -L --silent --show-error "$base/" -o probes/index.html
+          python - <<'PY'
+          import re, pathlib, urllib.request
+          root=pathlib.Path('probes')
+          text=(root/'index.html').read_text(errors='ignore')
+          urls=[]
+          for u in re.findall(r'(?:src|href)=["\']([^"\']+\.(?:js|json)(?:\?[^"\']*)?)["\']',text):
+              if u.startswith('http'): full=u
+              else: full='https://satsuiteeducatorquestionbank.collegeboard.org/'+u.lstrip('/')
+              urls.append(full)
+          (root/'asset_urls.txt').write_text('\n'.join(urls))
+          for i,u in enumerate(urls):
+              try:
+                  data=urllib.request.urlopen(u,timeout=60).read()
+                  (root/'assets'/f'{i:02d}_'+u.rsplit('/',1)[-1].split('?')[0]).write_bytes(data)
+              except Exception as e:
+                  print('FAIL',u,e)
+          PY
+          grep -RhoE 'https?://[^"'"'"' )]+' probes/assets | sort -u > probes/http_urls.txt || true
+          grep -RhoE '/[A-Za-z0-9_./-]*(api|question|search)[A-Za-z0-9_?&=./${}-]*' probes/assets | sort -u > probes/path_candidates.txt || true
+          grep -RniE 'questionId|questionbank|graphql|baseURL|axios|fetch\(' probes/assets | head -500 > probes/interesting.txt || true
+          wc -c probes/index.html probes/assets/* > probes/sizes.txt || true
       - name: Upload probes
         uses: actions/upload-artifact@v4
         with:
-          name: sat-latex-probe
+          name: collegeboard-eqb-probe
           path: probes
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 7
