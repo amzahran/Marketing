@@ -58,13 +58,14 @@ jobs:
           cd output
           zip -r -9 Digital_SAT_LaTeX_Tests.zip Digital_SAT_LaTeX_Tests
 
-      - name: Upload generated tests
+      - name: Upload generated tests and source data
         uses: actions/upload-artifact@v4
         with:
-          name: sat-latex-tests
+          name: sat-latex-tests-with-source
           path: |
             output/Digital_SAT_LaTeX_Tests.zip
             output/Digital_SAT_LaTeX_Tests/Conversion_Audit.csv
             output/Digital_SAT_LaTeX_Tests/Conversion_Summary.txt
+            source-bank/data/cb-digital-questions.json
           if-no-files-found: error
           retention-days: 7
