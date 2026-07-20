@@ -16,7 +16,17 @@ jobs:
 
       - name: Restore builder
         run: |
-          base64 --decode sat_build/sat_true_latex_builder_v2.py.gz.b64 | gzip --decompress > sat_true_latex_builder_v2.py
+          python - <<'PY'
+          from pathlib import Path
+          import base64, gzip
+          src = Path('sat_build/sat_true_latex_builder_v2.py.gz.b64').read_text(encoding='utf-8')
+          clean = ''.join(src.split())
+          clean += '=' * (-len(clean) % 4)
+          packed = base64.b64decode(clean)
+          code = gzip.decompress(packed)
+          Path('sat_true_latex_builder_v2.py').write_bytes(code)
+          print('base64_chars=', len(clean), 'gzip_bytes=', len(packed), 'python_bytes=', len(code))
+          PY
           python -m py_compile sat_true_latex_builder_v2.py
 
       - name: Install dependencies
@@ -35,6 +45,7 @@ jobs:
       - name: Package verification data
         if: always()
         run: |
+          mkdir -p output
           if [ -d output/Digital_SAT_Corrected_LaTeX_Tests ]; then
             cd output
             zip -r -9 Digital_SAT_Corrected_LaTeX_Tests.zip Digital_SAT_Corrected_LaTeX_Tests
@@ -42,7 +53,6 @@ jobs:
           fi
           python - <<'PY'
           from pathlib import Path
-          import csv, json, re
           root=Path('output/Digital_SAT_Corrected_LaTeX_Tests')
           report=[]
           if root.exists():
@@ -51,6 +61,8 @@ jobs:
               for p in texs:
                   s=p.read_text(encoding='utf-8')
                   report.append(f'{p.parent.name}: questions={s.count(chr(92)+"begin{question}")}, medium={s.count(chr(92)+"difficulty{medium}")}, hard={s.count(chr(92)+"difficulty{hard}")}')
+          else:
+              report.append('tests=0')
           Path('output/independent_audit.txt').write_text('\n'.join(report)+'\n',encoding='utf-8')
           PY
 
