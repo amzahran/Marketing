@@ -1,0 +1,1002 @@
+qid,source,page,difficulty,domain_code,domain,skill_code,skill,external_id,ibn,uid
+002dba45,medium,1,M,H,Algebra,H.C.,Linear equations in two variables,65ac5dc5-af25-4ecf-8562-a346047750a6,,013b49a8-e0e3-4cde-8913-5016b184fb62
+f224df07,medium,2,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,022222-DC,016d3534-2566-4551-af72-a61ad0c95b5f
+cb8f449f,medium,3,M,H,Algebra,H.D.,Systems of two linear equations in two variables,4e7c1fd2-b8e0-4864-a9e1-fac7ddb8768e,,02672cb2-7340-4344-8dc8-257d5159823b
+548a4929,medium,4,M,H,Algebra,H.B.,Linear functions,,061031-DC,03c3cdb9-a83e-4ba5-b117-81835f5be948
+e62cfe5f,medium,5,M,H,Algebra,H.B.,Linear functions,c402e062-772a-4851-8881-815b27a34ef3,,06868720-2332-4e01-b188-4f2342bc60a9
+01682aa5,medium,6,M,H,Algebra,H.C.,Linear equations in two variables,,089059-DC,06f7c0c4-b7b3-4e9d-8e26-2a0d52fc0749
+9b0a4eae,medium,7,M,H,Algebra,H.C.,Linear equations in two variables,2bcaf8ce-b786-4417-943f-f7be9c6c786a,,0752e3f1-5acc-45cf-883e-5a93989a9531
+e3cf671f,medium,8,M,H,Algebra,H.B.,Linear functions,5db820a8-aa1d-47ca-a55d-3fe59f2dadb8,,085f9e1d-b449-454e-9e38-6224fda4717c
+e723bd67,medium,9,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,066058-DC,086da430-fcc3-492f-bc7a-4b448633701b
+a5834ea4,medium,10,M,H,Algebra,H.B.,Linear functions,,120708-DC,08b235cc-8434-4790-b9e2-a842334b4c7d
+bf4a8b6a,medium,11,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,026805-DC,09d0a830-df5d-47f6-b937-a60912934f83
+0451d754,medium,12,M,H,Algebra,H.C.,Linear equations in two variables,,052309-DC,0a42c22b-d42a-4bd4-94b8-d88023b62392
+110e35f4,medium,13,M,H,Algebra,H.A.,Linear equations in one variable,,082902-DC,0b44a2f2-d99a-470a-ab51-89719dd59523
+df79d326,medium,14,M,H,Algebra,H.C.,Linear equations in two variables,,072202-DC,0d0ff806-1434-4652-ab32-29c8f2706087
+56d16b07,medium,15,M,H,Algebra,H.B.,Linear functions,,048101-DC,0e02a0ea-e180-480d-902a-f9e0e0b5dd22
+7192da28,medium,16,M,H,Algebra,H.B.,Linear functions,01c1fef1-4e3a-4f62-9b38-04754172817c,,0e16747c-cff6-4617-8f47-602c4c4fdef4
+11f34e96,medium,17,M,H,Algebra,H.B.,Linear functions,4c0502ff-914f-4a6b-b851-af3a27868137,,0e2ceca2-299b-4c06-9b98-cb06b10f658d
+43a593d5,medium,18,M,H,Algebra,H.B.,Linear functions,,051706-DC,0eb7c659-1087-4890-8f88-8755ed3a9494
+94089020,medium,19,M,H,Algebra,H.C.,Linear equations in two variables,,050104-DC,0ef7f8cf-860d-47d4-a46a-51c1f7597e0f
+a0925c29,medium,20,M,H,Algebra,H.A.,Linear equations in one variable,,032907-DC,0f1c39c4-0d24-4e40-a5af-92f68658f227
+13f6a8e7,medium,21,M,H,Algebra,H.B.,Linear functions,054df126-12d5-48a6-85c8-879530fd9d27,,0f3d744c-8e77-47bc-9372-d4994807e9a0
+749483c8,medium,22,M,H,Algebra,H.B.,Linear functions,,053102-DC,101199ad-24d9-4941-8cd6-74b83dc6fb9c
+87e69a36,medium,23,M,H,Algebra,H.C.,Linear equations in two variables,,076208-DC,10e76f07-74de-4b50-95c2-ad9c09134827
+01366d32,medium,24,M,H,Algebra,H.C.,Linear equations in two variables,190319e0-52b7-47a6-94e2-058312f19477,,11063e47-401c-460d-a683-4056304c0dd1
+5c7724aa,medium,25,M,H,Algebra,H.A.,Linear equations in one variable,009021e4-bf0b-44c8-824c-ef459e0fda4c,,118333ed-66d3-4c20-b34f-0406636016af
+6432a5a6,medium,26,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,059704-DC,1187c46b-9575-4111-b3d6-a8fc2f9e05bc
+83a28456,medium,27,M,H,Algebra,H.C.,Linear equations in two variables,,078411-DC,12305f9d-e7da-4dc9-a19f-3dfb100f5456
+a7b903ec,medium,28,M,H,Algebra,H.C.,Linear equations in two variables,,050209-DC,13a4dde2-5958-48a6-bd4e-f70ba8ac7c2e
+82569425,medium,29,M,H,Algebra,H.A.,Linear equations in one variable,6ee7e945-7e6d-4795-a66b-b32d16060736,,1462a979-e0be-419a-b3ea-2e5507feb58e
+728839dc,medium,30,M,H,Algebra,H.B.,Linear functions,691db9a3-a370-4442-a153-3edbb5060a50,,1517c0bf-e357-4466-af15-f53623bcbd47
+f8e805ff,medium,31,M,H,Algebra,H.A.,Linear equations in one variable,ae6f5376-fbb3-47af-8b22-c57d16426b7c,,15828917-d3e4-4bf7-a819-c6b0b2dd94a0
+e8470e90,medium,32,M,H,Algebra,H.C.,Linear equations in two variables,7a69ee3b-bd1c-4733-ac88-2d53a4c6c6dc,,16a56618-173f-4f64-a71e-5b05f7a5dd04
+24b0678d,medium,33,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,117118-DC,17abe430-b72e-43a9-85f1-9ecad9f531bf
+2fe841a1,medium,34,M,H,Algebra,H.D.,Systems of two linear equations in two variables,456a651d-2b5a-4ced-8a53-bbe9eecb844d,,17d4d867-c370-45f8-b1c5-774e8fa4cf24
+6792f163,medium,35,M,H,Algebra,H.A.,Linear equations in one variable,,031521-DC,18cd31aa-257d-49a0-a2a4-8e39b7e839cb
+6f665db7,medium,36,M,H,Algebra,H.B.,Linear functions,,042411-DC,18ff74a0-7495-4630-8e91-1b9b34de0a5c
+5935cbf3,medium,37,M,H,Algebra,H.D.,Systems of two linear equations in two variables,4a2e1c2a-d8be-490b-8390-47a840e3a91e,,1a02cdfc-3f36-41b3-b211-2d755e60638a
+08e61e3e,medium,38,M,H,Algebra,H.B.,Linear functions,,082104-DC,1a53f578-e59d-4b02-8f2d-7201ef98496e
+873ffda6,medium,39,M,H,Algebra,H.C.,Linear equations in two variables,,090407-DC,1a6a8d6c-eb85-4ff7-a319-0706a4ceeb1e
+497b1a79,medium,40,M,H,Algebra,H.B.,Linear functions,1124e4a8-0036-40a8-b710-5c2e0aa6a4f0,,1b873d12-3c88-4d28-b594-c0179bce3013
+f7c73ac8,medium,41,M,H,Algebra,H.D.,Systems of two linear equations in two variables,9c573c9b-6701-4626-9375-1e404b26e9fc,,1c3588d4-f55f-48a3-8b90-2163b4ca413c
+7e4c7d23,medium,42,M,H,Algebra,H.A.,Linear equations in one variable,,111613-DC,1c848331-edc8-4c16-a643-af6cbd4e7eb0
+4c1f1b02,medium,43,M,H,Algebra,H.C.,Linear equations in two variables,6cc140d0-6c36-4451-bd29-d1b11b3c1b70,,1cbf8ce7-8082-40db-b229-c5776cc0e2f9
+dba32f94,medium,44,M,H,Algebra,H.C.,Linear equations in two variables,,122020-DC,1d84c7fe-cc85-41ee-95f0-5f71a54dc244
+856c54f9,medium,45,M,H,Algebra,H.C.,Linear equations in two variables,2d8e757f-603f-46d3-954c-5a87ba5970b9,,1f8ff95e-ad29-4d84-99e3-50453c3f8918
+c2ed6a77,medium,46,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,071601-DC,20f3c5f8-9eaa-4d8a-8c50-f3e75528fca0
+84337bc7,medium,47,M,H,Algebra,H.B.,Linear functions,7b9d0d42-882c-4514-b4b3-c76c7b7e1540,,216b341e-cb02-42d8-adf5-3ba4a7d8b4b7
+0efb2555,medium,48,M,H,Algebra,H.B.,Linear functions,,040512-DC,2193ad93-2911-4da2-b96a-2d219df788d6
+4ee4e65f,medium,49,M,H,Algebra,H.A.,Linear equations in one variable,384ec0aa-c61d-4d48-8a08-a9c04b2cad6d,,2199fdd7-fcfc-4a06-915a-c2482e298bb1
+1c1039ff,medium,50,M,H,Algebra,H.B.,Linear functions,,040909-DC,22a58cd7-85a9-4b18-ada3-7fc363a8b455
+3f65ef1f,medium,51,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,043902-DC,2354f5ab-6c69-44e0-8f77-b2ea6a5ad08c
+f72a09e2,medium,52,M,H,Algebra,H.D.,Systems of two linear equations in two variables,0b83e0b4-6439-4635-a3ee-2a5d5969aa3e,,237b77cb-369e-47bc-bd33-3cb602ea22d0
+ac6198fe,medium,53,M,H,Algebra,H.C.,Linear equations in two variables,,073409-DC,23bd6bb3-9732-40a2-a789-cc36608256cd
+0cba0ef8,medium,54,M,H,Algebra,H.C.,Linear equations in two variables,,065802-DC,2416cafe-e534-4b59-8e8d-c26e0e2cb44b
+34cb32f0,medium,55,M,H,Algebra,H.C.,Linear equations in two variables,0f8ec7ce-f3f5-4d89-a58d-6f061c0dc915,,25a830ac-007c-4e86-9055-56fa717e2d9e
+77137b46,medium,56,M,H,Algebra,H.C.,Linear equations in two variables,,089301-DC,26adad06-a1f1-4b18-9547-f94c65f8d53e
+bd095c8c,medium,57,M,H,Algebra,H.D.,Systems of two linear equations in two variables,06ca96e4-12d5-4f55-97c1-b38be1802d88,,2712d6d7-f8a9-4b84-85d9-64e3c2058852
+9e769c4f,medium,58,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,033803-DC,27354b2f-a7f4-4780-8ba3-c80ea2fbde50
+be233710,medium,59,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,122711-DC,276b3d38-78e1-4204-9cac-d0c4476573b8
+7635605f,medium,60,M,H,Algebra,H.B.,Linear functions,,115314-DC,27bbbc05-acd4-49dd-84b8-a6b1dc590f23
+a71ff072,medium,61,M,H,Algebra,H.B.,Linear functions,68fe840a-f687-47c0-8790-841b4eaee5a0,,28e86db1-f8d0-4548-bfcb-b1506a2412a0
+103f02b7,medium,62,M,H,Algebra,H.C.,Linear equations in two variables,61cb932c-8eb7-4902-84d0-34fd233d7947,,2a772229-768f-4db4-9a94-27875b6f92cf
+5581bad0,medium,63,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,051811-DC,2b055433-63e7-46c1-988c-5e56e5907300
+771da5cb,medium,64,M,H,Algebra,H.A.,Linear equations in one variable,41ebef1b-0faf-40fc-8dfd-b0d6404f3eae,,2c747c90-e70e-4ad5-a69e-fad5cc3977ef
+994bb0ad,medium,65,M,H,Algebra,H.C.,Linear equations in two variables,,115804-DC,2d99f682-a099-44f0-b4e6-9a1dcf7f9b50
+01bb99bf,medium,66,M,H,Algebra,H.A.,Linear equations in one variable,,029102-DC,2e8d71e7-b1e9-45c7-a179-ac00bd07f27b
+129c2357,medium,67,M,H,Algebra,H.A.,Linear equations in one variable,,052110-DC,2ea53f55-fd2f-4ccd-965e-0be510de435e
+3efc4dc4,medium,68,M,H,Algebra,H.A.,Linear equations in one variable,20c9dce1-1ea9-411e-8015-c534df403d84,,2f337e72-0121-4a34-8fc3-ae7ebfcad3b1
+cf63e2ac,medium,69,M,H,Algebra,H.C.,Linear equations in two variables,,036701-DC,30ab6f3e-dbc0-4f62-b8dc-2d8d7dc6c736
+7a6956e8,medium,70,M,H,Algebra,H.B.,Linear functions,9b813bf8-6e0a-4504-bdd1-473741c843f7,,32acc755-3545-4e7c-b3fd-69fcfd3fb3e0
+f97fe16f,medium,71,M,H,Algebra,H.E.,Linear inequalities in one or two variables,401563c5-a906-44ea-b407-f09b5e4cfe1e,,32e3cdb2-cac0-432f-81a5-185cb077ecab
+166c5686,medium,72,M,H,Algebra,H.C.,Linear equations in two variables,,065016-DC,349e6830-8cd9-4bb9-b4ce-aa8d83148bb7
+2d9f4402,medium,73,M,H,Algebra,H.A.,Linear equations in one variable,853ae9bc-4f85-49d2-a668-48668165abbe,,34b96a0e-3181-4a9d-82d2-388537633a16
+5123ac75,medium,74,M,H,Algebra,H.C.,Linear equations in two variables,8c339cdb-0865-42b1-ac88-c3b422cde584,,352a0d97-a66a-405a-b082-60fda3684bb6
+3c094f96,medium,75,M,H,Algebra,H.D.,Systems of two linear equations in two variables,8c047b6f-0859-437b-92a8-7ece0137c364,,36127150-436c-45a8-84a9-095d40c3e243
+2762783d,medium,76,M,H,Algebra,H.A.,Linear equations in one variable,18f93d62-d4aa-4aee-9a19-cd7706c3cc6a,,36c10be9-9d90-4754-9e5e-e5e56428d090
+6317090e,medium,77,M,H,Algebra,H.C.,Linear equations in two variables,4b90c0ad-8d0d-4a84-9e5c-215bbece1597,,3720c05f-e663-4ef7-9c82-33aa70c29fa2
+cc0d050c,medium,78,M,H,Algebra,H.B.,Linear functions,7ec2be23-1922-43c9-9057-e2151a9d1497,,37f29ce5-27b3-407b-8666-8c312eb00d95
+099509db,medium,79,M,H,Algebra,H.B.,Linear functions,26b7f96e-efc5-4428-b34e-cb8772378fd1,,38327b56-8f9c-4ceb-b6b5-602e2e660488
+19debdc0,medium,80,M,H,Algebra,H.A.,Linear equations in one variable,8bdd11c4-883c-4c29-8b66-7317da6fa620,,38a61116-dd6a-480c-bba3-55b69503648c
+5a83e25e,medium,81,M,H,Algebra,H.E.,Linear inequalities in one or two variables,107f2958-2f2a-4923-a1e5-a326f7a59587,,390069ec-b3cc-46be-9d74-04e42eaef0d3
+ad532470,medium,82,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,042521-DC,399de04a-066e-4fcb-bee6-9b470c9b259d
+89dc31cd,medium,83,M,H,Algebra,H.A.,Linear equations in one variable,,092917-DC,39ac4e7d-e6c2-48df-8593-e42099d9312f
+4fa1f84d,medium,84,M,H,Algebra,H.A.,Linear equations in one variable,ea3206e5-4842-4f6d-84d1-390983f01ef5,,3aa9de95-f53a-43c2-81e2-b25aa0c969ae
+9f5027f7,medium,85,M,H,Algebra,H.C.,Linear equations in two variables,46dfa8f5-1bbb-489b-831e-9e9d6ac0ba40,,3b712e18-3a63-40d7-a047-3f822e3672f7
+cdb13018,medium,86,M,H,Algebra,H.C.,Linear equations in two variables,,077907-DC,3c80ac44-f88b-44bb-86d7-af97f802b627
+a495e764,medium,87,M,H,Algebra,H.C.,Linear equations in two variables,014ed22b-32aa-47c7-a973-2db4d5a3a4ca,,3cee34d1-9c2f-4312-97cc-cfd4e58519da
+a0feb8c3,medium,88,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,118120-DC,3de12387-d7a5-49c2-b9b7-ecc12fbbeef3
+86f1bedd,medium,89,M,H,Algebra,H.B.,Linear functions,057f3ed2-a8dc-4e71-9433-fb7e73d662c2,,3e392d5f-956e-4639-9f7c-076249cc2408
+687110c7,medium,90,M,H,Algebra,H.A.,Linear equations in one variable,3dd2c605-b39e-4fe9-b6f8-8a04c0a5166a,,3e616e1c-a7b4-43c6-94fe-6ca2d3430ed7
+c973e229,medium,91,M,H,Algebra,H.A.,Linear equations in one variable,cf7fa0a1-6023-4e95-a549-b761c00cb4ff,,3f81718a-eb02-4da0-a0c1-a48369b91e89
+ddf89d1c,medium,92,M,H,Algebra,H.B.,Linear functions,fe8d03ce-4ed6-4186-b168-0333823eeb14,,40d87aa9-8767-484f-9550-7df0504a1c8a
+02961e1a,medium,93,M,H,Algebra,H.C.,Linear equations in two variables,,049001-DC,41bde202-d058-451b-b2ac-e70d3f73de08
+803d7bf2,medium,94,M,H,Algebra,H.A.,Linear equations in one variable,40943fee-b92a-418a-aa8c-aa17a8cd66f6,,422b5a9b-e6da-4ed9-8df4-37ea1e9ec6af
+5ceebcd9,medium,95,M,H,Algebra,H.B.,Linear functions,,097611-DC,429eb9ec-9037-40dc-9876-24a96f98533b
+53e362f2,medium,96,M,H,Algebra,H.C.,Linear equations in two variables,784ba4f2-eaee-4723-bbb2-4ba67b7239e5,,42b9489b-5c63-42f9-b9ea-d46d8135423a
+04d1e6fd,medium,97,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,090116-DC,43e87d34-6cb6-4ee9-9bb9-5bf87f00bdcf
+4108cbf5,medium,98,M,H,Algebra,H.A.,Linear equations in one variable,1e6e001f-0634-4bf8-af02-c4be12052a53,,4435b967-d095-4e00-8a0b-9a5e9d75b0ec
+12d5fc15,medium,99,M,H,Algebra,H.D.,Systems of two linear equations in two variables,35dd479c-36b2-4735-b768-ff3a7bb1d010,,44f3bb3c-191a-42c0-b76e-fee9a56bc2a7
+a57a6b34,medium,100,M,H,Algebra,H.C.,Linear equations in two variables,,119117-DC,45292279-a791-4f2c-b8a2-f0b8a2d8043a
+77871237,medium,101,M,H,Algebra,H.A.,Linear equations in one variable,,113201-DC,45390126-bce4-4e61-83a0-8a9672b81af2
+3e9857a9,medium,102,M,H,Algebra,H.E.,Linear inequalities in one or two variables,af778a2f-5b25-40a3-9b6d-7e1567023fcc,,456a9ec1-d2bb-4d5d-b9d5-3f78f7c8cd66
+ce483557,medium,103,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,084303-DC,45b4d704-dcf7-4f44-bf1d-fe1a26578527
+25d17742,medium,104,M,H,Algebra,H.C.,Linear equations in two variables,,077002-DC,46080e31-d9ea-488c-ac91-91e081713493
+131f671c,medium,105,M,H,Algebra,H.B.,Linear functions,,034102-DC,46b96e74-8e8f-4f4f-926c-6b15831c09d9
+b42369de,medium,106,M,H,Algebra,H.C.,Linear equations in two variables,cf1a55ee-b354-4b56-b978-0cf7488f3c0b,,4728b522-ea4a-42bd-b8f4-12e11bb27b28
+fc6d3aa6,medium,107,M,H,Algebra,H.B.,Linear functions,db27870e-e421-4ffd-b4ad-84288fe2e44f,,478758a9-0b2a-40f5-9d76-e0eae5ea8248
+5b8bb352,medium,108,M,H,Algebra,H.A.,Linear equations in one variable,,033311-DC,481fe516-8870-4782-b66a-9ae015794928
+f8919a9d,medium,109,M,H,Algebra,H.B.,Linear functions,,041606-DC,48741937-4701-4d7d-a8ec-f47c5994cd1f
+8c4880b8,medium,110,M,H,Algebra,H.B.,Linear functions,4aecfa3a-e14c-4a0a-b04a-ed314f201018,,48e102f5-9118-4878-b2a5-a44b470fc94f
+6072af8d,medium,111,M,H,Algebra,H.A.,Linear equations in one variable,,044001-DC,4a347e6a-e484-47b6-a196-49ff33fcf5e5
+8bfd0261,medium,112,M,H,Algebra,H.C.,Linear equations in two variables,,076901-DC,4a673a26-a0f3-4ff8-a2c1-972d2854c63a
+b4fe3f14,medium,113,M,H,Algebra,H.D.,Systems of two linear equations in two variables,9d98df7b-8a9f-47a0-908e-76295bd31010,,4bb7f1db-adf0-47fd-aa30-7dd73fd82829
+c8ea04e4,medium,114,M,H,Algebra,H.E.,Linear inequalities in one or two variables,79595cb9-65c8-4c65-a69f-e5e47a4ee7d2,,4c677365-3983-4fe7-843a-8ed89c0a6128
+bf80fd93,medium,115,M,H,Algebra,H.B.,Linear functions,39f6f650-02bf-4214-85f8-f97ff958c7c8,,4eb10ef6-ff28-4e7b-860f-e8d45b9dfe08
+3a088fd5,medium,116,M,H,Algebra,H.C.,Linear equations in two variables,,049005-DC,4f4bbfd8-1466-445b-a039-32c637c90e45
+6c9e0d29,medium,117,M,H,Algebra,H.B.,Linear functions,,056712-DC,4f7e2e3c-e8cb-48ba-8cb7-c726d652fa67
+c7dd8037,medium,118,M,H,Algebra,H.B.,Linear functions,,061302-DC,4fb6fbea-434e-45c7-abfa-158e25b9661d
+74ffc2aa,medium,119,M,H,Algebra,H.A.,Linear equations in one variable,1b9a0607-4f2b-42b7-acac-a32eeab4bc2f,,5045219c-a3f8-449f-a63e-8a954194d0f5
+a50b2970,medium,120,M,H,Algebra,H.C.,Linear equations in two variables,,085707-DC,512ef56f-f43a-48b4-8a38-e0c72ed05e42
+874a4837,medium,121,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,077010-DC,5299d893-adfb-4d93-8517-af342f6d62c5
+98e93f5c,medium,122,M,H,Algebra,H.D.,Systems of two linear equations in two variables,0674ff91-dc50-4030-860d-f46155f2ec45,,5448ab9a-6ca9-480a-8842-e66ea9c9564e
+109d0a27,medium,123,M,H,Algebra,H.C.,Linear equations in two variables,8cf414a1-672d-4eca-9d70-d964111d9000,,546fa95f-3797-4cc8-bc4a-3a53b2f9ec67
+cbe37763,medium,124,M,H,Algebra,H.B.,Linear functions,,095611-DC,55bec0bd-1e26-4bff-951e-e91d6106f14b
+68c4433e,medium,125,M,H,Algebra,H.B.,Linear functions,,047409-DC,5696f91c-b658-4186-bb10-c155b80f5df3
+1f9b11ba,medium,126,M,H,Algebra,H.A.,Linear equations in one variable,bd2cd75e-cb4d-46ca-89eb-e9be593716f4,,56bac9cc-b540-4b85-8487-4b920e45e3a8
+2ebd9e38,medium,127,M,H,Algebra,H.D.,Systems of two linear equations in two variables,201e2ad8-8fb3-4cb2-a3ba-8c2549574c32,,57b6783e-bf39-42aa-959b-6e489c1f610c
+f0aebd66,medium,128,M,H,Algebra,H.A.,Linear equations in one variable,ccb4647f-bcfe-454e-a067-8fbce703a6b7,,5a19e20b-e0ec-4c52-b74a-2e6110b2b89a
+a6f64969,medium,129,M,H,Algebra,H.D.,Systems of two linear equations in two variables,1d20df8d-a67c-4d58-b82e-d2fcc7a5cb2d,,5aa263bf-b9c4-4ca6-8bd8-837e90416a6e
+3e9baae9,medium,130,M,H,Algebra,H.C.,Linear equations in two variables,,032921-DC,5bf62a51-54ce-492e-bcca-df704a728b74
+493b745b,medium,131,M,H,Algebra,H.B.,Linear functions,,101702-DC,5dc9ddc7-f6a6-40f3-9d08-c7ba5f46978c
+68ba5ef4,medium,132,M,H,Algebra,H.D.,Systems of two linear equations in two variables,45e80d9d-002d-42b3-9525-ed1b7697b854,,5e3b8b51-9747-4648-a0f1-7d2fb00f32d0
+700f5a8e,medium,133,M,H,Algebra,H.B.,Linear functions,1832c301-dc46-4761-82ce-16c9f1a87ad7,,5e4f41d0-623f-481f-a755-702407db993e
+360c7d78,medium,134,M,H,Algebra,H.A.,Linear equations in one variable,,057101-DC,5e6b18b9-1d70-437b-a12d-371a1c66e156
+fdbf6eaa,medium,135,M,H,Algebra,H.D.,Systems of two linear equations in two variables,79a73a2e-32d3-4a0d-89c3-487f07c3776e,,5f7eb852-9496-4d2b-9ee5-98209dbcf66f
+54f9f6d7,medium,136,M,H,Algebra,H.B.,Linear functions,,097304-DC,612a7697-3cd4-4d13-96a5-248658173a72
+26ebaa0d,medium,137,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,058406-DC,62d3f620-01fa-4df6-af7c-e47cd1269007
+5fdd6730,medium,138,M,H,Algebra,H.A.,Linear equations in one variable,,028904-DC,642d10fa-824e-45ef-9e0f-dcabbd207d27
+1134e94e,medium,139,M,H,Algebra,H.C.,Linear equations in two variables,,060401-DC,64ab569c-ce7b-4f89-8888-8b57b46304cc
+a5b4b683,medium,140,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,111420-DC,64f6ef10-28af-47fa-85fb-89d09f5feaf5
+cb40f64e,medium,141,M,H,Algebra,H.C.,Linear equations in two variables,,085114-DC,6543b15c-dbe8-47da-b156-7c0cf1bab173
+cc514a09,medium,142,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,045812-DC,65cb473f-8e48-469d-a2e3-19d906925aae
+ae3d85e4,medium,143,M,H,Algebra,H.D.,Systems of two linear equations in two variables,,058001-DC,6657e1b6-3064-4e53-938f-a2c421548826
+cbefeeed,medium,144,M,H,Algebra,H.C.,Linear equations in two variables,,041001-DC,66a57463-354d-4560-81fa-d1ce7b461b83
+1b20d1c5,medium,145,M,H,Algebra,H.E.,Linear inequalities in one or two variables,,043711-DC,67a72df4-0aeb-426d-9ef3-93ad7ed63021
+b5cc0d36,medium,146,M,H,Algebra,H.D.,Systems of two linear equations in two variables,227193c6-f9b7-46a2-a1d4-acd60b431879,,67f06009-a729-4230-b5f0-9ef80f0f52c4
+8ff84189,medium,147,M,H,Algebra,H.B.,Linear functions,,048901-DC,692f777a-3c45-4c7e-9b09-23796eb482b0
+3907f914,medium,148,M,H,Algebra,H.C.,Linear equations in two variables,,063804-DC,69751a6e-68a3-45e0-9f04-1169d14c9c10
+1c77f0d2,medium,149,M,H,Algebra,H.C.,Linear equations in two variables,951fc89d-474e-43fd-9303-0d253b0ca216,,6a23c7ce-ffbb-4af8-bef5-1aba31d34cb0
+02d05e36,medium,150,M,H,Algebra,H.B.,Linear functions,4c78488c-9cbc-4c2b-a730-f1251a703de4,,6a75ee56-238c-4a27-a442-5544e70e642e
+fa7b486f,medium,151,M,H,Algebra,H.B.,Linear functions,5993b31e-644b-486e-9f1f-a00e188a08c9,,6a7ab847-2b89-478d-a56d-2d58da1af413
+db36b982,medium,152,M,H,Algebra,H.B.,Linear functions,733b81f1-2056-4a60-93cc-1004e7e17d15,,6a978f49-d617-4715-a11f-a7683b9de0ec
+c8b72c6f,medium,153,M,H,Algebra,H.C.,Linear equations in two variables,,106404-DC,6b24211f-92cd-4280-b9b4-24d89d6cde31
+f83db7ea,medium,154,M,H,Algebra,H.B.,Linear functions,3d01dd00-e842-4277-a031-f18696255357,,6bc7aa27-48d0-4d50-b2d9-a624c78cceac
+07e940a8,medium,155,M,H,Algebra,H.C.,Linear equations in two variables,,092006-DC,6d5de3f4-2486-45c1-a3fc-84abdd8a3eb0
+e51f9205,medium,156,M,H,Algebra,H.A.,Linear equations in one variable,,029806-DC,6d7c41b3-a3fa-42e9-9455-b3ad2be1dc67
+390fe207,medium,157,M,H,Algebra,H.E.,Linear inequalities in one or two variables,7ffbc8c0-08e5-480f-b3cd-dabcf46a4aaf,,6e6965b5-e1ea-42b8-9d57-7e216a9b4e83
+20ffbb56,medium,158,M,H,Algebra,H.A.,Linear equations in one variable,,109302-DC,6f8f2fc2-6555-46ba-83f2-f17b1fc6eb2d
+586a0002,medium,159,M,H,Algebra,H.A.,Linear equations in one variable,,111703-DC,7027e293-59af-4e3e-b457-ab5bd1505009
+c7befb61,medium,160,M,H,Algebra,H.C.,Linear equations in two variables,,046803-DC,7048341f-8cbf-4a53-b9e4-82e7953e9d63
+3176a836,medium,161,M,H,Algebra,H.C.,Linear equations in two variables,bb014d47-d170-43ea-b6c7-e374e44ba4e1,,70506323-e285-4860-a95a-8112573f86e3
+9ca26fcb,medium,162,M,H,Algebra,H.C.,Linear equations in two variables,,070813-DC,70a973e8-3912-4d9a-9bc6-7087590a690a
+d81fce55,medium,163,M,H,Algebra,H.B.,Linear functions,,083214-DC,72cedf3e-1ba9-4f47-b1e8-2e6949a3c6bf
+594843cb,medium,164,M,H,Algebra,H.A.,Linear equations in one variable,,104410-DC,737a1acd-0a1e-4c99-b4b5-6f773528e070
+fef1e02a,medium,165,M,H,Algebra,H.B.,Linear functions,41f7f519-61a0-413e-a063-35d72127843c,,73e54bc2-4c7b-4747-82de-a861210640c8
+1778bb58,medium,166,M,H,Algebra,H.C.,Linear equations in two variables,889468ea-c2fa-42b7-8fef-587f8908e599,,743fc3be-c643-42b0-b352-1cf83ac5c650
+880d9202,medium,167,M,H,Algebra,H.B.,Linear functions,,104507-DC,74c82e26-85c1-4f18-ae26-96b17314f2af
+24ea6c63,medium,168,M,H,Algebra,H.C.,Linear equations in two variables,1614dc03-91cb-48e9-afd3-ff0df97be729,,74e3018f-9459-448d-b188-d4c4881821ef
+569e4b58,medium,169,M,H,Algebra,H.B.,Linear functions,1b004c3e-4ebc-4a2c-9538-ae067f810db8,,7549db82-e2a1-4c9b-bf2c-93a051032978
+31969cd4,medium,170,M,H,Algebra,H.C.,Linear equations in two variables,,070001-DC,758966a7-6983-448a-b17e-45537d05ab2f
+02f43062,medium,171,M,H,Algebra,H.B.,Linear functions,,111502-DC,7632b849-68b9-4166-8ca3-92d4e0049864
+8277e954,medium,172,M,H,Algebra,H.C.,Linear equations in two variables,beac2908-af0f-48bb-8ea9-9c28868d7870,,7654b422-fbc9-4104-8f3a-43e4b662c7b0
+baf2d20f,medium,173,M,P,Advanced Math,P.A.,Equivalent expressions,7f576028-84a8-4a35-94fc-86842be1918f,,77f54f72-9573-471b-b177-4dfd1597d318
+7fe2f523,medium,174,M,P,Advanced Math,P.C.,Nonlinear functions,,107001-DC,77ffac48-6a22-492b-87e6-2f68c1a24a31
+e94a8c71,medium,175,M,P,Advanced Math,P.A.,Equivalent expressions,ad6ef462-595a-4949-b836-bb9ac272aa48,,781b038d-2b57-4f6c-81de-c450e4ef9132
+77f67263,medium,176,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,079207-DC,78e4e46e-ed43-4546-ae54-a4b77803829d
+f7899a02,medium,177,M,P,Advanced Math,P.C.,Nonlinear functions,295e68b0-85f6-4be1-9a0b-45a55e3ae7bc,,79ada216-c498-475d-97a4-21d6bd0ccf19
+f645f222,medium,178,M,P,Advanced Math,P.A.,Equivalent expressions,,097007-DC,79f0add0-c2ac-4ec8-b04f-a736ad62de6a
+90b94baf,medium,179,M,P,Advanced Math,P.A.,Equivalent expressions,ded04395-2466-443d-8766-5a955e5a106f,,7a911b84-ff22-463f-811b-3b27fbc895e8
+2f402ced,medium,180,M,P,Advanced Math,P.C.,Nonlinear functions,d7108e8e-c952-4f3a-b056-66a2c086117d,,7aca16d8-47ea-4af8-9ab3-7ebd196bd9eb
+b28f20ae,medium,181,M,P,Advanced Math,P.C.,Nonlinear functions,df585e75-1fe6-42a1-bf3b-77fd2c71537a,,7b248a77-6905-4c2f-b04d-b0e42d8e9bbc
+f53a2dbd,medium,182,M,P,Advanced Math,P.A.,Equivalent expressions,,096509-DC,7b7f4718-80bf-4a17-9b57-ce83cf0b1507
+65601864,medium,183,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,106507-DC,7beea14b-46a2-41f2-afc7-0d3c96211cb9
+207402e3,medium,184,M,P,Advanced Math,P.C.,Nonlinear functions,7d987c2e-e9f3-4861-b28c-9f5027a23fcf,,7c0b3cb8-a694-4f9e-a37f-fc7ff05ecb74
+86011ff4,medium,185,M,P,Advanced Math,P.A.,Equivalent expressions,30bc6b41-e65e-4d23-80fe-8c9b7907e837,,7c20693f-7f1e-43b3-9b0c-aa4c11be0dc4
+2c0464c0,medium,186,M,P,Advanced Math,P.A.,Equivalent expressions,9da40371-266f-4eae-a13a-b58d62790205,,7c49d0e5-3ce7-4c15-b1d7-585c0d5797b5
+ac9d1f02,medium,187,M,P,Advanced Math,P.C.,Nonlinear functions,545ac136-01db-4a81-8e70-a8819e0e5e5a,,7d30c004-83ee-4eca-9e5f-a4e6bf2e50e4
+665ff569,medium,188,M,P,Advanced Math,P.C.,Nonlinear functions,7ac15898-31e5-454e-8121-3e9779cfbbb5,,7d645737-17c5-47a0-a29b-4e30d3d2c175
+b7594ed2,medium,189,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,8454aa98-6c06-4cd8-8ed0-fef97437ee84,,7f9c3f85-1ecf-4c7a-a59a-2a8bcdbfc4cb
+e2766e03,medium,190,M,P,Advanced Math,P.A.,Equivalent expressions,64a0df3e-721a-438a-aa3b-fec03911e0dc,,7fe117ad-03a4-4fe6-a4c1-cdfc6fc458e1
+1cae9889,medium,191,M,P,Advanced Math,P.A.,Equivalent expressions,,061201-DC,7ffde952-70c1-42b2-8bbd-c95958585e0b
+9a0d4b28,medium,192,M,P,Advanced Math,P.C.,Nonlinear functions,718cb178-bda5-447e-9a2f-1d2041a5996e,,807b3f2d-8673-435c-b99a-bec750526349
+220c77a7,medium,194,M,P,Advanced Math,P.A.,Equivalent expressions,490a8efc-3db5-4c9d-868a-3dc98dbe64ca,,81d80616-d331-42c3-9311-a1913b228e28
+5e0d65bc,medium,195,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0c0bb438-98d0-435e-a5e0-82cb5b163bf1,,832fb4e0-5dc4-4873-9c90-e78399bfcb89
+7c528919,medium,196,M,P,Advanced Math,P.C.,Nonlinear functions,53f9ec27-ae07-4714-8a98-3865a0c4fc26,,83698d59-0e11-4136-abd6-3b34d1122878
+6bd70bc0,medium,197,M,P,Advanced Math,P.C.,Nonlinear functions,,096312-DC,83aeaf1f-dd23-4c30-8235-b160511f5fe6
+c99b0755,medium,198,M,P,Advanced Math,P.A.,Equivalent expressions,75ccb784-6ccd-4818-ab2f-ebd6af4e3644,,83d6a35d-b7a0-4537-b57f-6f94837adefd
+36f66cdb,medium,199,M,P,Advanced Math,P.A.,Equivalent expressions,99f450be-a0c1-40e6-8487-031baec5dd14,,84478b33-a3b7-4790-a8e8-8cfb898030a5
+8263e4af,medium,200,M,P,Advanced Math,P.C.,Nonlinear functions,0010fd5a-f86a-47a0-b21a-9a77b5801189,,846664a7-2730-4402-b172-813bcba18764
+8b533838,medium,201,M,P,Advanced Math,P.C.,Nonlinear functions,,083307-DC,84c7917c-b125-4813-8ff9-6d1f609ab688
+87c18996,medium,202,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,4938e245-27d8-44ee-94c6-c5cf6f18f90e,,84ec7e37-e226-4dd2-86d1-687cb56d853f
+b48497a8,medium,203,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,077201-DC,85263567-0e89-4a17-a207-ed418cfa62d9
+ca5f7d9f,medium,204,M,P,Advanced Math,P.C.,Nonlinear functions,8ad4eb9c-7666-43ea-bb52-72da59d17440,,85edafc3-96ef-4a85-aa36-2d869f522a1b
+6b6b2b53,medium,205,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,071706-DC,86bccda1-c7fc-4922-9bc4-f581f8521cee
+abfbf50b,medium,206,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,088609-DC,876e56b0-9ef1-4dc8-98f0-046bce5f97e4
+bc6a9231,medium,207,M,P,Advanced Math,P.C.,Nonlinear functions,00cbf671-6d8b-4469-91e0-219687bc3edb,,8832f8d3-5395-420a-9501-6bf162f475c2
+c315abfd,medium,208,M,P,Advanced Math,P.A.,Equivalent expressions,4c4e2869-eed3-4764-ad2a-39c8be98e731,,885bd86f-e5a3-4a79-b135-03a9bc1e4032
+56c855c5,medium,209,M,P,Advanced Math,P.A.,Equivalent expressions,,088610-DC,887bd947-199a-4683-a932-b55be30a7c58
+6246b476,medium,210,M,P,Advanced Math,P.A.,Equivalent expressions,14b60c3e-4b3f-4cf3-9fac-12cb645dd636,,8a4238af-d0c3-4308-a1c9-872114817d05
+6f9f5102,medium,211,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,101303-DC,8b3ac4b7-33b2-40c3-a1ad-38cd9d2cbf58
+f5ea643c,medium,212,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,73401869-7623-492f-833c-e895372d3031,,8b548276-fe05-41b7-b485-276c137ce737
+5804aad0,medium,213,M,P,Advanced Math,P.C.,Nonlinear functions,4dad5348-6bef-45a7-9a17-cd57dfa71383,,8b6b01e3-63a7-4769-bce3-0e9b51cc24ed
+c3b0cc81,medium,214,M,P,Advanced Math,P.C.,Nonlinear functions,,063109-DC,8baff799-7c67-49e6-b025-e46f3bac3ae8
+db75a620,medium,215,M,P,Advanced Math,P.A.,Equivalent expressions,9fd87854-4fb2-4ef8-9386-222f36c88d4a,,8bf4043f-bdf8-4353-8d03-07d061692888
+ff0e63cc,medium,216,M,P,Advanced Math,P.A.,Equivalent expressions,,054812-DC,8bfd0443-2749-4c05-9dda-be4c0f88e83c
+2f8cbacf,medium,217,M,P,Advanced Math,P.A.,Equivalent expressions,,093204-DC,8c6c3392-f202-4e51-b00c-538409bc787c
+7544b17d,medium,218,M,P,Advanced Math,P.C.,Nonlinear functions,fa894bcb-8fca-4a8b-920d-e45c0c99d73e,,8d03552c-c85c-44ea-8a8a-08c8fabd8516
+4a1ba932,medium,219,M,P,Advanced Math,P.C.,Nonlinear functions,427749d3-bc13-4637-b908-2ee34b59557c,,8d86b98c-21e2-4397-98dd-25e9c7a13c48
+c0352177,medium,220,M,P,Advanced Math,P.C.,Nonlinear functions,071fed70-2e97-48da-986a-a6e73010b11d,,8e667650-9d12-4f48-a3b3-fcaf5a60993f
+86e9e07a,medium,221,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,176c0f9a-63cc-4fc3-a6cd-7334ae0a2288,,8f7fece5-a029-41b4-b4c5-e7db4a507fd8
+c8ee70fa,medium,222,M,P,Advanced Math,P.C.,Nonlinear functions,ba155f05-e8a5-497f-b5e6-28bf437b291a,,8fb3ec75-3e53-4c56-9cfd-fc71d03fd1b2
+2c72fb3c,medium,223,M,P,Advanced Math,P.A.,Equivalent expressions,,066607-DC,90b15254-5b72-427b-9482-884d662cf45f
+b7c77787,medium,224,M,P,Advanced Math,P.C.,Nonlinear functions,fb2ed7d0-22bb-423f-81dd-a551e78f89e2,,92042284-a564-4542-905c-f09c77485c10
+23948293,medium,225,M,P,Advanced Math,P.A.,Equivalent expressions,eb050ca6-3ba4-4da0-bce4-716ed734435a,,930734db-8433-4fa3-874c-6308da788a02
+f4932b67,medium,226,M,P,Advanced Math,P.C.,Nonlinear functions,,090202-DC,934d5599-3cdd-4e48-bb21-dbf37d1cc239
+ab9bc0a3,medium,227,M,P,Advanced Math,P.A.,Equivalent expressions,,064314-DC,9447b881-2cba-4c58-8516-4a2442fb4f1c
+81a7b2d1,medium,228,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,640f47d2-e60f-497c-8c70-6b02c57d9d93,,94cfc15b-a9a5-446a-baea-02b775b7cf44
+68b7990d,medium,229,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,673e3161-49bf-47f2-b2a0-0c5d3b3cda5f,,95500b4a-e105-4a96-919d-7e03194021b4
+d19acf8d,medium,230,M,P,Advanced Math,P.A.,Equivalent expressions,,098709-DC,958b8e7e-7c1d-43f9-bb3e-77f2f4a58ea0
+f8fece4e,medium,231,M,P,Advanced Math,P.C.,Nonlinear functions,36bca309-64b1-4a81-87d1-5c3f1d906baa,,97b72e7c-e58f-4ea7-bbc2-9ac733886896
+9ea2639c,medium,232,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,421d88e3-93a0-471f-bc2d-c7cfb4cd7410,,98660d5f-5992-4290-bf06-548ba82779a8
+e92d9831,medium,233,M,P,Advanced Math,P.C.,Nonlinear functions,54dd554a-2d2b-47ec-8e25-58098094cc11,,986b8ba9-ee3a-43af-bddc-f548cc425bdd
+ab36c0c3,medium,234,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,069301-DC,98d66d82-83e8-4410-9152-2da50a808172
+6de4be32,medium,235,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,110514-DC,992a26e6-3687-4d08-bf42-bf727e245a49
+b354a54d,medium,236,M,P,Advanced Math,P.A.,Equivalent expressions,25d842d2-e63f-4314-93be-162fd6a62ed8,,99619964-970f-492f-80a4-e2cb024dfe49
+73274efb,medium,237,M,P,Advanced Math,P.A.,Equivalent expressions,,081003-DC,99e12219-b131-44fb-a63d-7ff19c31f32f
+9c4dcf6a,medium,238,M,P,Advanced Math,P.C.,Nonlinear functions,,032406-DC,9a473757-5f52-4630-a161-79c0d7a7d0e7
+e36f88b4,medium,239,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,37264020-5b73-4c33-a500-315c4af35fec,,9adbc6c8-2cc7-451b-8968-5c24b0541834
+0703e6c7,medium,240,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,120217-DC,9b381537-77e4-44c2-885c-7416e58c781c
+c8a25f01,medium,241,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,84d7f73e-4eed-4501-ad51-e3b76d6e9aa0,,9bded17b-ea6f-4756-b36c-6df6b895c92e
+9daf430b,medium,242,M,P,Advanced Math,P.C.,Nonlinear functions,714bba98-d014-4184-936e-28bc725f595c,,9c0749d6-ab13-44f7-b909-3e6e0c65c9ea
+3406e912,medium,243,M,P,Advanced Math,P.A.,Equivalent expressions,19184c6c-890a-448a-96f4-2fb1c6ca2fd2,,9c6acf9e-2598-4ab7-9e7b-241f2518cc41
+c0397e13,medium,244,M,P,Advanced Math,P.C.,Nonlinear functions,,043106-DC,9da0b02d-42b3-4508-9407-fdf7d1cff664
+1c5b1de2,medium,245,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1422aed0-80c7-4141-8b20-0e9405633ba8,,9ff4ed3d-2f32-4eec-9869-5a2802758dc1
+9727e1a2,medium,246,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,4c38cf00-1653-4009-838b-8fe77670db1c,,a0b2015b-c2c4-4099-845c-cd0bf8e7116d
+a8d2b9a1,medium,247,M,P,Advanced Math,P.C.,Nonlinear functions,,092503-DC,a1d7f112-7c49-4b2b-b34f-a925b1fbd14a
+fa9bf72e,medium,248,M,P,Advanced Math,P.C.,Nonlinear functions,,064904-DC,a2c1ae01-d6cd-4e03-98b7-8f53e1c6e21a
+6a4760d3,medium,249,M,P,Advanced Math,P.C.,Nonlinear functions,180eeb26-b0c2-4af1-b5d4-38828ca27217,,a2c39e42-62b7-448b-af07-8d29e983c9bb
+4c5e6b02,medium,250,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,38833863-7215-4287-8de1-43a36427d193,,a30bd1a3-3b26-4446-82c5-871db3c590a6
+b2b59e6c,medium,251,M,P,Advanced Math,P.C.,Nonlinear functions,28aa98b9-a28d-49e4-8a64-1cf83eecc41a,,a3654d79-5917-417c-ab07-542bb395e811
+5ca7f7bf,medium,252,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,072406-DC,a3e2852b-983f-4d05-9186-71507237eb34
+c186e767,medium,253,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,840e5f42-5312-4c0e-a149-10e8c6682cfd,,a408e61d-a926-4294-b9a7-dc288235ce61
+d7e7c9a5,medium,254,M,P,Advanced Math,P.C.,Nonlinear functions,6954b84a-24dc-445d-942d-c91b85e87bed,,a431e29e-f13f-451c-b33a-fbbf28ed7ae1
+1687f498,medium,255,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,056106-DC,a525a97f-ecda-4bdd-976b-7ccc01e50b02
+718cf75a,medium,256,M,P,Advanced Math,P.C.,Nonlinear functions,3e697924-4aa8-4e80-8a43-1f9b8dbd143f,,a64c6831-774c-4931-b463-741e14128246
+1ed8c247,medium,257,M,P,Advanced Math,P.A.,Equivalent expressions,5105e2f4-a838-4685-b37c-35b7f28f6f25,,a674b01e-f15f-42a5-9776-4c32a80076bd
+a055d683,medium,258,M,P,Advanced Math,P.C.,Nonlinear functions,,100601-DC,a690360d-11b7-4e7e-b725-297d42b8e53a
+ee679412,medium,259,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,642ca09c-14fe-4a6b-b75d-7c988381e8a3,,a6aeaa26-ac51-4d56-92d4-abf3f4399e88
+039cb05d,medium,260,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,066609-DC,a6ba8edf-37c2-493b-bbd4-f7ac14bb9fca
+86442601,medium,261,M,P,Advanced Math,P.C.,Nonlinear functions,,065411-DC,a6cb26f0-bebe-41bf-9a1a-75e9620ddd6b
+47e6df56,medium,262,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,32a1c641-2374-43d9-8129-a84e011b77a0,,a8cb1c34-37a9-4838-844c-a8d064942b47
+ad2219cf,medium,263,M,P,Advanced Math,P.A.,Equivalent expressions,,087505-DC,a951726d-5cff-483c-b6ae-e53fc5f7542e
+dcc8b3df,medium,264,M,P,Advanced Math,P.C.,Nonlinear functions,6d79b735-9760-4ae2-b565-dd6b8519605e,,a99bb5ec-cadc-47e3-9fbd-d48105929387
+76be28b0,medium,265,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,115408-DC,aa182f84-0955-4461-9896-2fa611868fac
+3c3a37a9,medium,266,M,P,Advanced Math,P.C.,Nonlinear functions,825f9e02-2f5f-4759-9e14-096e1dd9d990,,aa763b5a-eb09-43d4-a250-e5bfb52acbbc
+6cb530c9,medium,267,M,P,Advanced Math,P.A.,Equivalent expressions,,085911-DC,aac35bad-c3a5-4fba-8334-b7049f857a73
+b4ae9e1d,medium,268,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,8a7f063b-b40e-4fc1-b80b-eb8997bbbda1,,ab405a35-8f6f-4e9e-9693-fc4b4516cb28
+4d06e77a,medium,269,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,21ab956b-6903-481e-8d70-5fa214f11718,,ac570747-a9c5-42d4-8ace-2de442247b8f
+3721bc65,medium,270,M,P,Advanced Math,P.C.,Nonlinear functions,,085408-DC,ae08534a-52c8-4d93-975c-8079f70a68eb
+5417e7cf,medium,271,M,P,Advanced Math,P.C.,Nonlinear functions,,108201-DC,ae38d9e9-8400-4bde-8111-a9e429e8363f
+65744e72,medium,272,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,032602-DC,aef9c1da-4c99-4f86-90b8-83bdf1bdce33
+c9e45004,medium,273,M,P,Advanced Math,P.A.,Equivalent expressions,1ed3335e-f4c0-4c66-8989-0a6f2e1c2823,,af6668b5-023a-4230-b533-02c35e693e2c
+0b7a5232,medium,274,M,P,Advanced Math,P.C.,Nonlinear functions,3cbc3790-50ae-48c5-a6c3-a81cff975fc2,,b02a27a5-7429-4171-8e0e-9672223b760b
+65c56e54,medium,275,M,P,Advanced Math,P.C.,Nonlinear functions,,058610-DC,b070f69a-4a1e-4d07-8e49-9b9a05efc09f
+c4763af2,medium,276,M,P,Advanced Math,P.A.,Equivalent expressions,c734ea6c-10f8-4e2a-8b93-d7b4cb85ced1,,b09008c4-59ca-4a6e-bf45-29bfaf0d0a7c
+99e99b9a,medium,277,M,P,Advanced Math,P.C.,Nonlinear functions,364d4a6d-8012-46eb-9162-eb42f49a327f,,b0ec46af-e489-455f-8190-e24bbdc325c6
+91fb2a31,medium,278,M,P,Advanced Math,P.C.,Nonlinear functions,6130e797-7d99-4a0b-8c6c-ee896993bfb3,,b0f0f088-8223-40fa-92d0-2da2d5edc679
+54658b9e,medium,279,M,P,Advanced Math,P.C.,Nonlinear functions,,029509-DC,b0f74782-8040-48e6-a090-53616236b0ba
+f72224f7,medium,280,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5a33949f-98fa-4f9a-b6c1-e4e9c95b1d94,,b11244d8-df11-409c-8bb0-cec37fffe216
+905a9974,medium,281,M,P,Advanced Math,P.C.,Nonlinear functions,,059903-DC,b13f83ba-685f-4164-b7d8-cf476e6e1e41
+9a2e3c47,medium,282,M,P,Advanced Math,P.C.,Nonlinear functions,20bec203-40f8-4115-b89b-06b0465d8723,,b19f4ff1-f864-47aa-984f-750c1e28a0f5
+4492ca94,medium,283,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,033107-DC,b1de1c16-47f5-4bf6-95c7-41925610f3ee
+e5e0d5c6,medium,284,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,ba78cebb-e52e-4447-8a9c-0f0b739f4ea2,,b1fa91cd-9b42-4077-b7ac-6bc59b00f864
+4d2f3f48,medium,285,M,P,Advanced Math,P.C.,Nonlinear functions,af76a4d8-20e4-4c01-80d7-6ff40fe2404d,,b2940929-2213-4aa2-8dbd-1272885a5a0e
+e0d3cf70,medium,286,M,P,Advanced Math,P.C.,Nonlinear functions,,074407-DC,b2e1f302-fec0-4ccc-bad0-b35e2eb9ef67
+b8d977a3,medium,287,M,P,Advanced Math,P.A.,Equivalent expressions,373bc9c8-b97e-4f49-bb57-4f2437905ee2,,b35fa962-2b3d-4e24-8dc5-a4f6e07e279a
+e97b57f7,medium,288,M,P,Advanced Math,P.C.,Nonlinear functions,304c0980-156a-41f1-8edb-546c482a54ea,,b4956460-e506-40c2-8b28-fbed94e3710f
+47b6b5ce,medium,289,M,P,Advanced Math,P.A.,Equivalent expressions,,059011-DC,b6048d7d-18fc-4806-bbbf-8b502ebee6cc
+9792fa85,medium,290,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,241b2442-3f7a-4de4-941a-1a621094f3b3,,b67b2618-371a-4741-80bc-35a77e0d5b2a
+a71ece1e,medium,291,M,P,Advanced Math,P.A.,Equivalent expressions,42e67f6e-b4d2-4765-9223-1d77e2a8fa13,,b90c0ad5-813f-4f7a-96b0-a4cd3639bc2d
+67abb59e,medium,292,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,045208-DC,b9c78b66-1db9-4f9b-b5dc-fd868ba83d53
+052fbd2e,medium,293,M,P,Advanced Math,P.C.,Nonlinear functions,,084210-DC,b9d255b3-a522-447a-810f-f01270862ab7
+bc8a2a5f,medium,294,M,P,Advanced Math,P.C.,Nonlinear functions,,063302-DC,ba68ae36-d32f-4f57-8058-d27247b79877
+128a8c84,medium,295,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,039004-DC,bd9ae1b6-4c15-4d94-892c-f9c2e03bce10
+df605c40,medium,298,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,27350645-7bde-4583-b7a9-1af07d2f45a6,,beb86170-9327-4535-b5af-823fe85979fc
+2cefe681,medium,299,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5f21f52b-dfa4-4085-934d-7bdb60d47dd2,,c037a9a0-8cb1-4cb8-b96b-50431436a460
+8b67b8b4,medium,300,M,P,Advanced Math,P.A.,Equivalent expressions,97e57ba9-d48e-4408-b5d7-c12e53f456b4,,c166ec2e-dc3b-4ae1-8784-cfd7d7c35c7e
+d9b9918a,medium,301,M,P,Advanced Math,P.C.,Nonlinear functions,,031812-DC,c2ae6f2c-20bc-4e11-8237-8018cab50f7f
+a7fe2f70,medium,302,M,P,Advanced Math,P.C.,Nonlinear functions,8495b3b9-32b1-4f19-a6a8-9f5c63634931,,c319e987-3a2d-477b-895a-3e0d625f7fb5
+1f1e3169,medium,303,M,P,Advanced Math,P.A.,Equivalent expressions,,068107-DC,c44fe0c0-847f-4d30-88c3-24da4b6760e0
+3dadcbb6,medium,304,M,P,Advanced Math,P.C.,Nonlinear functions,,048410-DC,c4604b9d-c215-4629-8887-1f033170279f
+b01a905c,medium,305,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,3d76656e-4c26-4f89-a557-0db11772ee54,,c4d20929-5a37-4342-991a-cd2b514b0618
+dde7496a,medium,306,M,P,Advanced Math,P.A.,Equivalent expressions,1c6b2c52-b2cb-475a-98b0-29f7869f8011,,c4fa1769-6204-477f-854f-581a410d7686
+f865d5ee,medium,307,M,P,Advanced Math,P.A.,Equivalent expressions,,038909-DC,c5207533-b544-41fa-97e1-18da3f3df0ec
+692aec43,medium,308,M,P,Advanced Math,P.C.,Nonlinear functions,62a71287-2a40-45e9-a9e3-1eb95ec71107,,c5bce03d-9b7a-430d-9fe1-e2fc05c8a048
+b0bd0a2c,medium,309,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,039503-DC,c5dbca32-358d-4454-a5bc-6bcf86bf81f7
+415faec5,medium,310,M,P,Advanced Math,P.A.,Equivalent expressions,,057904-DC,c794460d-31f8-4f68-a784-cb36cc897795
+1e8c8764,medium,311,M,P,Advanced Math,P.C.,Nonlinear functions,41b15372-ff4b-4721-b2de-b6bf0b20e704,,c99dd16b-c01b-4de7-a25c-39da95315af8
+8f899848,medium,312,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,083501-DC,ca14a32c-4789-48de-8458-12eec768c943
+bef4b1c6,medium,313,M,P,Advanced Math,P.A.,Equivalent expressions,750b7b25-473d-4b09-8086-a5f8e5d33f36,,cac33540-ab2a-4e38-94eb-aa62447acd11
+97b1a090,medium,314,M,P,Advanced Math,P.C.,Nonlinear functions,45c720b0-fc33-4a81-aec8-272a680cbd6a,,cb039bdf-21f0-4d77-b923-f3ab634a1667
+5e3d66bc,medium,315,M,P,Advanced Math,P.C.,Nonlinear functions,c94336cb-1d93-46bb-8ee2-a448dc731d60,,cbad9336-aeaa-4a11-befc-a8105cab417f
+68c18b39,medium,316,M,P,Advanced Math,P.C.,Nonlinear functions,,094406-DC,cc1dc414-923a-48f5-9805-58013cd0b8f2
+f2b82d07,medium,317,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,099105-DC,cc32c027-cb05-47b4-9468-b7343f1e660c
+399e776d,medium,318,M,P,Advanced Math,P.A.,Equivalent expressions,5a80c274-faba-4058-b26c-cf9722a18fc1,,cc333ac4-bfcf-41d2-978c-9ff5b24eefbc
+4569a4af,medium,319,M,P,Advanced Math,P.A.,Equivalent expressions,a1527cca-a2a3-4af8-877b-37e34d4e9897,,ccc2a51f-477e-42af-b5f2-4103990dc60b
+b650440a,medium,320,M,P,Advanced Math,P.A.,Equivalent expressions,,042907-DC,cd069789-5509-4e7c-840b-901350731dac
+19bd6f20,medium,321,M,P,Advanced Math,P.A.,Equivalent expressions,472f0d9a-2413-4211-b983-d5abccbcab1f,,cd4e74ba-2e91-4839-9358-13c5426eacb0
+e0f1e4b6,medium,322,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,64e38f73-379a-4a75-879f-c1b1d265a778,,cde9fc2a-bcd8-47ba-8d9a-5f9b0254cbee
+0b8e1846,medium,323,M,P,Advanced Math,P.A.,Equivalent expressions,,044202-DC,ce1595dc-9bd1-4d84-8f54-81005de0523f
+98ecba1c,medium,324,M,P,Advanced Math,P.C.,Nonlinear functions,5eb7b04a-66b7-4c7b-9d30-7a2247597a18,,cec2f26f-d645-4f85-a786-a79c1973499f
+b4b5d567,medium,325,M,P,Advanced Math,P.C.,Nonlinear functions,2e0b4c96-d408-442b-ab8a-e353d8c16e2f,,cf7fbd7d-e961-4850-b128-e4c183c079f3
+802d1076,medium,326,M,P,Advanced Math,P.C.,Nonlinear functions,6c029f4a-8913-4fca-b0d2-6fa90f829020,,d0a2fddc-20f8-4ea9-9180-d7e9c76e9e1d
+365d93c6,medium,327,M,P,Advanced Math,P.A.,Equivalent expressions,bc3c1775-4e57-4c04-bdd9-871630b8c854,,d14f6ad1-5b0b-42e2-bd51-9e60cb97a6b7
+0113cf83,medium,328,M,P,Advanced Math,P.A.,Equivalent expressions,cf49f178-10ac-4b52-b837-970a705fdedc,,d1769828-2a67-43fc-9327-788471084051
+d13a0465,medium,329,M,P,Advanced Math,P.C.,Nonlinear functions,5f4cfbd5-7de2-4569-903f-7ea4237911c0,,d255e182-d6d9-437f-9808-97303a4c80ad
+126e6891,medium,330,M,P,Advanced Math,P.C.,Nonlinear functions,136f48c3-53d1-4470-8d73-07571a915549,,d2a65d14-23cf-48b9-8d83-f090d42936de
+5003c777,medium,331,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,919b2f2d-2c7f-4cf3-af34-a38962d697ec,,d4841d89-dcc0-46f6-b1cd-6e22b5e4fab9
+32f9724f,medium,332,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,096901-DC,d50116aa-a52b-4679-9775-26e8f613d347
+40dcc52a,medium,333,M,P,Advanced Math,P.C.,Nonlinear functions,122ec72c-e475-40a4-8372-a57451354589,,d51523c1-e02b-44fc-8135-2643bda7607b
+3314d2f5,medium,334,M,P,Advanced Math,P.C.,Nonlinear functions,75833273-7bcd-480a-8fd1-e88b71325e5c,,d60d9f9e-03a7-4772-8de1-a74dc8d53fe7
+a9274e62,medium,335,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,7b65b546-aa43-4e0f-97a9-c57ea2374ffe,,d777a7bb-092c-4d6f-83ed-3a889ee9a3af
+c7129308,medium,336,M,P,Advanced Math,P.C.,Nonlinear functions,,052402-DC,d7f46652-8363-4cc2-955e-7d286e5d9270
+0e4be8cc,medium,337,M,P,Advanced Math,P.C.,Nonlinear functions,336f9f8d-72a7-4fcd-9c3c-e15c8facfdc6,,d8542390-030c-40f6-93bf-a1c749b2cdbc
+fa310dc9,medium,338,M,P,Advanced Math,P.C.,Nonlinear functions,84fd576c-7431-45d2-8133-cc05b7cb01b6,,d9402cdc-9a3d-48eb-ad66-9c3a25ebbfaa
+4093d555,medium,339,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,103413-DC,d973ee90-c1a8-45e7-bae6-756a982f4cdb
+305a8355,medium,340,M,P,Advanced Math,P.C.,Nonlinear functions,,113617-DC,dafed6a6-7ab9-45f3-8853-1354a38931b5
+5b48c139,medium,341,M,P,Advanced Math,P.A.,Equivalent expressions,329563b4-a980-4bb9-945d-f7003904793c,,db0c3f39-e631-4aed-a000-eb684743efb9
+28f335bd,medium,342,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,6949d5a8-f498-4ab9-9851-8136464acfe5,,dbd246c7-3cde-4d27-a69a-0b2b382291f4
+13c2d3f4,medium,343,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,4a78e66b-a922-4fa8-9723-24051b02314d,,dc522938-d0f9-4879-875b-b3d8670e710c
+07d11759,medium,344,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,065910-DC,de81e4f6-fd8d-4683-bd60-e02e27746e64
+c5f4819b,medium,345,M,P,Advanced Math,P.C.,Nonlinear functions,244627c4-5655-4482-ac62-e4b4455a26ac,,df0840d8-6bfa-4a53-9190-b86ca7a8f931
+2e347281,medium,346,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,200a50e1-6937-4f9b-bbd9-c2fd24b12271,,dfbc1da0-33cf-4326-a590-fc7020826f54
+6e8cdbf8,medium,347,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,042002-DC,e01d82ba-2995-42f4-b22b-c67b227ff634
+ba2889fc,medium,348,M,P,Advanced Math,P.A.,Equivalent expressions,,045703-DC,e1c70129-bd30-4b4d-a4a7-7d70fe333b3d
+6dfec42e,medium,349,M,P,Advanced Math,P.A.,Equivalent expressions,ad1d353c-77e9-4a34-af13-d254a102c64e,,e26df868-0d87-4452-b51b-4fc870e778da
+8aa41542,medium,350,M,P,Advanced Math,P.C.,Nonlinear functions,455755b2-48a6-48a2-865c-8bf88850d18f,,e3248ff0-8a2e-47db-bba4-2e0e4967fc71
+78cfc687,medium,351,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,bd732237-f063-41ec-90e4-62567e7f1403,,e5f21963-aa6f-4493-aa2f-21765f1614a7
+6f75b960,medium,352,M,P,Advanced Math,P.C.,Nonlinear functions,4920639a-06a3-4920-b1c8-777e55759a85,,e69add94-f1d2-42d2-85fb-191e6b82c89f
+dd345bce,medium,353,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,080812-DC,e7bb90ec-f42b-411f-96c5-f734ea6d3a60
+bec27550,medium,354,M,P,Advanced Math,P.C.,Nonlinear functions,,106606-DC,e7fa6b3d-1dfe-4c08-a725-52a36a7ed0d4
+bb500ad0,medium,355,M,P,Advanced Math,P.C.,Nonlinear functions,9fc0c7c7-19c8-4851-8b13-dd7e2a5f09b7,,e821893c-5bb9-4bd9-b9c3-6b2de0a4c48f
+8aa7b0be,medium,356,M,P,Advanced Math,P.C.,Nonlinear functions,529354cd-f0d4-4822-944b-aa3a62be1ab7,,e82f96c4-9756-40be-b912-5be9ba014a3d
+541d37a6,medium,357,M,P,Advanced Math,P.C.,Nonlinear functions,62036389-8bd9-4bca-b870-755a1842309d,,e8801b25-284e-4716-8610-cd91576c9f7e
+7121fce7,medium,358,M,P,Advanced Math,P.A.,Equivalent expressions,73cd35ea-bdb2-4ff2-98b6-f71f2d189a43,,e8813e36-5d6c-45cb-95f3-306846ae2263
+464ba6d6,medium,359,M,P,Advanced Math,P.C.,Nonlinear functions,434fa52c-e6e9-4807-bc4b-d15fbc9ee22f,,e94b88f8-6d6f-49a6-bb44-b55abb63cf43
+7b732944,medium,360,M,P,Advanced Math,P.C.,Nonlinear functions,3a7e432c-a598-4d74-a1d4-50d57e9d0d8d,,e9c1b83c-a5d8-4dc5-a56f-0b61bb9f879c
+a51648e5,medium,361,M,P,Advanced Math,P.C.,Nonlinear functions,,110711-DC,e9e87575-b697-4489-af56-6078ae8ca1e9
+b33a3c2c,medium,362,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5d31053b-d2d3-4ca7-ae89-fc96f862466e,,eb2347dc-854d-4c6b-9f15-50e46f0556ce
+00687834,medium,363,M,P,Advanced Math,P.C.,Nonlinear functions,,063414-DC,ebc17514-1e8d-4778-ae24-8952369f56e3
+02279222,medium,364,M,P,Advanced Math,P.C.,Nonlinear functions,86b4bd1d-da36-47c7-a170-f70b0e75ee86,,ec123c7f-e654-4da9-8c5e-bf564bd2d7be
+e0af4809,medium,365,M,P,Advanced Math,P.C.,Nonlinear functions,,093215-DC,ec6c4f19-5d6a-454d-a50b-b17f581d39c4
+f5dc4914,medium,366,M,P,Advanced Math,P.A.,Equivalent expressions,,072501-DC,ecbe08d6-19c6-44f8-a1d0-49db2f5dad2d
+48d38907,medium,367,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,eb22ff5a-b52f-4649-90da-d6c277c571e3,,ed78bc34-ac71-485c-beba-d29a5a37936f
+76b7ca70,medium,368,M,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,112202-DC,eea57377-24f2-4567-b402-4084d9b355fc
+1adb39f0,medium,369,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,cb06e155-be60-4d49-9bd1-e587a9760de1,,f051e392-f95b-4b5e-aed4-105a29ea694f
+20a8af29,medium,370,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,926e9746-0b17-462c-820a-4db73b1ae68b,,f15e9dc6-641c-445d-945d-ebfa9f3b9ae8
+25fc031a,medium,371,M,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,cd424202-8d19-4cc0-81ab-85b09673253d,,f220f2f4-4863-4890-a72b-ea532a1d3e15
+b504326c,medium,372,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,11e89a99-3c9e-49dd-9a8f-6f1bfb452e64,,f26abdf1-9163-4637-9229-694202a20ab5
+c4e077b2,medium,373,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,100706-DC,f4133254-1436-4a7b-b577-ad1aa3b14b42
+dc17c9f1,medium,374,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,3d6589dc-ab10-4cfb-9dc9-f240bcdadac1,,f480be62-c013-4e7c-9bab-6506374f0791
+b0d24fa7,medium,375,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,084102-DC,f50f7198-8f0a-4f4b-91b8-0cfa13074e5c
+9872dba7,medium,376,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,813a3761-e7de-44cc-af4a-3a52266f6959,,f632a2ce-e8c0-4e63-9b2c-d8c6efff5b91
+3359a487,medium,377,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,09b05379-0422-4a20-bb57-b81962641311,,f6dc1cbe-966e-48a5-bcbc-cc46cb3f1b03
+1bc6c6b0,medium,378,M,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,,069110-DC,f76b2108-3828-49a5-8d04-419301e90b29
+a9b93a9c,medium,379,M,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,59a7cf94-8539-4944-8b12-100f06f8baa4,,f86dd6a5-6074-43af-ad8f-c49ed4e8026a
+0bbfbcf4,medium,380,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,8f1629b0-63ec-4277-a61d-5b7063fe9268,,f91dc149-b1b3-43ef-a631-ea09334eefbd
+fef9cb33,medium,381,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,612affb4-f9ea-47af-a555-1386e28062e6,,f9852dda-1766-44dc-b174-b4ff70681f2b
+1eaff41b,medium,382,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,085003-DC,f9d04835-614c-44cc-93ae-6b3189e3a6d7
+e3294d87,medium,383,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,4fdb72af-fc3a-43f8-81b8-32417f99cd4b,,fb0e9dbb-41de-4e98-a590-b0c26ef3dbcf
+c30b0bc6,medium,384,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,065603-DC,fb126340-2543-4708-8639-8c416ba4ce80
+d0ad93a0,medium,385,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,0795c2c7-b895-4435-86e6-23eb0062dc63,,fc54a0bf-1129-4265-a210-f57b10b0413f
+c5a16e74,medium,386,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,031606-DC,fc733124-2742-47e4-8dc0-4598cc47a4fe
+8782a0f9,medium,387,M,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,,089805-DC,fcfa7607-30d3-4723-87a5-7a3a029e8937
+4259b489,medium,388,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,01f579c8-b5a3-4637-8473-3c3cb0d4595d,,fd0b92dc-8483-4d29-b4eb-bcb80e701fa1
+58a16387,medium,389,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,120915-DC,fd52ef17-91f4-4ac9-b3ee-1abb1bdf0f97
+5b001fd1,medium,390,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,9a728414-f150-4d37-977c-3d2309618b8b,,fe9482d9-808b-4a8c-a89d-9177f253bcd7
+082a5927,medium,391,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,623b8c51-56a5-4ec0-b6af-a4912a664c01,,ff2922a3-50fc-4a5d-8c27-38902adf6728
+f8e75120,medium,392,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,041410-DC,0103a575-d645-4ee1-ab4f-c86fbec8a06f
+73a2ef34,medium,393,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,824f844f-07b5-427f-a016-406e601400c5,,012de450-59e9-40e4-8e8c-cc441b59ee20
+cb89eb7a,medium,394,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,396900be-d964-4e10-9529-a31fe0be3813,,01884410-b363-4d9f-a7bb-74f6fd338271
+07f02e78,medium,395,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,31fd747c-f140-4495-8ee0-47d0c7092498,,0194ff8f-b509-4b5b-9608-74b2f061fc8c
+ecb535eb,medium,396,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,117408-DC,026b2acb-7b00-4608-b4d2-905be2314891
+7fb15f69,medium,397,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,09b0591b-1f96-4231-9f30-7cdc564fe300,,04e1c04c-98de-46e0-9470-a42749588519
+409d88ea,medium,398,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,4c059071-6c0a-422a-8c09-8707a6f088cc,,068f519a-38b5-4c95-8ff3-e369bf3439ec
+95e017e8,medium,399,M,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,c7a68902-2a16-47d8-91bf-2a7f631ab45f,,06bc339d-5baa-4de1-99b8-a2e6f308c9c5
+bb394efc,medium,400,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,072408-DC,08a7ad60-9ef2-4b73-b4db-7500004bde22
+deb7ccd5,medium,401,M,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,8734575e-2b28-4df0-9a02-561d2039d78d,,097e054f-b695-4141-8fd1-95acc659c961
+0b0f9b99,medium,402,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,062206-DC,0bba45f7-b616-493d-85e7-8fa124b9dbea
+745a7bcf,medium,403,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,6e838a7c-8fc8-4083-90ed-04a0d8797469,,0bc7ca3b-64fe-43a1-9ff4-2c7e440f636c
+7df9ae2d,medium,404,M,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,b12e497f-af1e-44ba-a967-3280db7fbdda,,0c188250-a1a8-4ad8-8fab-553236c62aa2
+2f5ee5a0,medium,405,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,8128e9dd-3d5d-46e8-9295-0a565063ce05,,0c5b6437-6b41-4166-8450-da22db7d25af
+8d078002,medium,406,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,036403-DC,0d0b1c1b-f487-4ab5-9921-6c10bb948dbb
+c49835c4,medium,407,M,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,,119106-DC,0fa6af94-75cb-44de-a7a2-3c0d8c871e59
+e5dc3566,medium,408,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,6fc315b1-7843-4d2b-944c-0a6de4743325,,0fff8337-18be-44b8-acd6-7fec5ff4dfac
+f825a754,medium,409,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,3bf6bb6d-8c41-41b7-8fe5-93b3a9d5e5a9,,10457696-79c0-4542-84d7-0491711260e1
+46560fd7,medium,410,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,dd8315da-df5a-4f50-b3fc-7ce26e25ad4d,,14d66c70-c51e-447e-9932-2f06fb9990ee
+52d9ebfd,medium,411,M,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,39d3e2c6-a418-498d-943f-3dcbef50a2a2,,15899d57-39c0-4f05-9370-63bd3e43b16d
+2931932d,medium,412,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,63995a92-5f37-42e7-84db-7e2ae7b58dba,,15b0629a-7ac8-482f-b106-8185e077ce82
+49b5e727,medium,413,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,918222d5-e32c-4c76-8c8f-260f6a48c121,,1629c367-a560-4458-b20c-5c12269e202d
+b70a8881,medium,414,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,c718f5f0-6762-40b2-9912-00a8ad75c151,,16ef1ac8-67f4-49d2-96b8-dca3b146161b
+76d3be08,medium,415,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,9d2abdfa-66c6-43a1-a42f-ec97f9f4da60,,17cde290-2ad6-4a64-b96e-75804c1ec5f6
+cc9a663d,medium,416,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,065204-DC,1a0f3c2a-47c4-465e-bf07-f96884a9c7b5
+bda83a24,medium,417,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,cd16ec76-51ca-439c-9096-978c1268cc34,,1a7b2389-35af-49fb-aa30-7da4e48606cb
+3b5c2268,medium,418,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,055501-DC,1a8195a3-490e-4fee-a880-8544418def00
+f1cf1079,medium,419,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,18e8cecb-f536-44fe-9ff9-2f04f4bedc7c,,1ac978c1-59e8-4ce9-af36-5b54bdc591b9
+2ef45fbd,medium,420,M,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,61480247-1d09-49a7-84d0-fc843dd28c7a,,1b66ae6e-298c-4a8f-a1e5-b43acefa09c1
+2da3b3b2,medium,421,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,,057002-DC,1b84fd0c-2e37-48bb-ad0e-9c4fb26f9727
+681f0d39,medium,422,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,32231b35-c798-4973-8570-2d1f629844b5,,1d36b04a-5d16-4ed8-b4e0-7eac04750b93
+088840b8,medium,423,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,060004-DC,1d5c7689-bbae-4e6f-b75b-09d67b61a6b4
+c9fdb360,medium,424,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,6200867a-5f38-48f8-adfe-45c07f795f0f,,1e13b17a-9916-4a43-ae99-077ea756e9f6
+07f6beb5,medium,425,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,042802-DC,20be0098-2701-4610-92aa-3631e89ab885
+8636f004,medium,426,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,1d11121c-aaf9-47ba-9e2a-12e706985e57,,213ff091-6bfd-4149-a800-46e4a2ddfbe8
+661b6dc1,medium,427,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,22a94d91-018b-4d51-838a-02b4a036673f,,23b22b32-d3b7-4681-9bb6-d7d81132be00
+69949155,medium,428,M,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,28415ab4-7b4e-45cc-8e10-f00e02cc0a2f,,270503c3-9f0c-4ef5-8695-669a3aa80d84
+834c7757,medium,429,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,,060708-DC,2a056d3d-8f41-42f8-b2ac-e2f27dc61403
+8fbe1297,medium,430,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,63dc8dbb-3d26-43d6-b0ee-68832720dcdd,,2bd12da1-f378-42e4-8921-b1ec76bfbe6c
+fa114658,medium,431,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,7e075ebb-81c8-4ccc-9390-540d3759bd2e,,2c2259af-309a-4838-bcfb-a98c14e4c5cd
+3953affc,medium,432,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,50fc0c23-820a-49d7-b790-fca8f12b4446,,2c7588bf-05e3-4435-88a4-5754a2ea3828
+8586ba60,medium,433,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,89916605-8c80-47ba-ab65-20476a61583a,,2dd071ad-0e5d-4fc4-85d8-b0fc98f1d137
+395c26f2,medium,434,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,6809b5a6-c371-464c-bec0-dc30dd0ac643,,2eb3d610-8cf0-4f55-b08e-b6fbf31e05be
+bf498771,medium,435,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,616843d7-cf1e-4d1a-bbb1-534c2a3fb068,,2f1056c4-54d2-4e73-b36a-14888ce0235a
+49df5b11,medium,436,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,089409-DC,2fb74b47-5280-4595-8f18-070b18297d70
+2998b875,medium,437,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,3ae14ff5-65ba-43d5-8e60-b17ba2f44a29,,30423a81-634b-41ac-9269-2666add1ac9e
+7e7fac42,medium,438,M,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,ea11197b-d266-4e74-a351-49d99cf8dcb8,,3312f97e-b88d-48bf-8788-38dbbb5d10ee
+43b6b171,medium,439,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,6977d15f-aac8-4b17-8fbd-b5a43d08d42e,,33781072-57fc-438c-a84c-19578666f967
+3a0b9e60,medium,440,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,1a8559a3-2597-492f-88a8-0fc5f496c593,,355fd344-a4c4-494d-96bc-20afe0c3d52c
+132f16cb,medium,441,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,099a01ee-4072-4aa1-8630-5a30f3fbb2e6,,368e78c0-f2ea-4201-ad33-33bb1ca86c02
+5b33813a,medium,442,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,3ad34b86-644e-4b15-8fa7-086050433b28,,36e49505-d0a6-4ccf-9510-95ee21732b74
+07ddd2e3,medium,443,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,1167d136-7d8e-4887-a69d-75f310b1b41b,,37557594-2f64-43c0-97c5-9a23b8a5160e
+ab9cc531,medium,444,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,48c85f6f-1227-41da-959f-0ae6a0e6ac35,,39f02c05-bc97-4dfa-8a8c-e70328ea0ae0
+7cf7db6c,medium,445,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,83e466c4-cf90-4a8d-aa19-6a7856e74572,,3a866274-9ff7-4e8d-8c85-c8dda8d862a8
+42637602,medium,446,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,7049af14-181f-4acb-82fb-752f417a030c,,3acfbb56-293f-486a-aa95-5a4a15fc09f8
+12b780a3,medium,447,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,029409-DC,3b3885fb-9914-46d2-b6a7-28b8b22157bc
+c58943ac,medium,448,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,14653778-8c52-4e6d-b5ed-d5433c4af001,,3d96b2b9-5d93-4052-941c-ec8d2a8233d2
+4d9f1a8e,medium,449,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,107307-DC,3e702c5a-285a-464c-a65b-14cc74b9ac47
+7f84b136,medium,450,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,505633a9-60ee-486e-9202-fafbb0ef01d4,,3ee2a56e-2ef8-43b0-9627-ed406710c4e1
+fc32bb94,medium,451,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,24d624ab-1227-4aef-84c4-9f0f7b74306d,,3f803df2-aac8-49d5-81ea-89328c117f3f
+cce3cd5a,medium,452,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,dd9c6ba7-e06c-48b3-a751-65cf03f8ac4b,,411b9455-b495-42de-9957-1fa037e1078a
+1536d42c,medium,453,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,,061607-DC,41676752-3c49-4b80-a294-29a42e988d5a
+6698f55f,medium,454,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,,093504-DC,425f82aa-b321-442e-9a61-b1fb8e9c72a1
+2544f908,medium,455,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,2134c9fb-badb-464e-8e42-380db123187b,,45095f35-4b48-4467-a986-81f22cadad45
+4fb35c88,medium,456,M,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,4a519e75-d4ab-485c-af36-1cf7c866e26c,,45899d32-1de6-4aae-bdf6-44fd000877e2
+48588068,medium,457,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,035309-DC,4651bf61-0fda-4240-9b33-d3034635b9fd
+93891e44,medium,458,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,7120548b-a9ae-4127-9387-c89f40740d7e,,47ef7048-65f2-41ce-b925-57222eb3d6f9
+30d7f34e,medium,459,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,041012-DC,48aa41be-820d-49d7-9ab3-671bdc013d8b
+ddd27acf,medium,460,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,0a9bdd54-dd88-4c25-b162-5a3f072a68fa,,49ef1255-2f1d-445f-8e2f-e1cf11021a7c
+ba06a850,medium,461,M,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,,100301-DC,4b29d991-9172-4ae0-9084-63c46c2eb8f2
+5ca5d4d1,medium,462,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,6ee18e80-0293-4d9a-849c-6d10b0b41578,,4be5b07f-2b5e-4bb0-b5a2-46884053a6e3
+a0197d54,medium,463,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,79633515-c8d1-4d6a-a4ce-a62011e86d8e,,4c3a302b-f036-4bb0-88f4-6f36701e89fd
+501531be,medium,464,M,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,,032101-DC,4d33b15e-a5e6-4ba6-b507-0fd2c857d0d3
+6a91a3e2,medium,465,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,113706-DC,4e3887a3-732d-4365-817a-443ac68a53a2
+65e1d1bb,medium,466,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,,093603-DC,4e66e044-e63e-44a9-858e-2c0b25ca8f04
+fb00e692,medium,467,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,,051404-DC,4ecc3cc5-2058-4b64-a5a3-03b91b92d5bc
+51626306,medium,468,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,14c085c4-98ae-4ffb-8fd6-9b4032395cf6,,4f3315de-28b4-451c-a96e-58c56c1ec681
+03f90d13,medium,469,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,72d70ba2-92bc-4586-8b51-8252b1a7403a,,4f420b9e-c2ac-44f2-ab61-d4bb8cb1c24b
+b0d14aa4,medium,470,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,448e4413-ac34-4266-99d8-d665197d6d04,,50a8c7e3-95fc-456a-9ad3-129f350d4716
+6c115b64,medium,471,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,,033702-DC,51d310fa-a90b-4c6c-94f8-8c50e222ea99
+188c871a,medium,472,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,72c1d705-b36e-47b1-a9da-55c3a8d9f45c,,523db3b8-da8d-4a93-ae45-1d36e192e300
+8952e6bd,medium,473,M,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,0965fdd0-6255-4774-a1be-74c7097cba35,,5390414f-fd2a-43ae-b1c5-58489e29676d
+6496973c,medium,474,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,49d19558-d666-417b-8451-9abc1a93ef09,,53e71286-da63-4401-82b2-5dd1339e4c14
+5de867fc,medium,475,M,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,21e7cb70-80c0-439b-81c6-f65ffb135c9d,,5502ce36-a549-4a43-a00e-ed100602192c
+5a031366,medium,476,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,09350f04-3ed0-4242-9374-a9b48a8ec6f9,,55d8d2e5-097d-4d18-b36c-d743b26ba11a
+4c4bba1c,medium,477,M,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,8852218a-3822-4291-a8a5-9c7044c37cb9,,5643f9c2-ae07-422c-a247-7db52362fce3
+5405c305,medium,478,M,S,Geometry and Trigonometry,S.D.,Circles,,086309-DC,5855436a-a315-4cef-979d-d411a1f2be9a
+6aed716d,medium,479,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,,056904-DC,5a6667de-1d73-4599-bd30-c13c75eb29f9
+5b157044,medium,480,M,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,327ed9df-b6a3-4a89-8aa5-3bc1a9d648ea,,5dd4c66b-1a51-433c-adf4-4a893dc83dec
+42ac6b93,medium,481,M,S,Geometry and Trigonometry,S.D.,Circles,11826d1a-1c8e-4726-a6f9-841b007e24b0,,5de16bb5-9e67-41f4-861e-96cf1c4ee469
+c4fb5312,medium,482,M,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,0766ef60-a750-445d-aa9e-a511b2f27c29,,5e5547cd-de25-48bd-8b50-cea28b1bacdf
+4271135f,medium,483,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,12577b80-5fd2-4bd4-be09-a422d21657e3,,5fce0a76-1d6c-40c9-9dc2-334f79e30fb8
+3d80da17,medium,484,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,,033208-DC,5fdb50da-e93d-492d-acd1-78b0af12567a
+ac079729,medium,485,M,S,Geometry and Trigonometry,S.D.,Circles,3e6e7925-a498-49df-9303-19a706ceac45,,6002a459-4649-49d6-a5af-6ea177076686
+31c6c4ee,medium,486,M,S,Geometry and Trigonometry,S.A.,Area and volume,,110302-DC,605dd220-5072-49a0-ad5d-fd6378f440ba
+2366a02a,medium,487,M,S,Geometry and Trigonometry,S.D.,Circles,,103703-DC,61e9031f-0203-4246-9836-c6d9d8248960
+43da5a51,medium,488,M,S,Geometry and Trigonometry,S.D.,Circles,2600afe1-296d-4ccd-958f-089d493adfce,,622a8400-1f02-4492-bc2c-4199d56c4b9d
+0bd8bd47,medium,489,M,S,Geometry and Trigonometry,S.A.,Area and volume,61b904bd-65a0-4a9c-8e85-d7c716a02911,,63b987da-869f-40bf-b3e5-138ed23c9496
+5b9e69b5,medium,490,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,97e58331-d62b-48e8-a774-8d9feac3eb39,,65934919-f9bd-462d-990a-cb8011a6e299
+cd566ef7,medium,491,M,S,Geometry and Trigonometry,S.A.,Area and volume,2a65d94b-f63e-4d27-9415-705db497d249,,65a43fb7-2c8e-4c97-9230-5f0c1239f12e
+4603d4bb,medium,492,M,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,,071710-DC,68a42a0b-ac14-4bb1-9682-32aec257b99c
+72e55dc9,medium,493,M,S,Geometry and Trigonometry,S.A.,Area and volume,6a35d0a6-d347-4121-948a-ff9df269cf69,,69d16e29-4450-4a7f-965c-0d6ab9ee83d5
+543c3542,medium,494,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,11f48d51-0a01-41d3-986d-a890ba716849,,6a8a1332-450b-4c92-907f-5d3786d9cbac
+6d536b4a,medium,495,M,S,Geometry and Trigonometry,S.A.,Area and volume,78ba3353-6b77-4cb0-8b2e-0072505e072d,,6ab7e6c9-0da8-4570-b298-5d45e4e62423
+3fc90436,medium,496,M,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,0d596a13-c440-4e0f-bbf6-58959e89b288,,6b0ca052-4e32-4518-9e09-6ec289ba1a5f
+cc460c36,medium,497,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,df9b4625-88e8-441f-b654-7b62e573ed52,,6b118eb6-a7fc-453b-8cf5-0a1f3d4e3e87
+9499c4ac,medium,498,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,0f48ebac-c8c6-4799-b16a-37da997e33b3,,6bab0ea4-24ef-4c9a-9202-4dadc6b103f1
+4ea1a6bd,medium,499,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,35e12ef6-e949-446e-bb20-233b23bd4d5b,,6d97babb-d036-4dcc-bd8e-f7d56fe330e5
+7b7a7ee2,medium,500,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,5ed583e9-eb74-4107-8c67-b45e1f7924f1,,6ee8a621-d629-4c0b-9863-cc674ae2ed40
+023b74c2,medium,501,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,4c881e27-09e3-4f93-ae07-57ed22bbf3ec,,6ff9b09f-9a61-4ab2-863e-ffb55ca44ac5
+4aa7f4e1,medium,502,M,S,Geometry and Trigonometry,S.A.,Area and volume,0641d6b2-141a-40d4-a321-69e8b0cc15cf,,703ec27e-3907-4541-9688-d63be1e5fbca
+09a1098e,medium,503,M,S,Geometry and Trigonometry,S.D.,Circles,9212e5cc-db4e-42a8-be8d-f6773d75ab63,,72bd6e4d-6b2c-4559-ac45-1d37340f66f6
+0eb7f19a,medium,504,M,S,Geometry and Trigonometry,S.A.,Area and volume,0c7e83b4-c8b3-4b8b-9a87-489970c40d6b,,7345099c-8636-46bf-bb09-25719ff8fa6f
+5c88e9ea,medium,505,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,04eeae59-250b-4200-90ae-3ca3218838ce,,736e79f1-2db4-41c0-8605-2c5c8a847eb8
+85d9125e,medium,506,M,S,Geometry and Trigonometry,S.D.,Circles,6c141d9f-5490-4de2-bdde-53e6f26439d0,,7376eaf7-21ef-425f-a27e-b250f03f101a
+b6d38c4e,medium,507,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,,091701-DC,75ecbe1c-5de2-470f-a28d-355df8535b3c
+5114e418,medium,508,M,S,Geometry and Trigonometry,S.D.,Circles,,082213-DC,7658c744-c4d9-486c-8864-d54696479014
+6943dba0,medium,509,M,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,0cde841d-2d4d-4f3b-8808-ec110ba27e1a,,76a00253-ef96-4d6e-a19d-fe67ff831043
+f911e3ce,medium,510,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,,033901-DC,78b357f8-8caf-4fd0-8280-703cd5cef531
+155732e8,medium,511,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,199db483-c3d4-42c7-bb76-c19f3de42c58,,7bcaa872-af2f-4550-8ee8-97f6f87820c7
+6f56bbba,medium,512,M,S,Geometry and Trigonometry,S.D.,Circles,3ebee3c8-0c4f-426c-b288-fcf8a4fa5df5,,7f1853c4-77f2-48b0-8e23-f4266d890397
+2229ec21,medium,513,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,,041709-DC,818ec913-5425-4970-bda3-992d2ccaa605
+1e892343,medium,514,M,S,Geometry and Trigonometry,S.A.,Area and volume,217ef02e-bc84-4d15-98d8-26eea3bc9c30,,81bb06ef-56a7-4080-8769-8472cf870488
+6a03aec8,medium,515,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,3cafad9a-fe34-4da6-b9b0-d0a9f4b855d3,,81bf258b-582f-4be8-9052-d784020b9705
+a81f7ff6,medium,516,M,S,Geometry and Trigonometry,S.A.,Area and volume,03e77c56-abd5-4e61-aee1-16d956ce4d55,,8215b8a9-261d-40e5-8c39-3cd6278f2a9e
+28254b2f,medium,517,M,S,Geometry and Trigonometry,S.D.,Circles,2649debd-11f9-4ad5-84f4-bc972bfb2cee,,82dcd3f8-0678-4d07-a9a2-b52345802cca
+6695fb54,medium,518,M,S,Geometry and Trigonometry,S.A.,Area and volume,,045411-DC,82f203fd-b723-4f58-81c4-ac3bdd74293a
+ed4f72ec,medium,519,M,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,,078102-DC,86a93f9f-ccf0-421b-a28d-3c60c83fe2af
+121f00dc,medium,520,M,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,8cd53dc3-9d2d-4234-a4ec-f18fc0d3b1ff,,873fb727-e65d-4dd9-a405-5833014119e6
+4c19c01c,medium,521,M,S,Geometry and Trigonometry,S.A.,Area and volume,7894c1fb-3b16-410f-beb8-f9f18d64ca55,,89c2e9c0-b482-4c54-aa93-d7e94324b849
+c618b1b3,medium,522,M,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,1041bb2e-224d-4ec7-9e4b-e08f6927f7ed,,8a3b49dc-7b6e-4bf0-a3c9-1ec36fc24405
+ac472881,hard,1,H,H,Algebra,H.A.,Linear equations in one variable,ad6cdfd4-4643-45b2-b72d-0602fb30ce1c,,001e3cd5-5928-4676-b497-48a04ed66b44
+3f5a3602,hard,2,H,H,Algebra,H.D.,Systems of two linear equations in two variables,c240c048-e272-462b-b645-1751de050cdd,,00d5ab1d-b64c-4161-97b7-890e404262ac
+edc1b7b7,hard,3,H,H,Algebra,H.D.,Systems of two linear equations in two variables,b6f1b7b6-08b9-4116-8100-5f1f3da107c1,,0103767c-8ef7-4ec8-a9fb-3a3fa9a5469f
+3008cfc3,hard,4,H,H,Algebra,H.C.,Linear equations in two variables,03c419c2-1a21-411f-a37d-b518703af1f9,,0125a0dc-c6d1-4140-9c1b-07a3efc83a32
+4becad44,hard,5,H,H,Algebra,H.D.,Systems of two linear equations in two variables,d8de44ac-a69a-48bb-9666-e60c72b7e1ca,,01583047-7a05-4844-94db-e04df993c0f9
+d1b66ae6,hard,6,H,H,Algebra,H.D.,Systems of two linear equations in two variables,,042910-DC,0160d747-a168-46dc-a482-c211eaaf6a28
+3cdbf026,hard,7,H,H,Algebra,H.C.,Linear equations in two variables,,117914-DC,0200ca76-7802-4ef5-b7a6-070360964992
+00723d16,hard,8,H,H,Algebra,H.C.,Linear equations in two variables,5d1e0097-391e-4f8d-bea7-cc32147dcc15,,021e8765-16f2-42c3-9c19-58bd388572ab
+ff501705,hard,9,H,H,Algebra,H.D.,Systems of two linear equations in two variables,103938ac-35bf-4c7b-a354-3d759f581230,,0237f13d-5088-41c8-8ebf-d698a9e4437b
+8c5e6702,hard,10,H,H,Algebra,H.B.,Linear functions,75d619ce-649a-4796-b1e3-34e8d538265d,,0275c97e-b91e-4759-aa5a-5bb6436b8170
+2937ef4f,hard,11,H,H,Algebra,H.A.,Linear equations in one variable,,086011-DC,02957114-53d8-4cb4-8d4a-38af3f49411e
+9bbce683,hard,12,H,H,Algebra,H.C.,Linear equations in two variables,133896ad-4abc-4690-8c6d-000b03eb1f4e,,03178eb9-ab17-47e7-84de-b57d4c8c0d0f
+2b15d65f,hard,13,H,H,Algebra,H.B.,Linear functions,,121509-DC,0353ab67-a5e6-4430-9dac-02dad2a845d8
+e25f0807,hard,14,H,H,Algebra,H.B.,Linear functions,fdf00ae5-80b2-46d6-8b0d-5b6fdfb2990e,,03e73d9e-86b1-4202-8492-fb1edc406e83
+686b7244,hard,15,H,H,Algebra,H.C.,Linear equations in two variables,1328c1fe-ec60-4a08-9c83-4b4c94e15a72,,04232d07-098e-4f1d-a666-01f4b2270cc0
+1b1deebe,hard,16,H,H,Algebra,H.D.,Systems of two linear equations in two variables,,041204-DC,049b12ea-0920-429a-a2a4-3471b57c327e
+187f74bc,hard,17,H,H,Algebra,H.E.,Linear inequalities in one or two variables,e49bde82-a371-494a-be99-876819049a0f,,04c04c24-c0ef-4416-ac27-1aa6be77e16a
+0e056c3b,hard,18,H,H,Algebra,H.C.,Linear equations in two variables,15b5ed76-b4f4-43f5-b312-9d981199ab65,,04fbbcbc-74f8-4eae-8b9e-1e1ba484a303
+697c262c,hard,19,H,H,Algebra,H.C.,Linear equations in two variables,80591e59-fc2f-4a46-94fc-4e89dca88be7,,057a7f06-06f8-4938-9a53-1637f0061341
+6d0b6ea1,hard,20,H,H,Algebra,H.C.,Linear equations in two variables,5cfeb1da-cbc6-489a-83a9-eb3312224e2b,,066ae34e-be01-4e6d-b627-ddc5e0de57f8
+b5228437,hard,21,H,H,Algebra,H.D.,Systems of two linear equations in two variables,9a5557ea-71e4-447d-ac99-5de32e8b5792,,06fae8af-bbcd-44c0-aa4d-067d56314f87
+f45af930,hard,22,H,H,Algebra,H.C.,Linear equations in two variables,,117208-DC,07329ee8-a3fa-4d8f-a888-0f6a24c0146d
+f130d46e,hard,23,H,H,Algebra,H.C.,Linear equations in two variables,,087803-DC,074af1c9-615d-43ee-ac81-48b72e8c0ca7
+321b0d44,hard,24,H,H,Algebra,H.C.,Linear equations in two variables,96f9fb64-5d34-4b16-a362-da1d4fce963e,,076b6c2f-62b6-455f-905d-980f33b4e1a0
+88c147a3,hard,25,H,H,Algebra,H.E.,Linear inequalities in one or two variables,665d838b-dd30-4e66-9e95-cab379e5c38e,,079040ad-a17a-427c-b04f-dd3c612b0e2b
+b305c218,hard,26,H,H,Algebra,H.A.,Linear equations in one variable,d3931f22-1b51-452b-8063-3c196b9bc67b,,07e86a6e-a830-4b7f-b1e9-e586216e1587
+b8e4b2ea,hard,27,H,H,Algebra,H.A.,Linear equations in one variable,725d9b11-c7ed-420d-8b74-44e649227fef,,08045cdc-a351-480b-94c6-59327aa69393
+3fcf9530,hard,28,H,H,Algebra,H.B.,Linear functions,,088914-DC,08a1eda5-bf44-41cb-9ea3-596eb4bb5535
+6d7d0f99,hard,29,H,H,Algebra,H.C.,Linear equations in two variables,,092809-DC,09075149-4965-42cd-aed5-ae3ab0662827
+87b43f6f,hard,30,H,H,Algebra,H.B.,Linear functions,5c8658a8-7c5c-41a9-93f5-e38794fb5af3,,0a67b784-cd31-42a5-9eb1-fcc2174b5d21
+16f3e62d,hard,31,H,H,Algebra,H.B.,Linear functions,2f609f4b-f456-40bb-aa66-52cd82411a8b,,0b556bcd-93ea-4a3b-9efc-840d23b274fe
+e5af59aa,hard,32,H,H,Algebra,H.C.,Linear equations in two variables,713ac4a8-a0a3-4f15-97a9-2298fb38aa1a,,0be28fae-e60a-4a50-90b1-462bb5179433
+276f2134,hard,33,H,H,Algebra,H.C.,Linear equations in two variables,fa6606c1-1df3-4b7c-88e7-2a8f3b11a52b,,0bfe0a93-4262-4a29-bcfb-3616085051d3
+b7778f2c,hard,34,H,H,Algebra,H.C.,Linear equations in two variables,,113719-DC,0c1cdf9c-81d7-4cae-8733-aea8166835bf
+8466cc4e,hard,35,H,H,Algebra,H.D.,Systems of two linear equations in two variables,6caee118-450d-4b3d-b983-36eb859c13b2,,0d436aaf-ff02-4de2-9e8b-c0bdf4180e0c
+4efbec49,hard,36,H,H,Algebra,H.D.,Systems of two linear equations in two variables,bace8e18-47dc-44dc-b1ee-215a015b3c4a,,0dadb6d5-a65c-4696-9343-74e743e8c82f
+78711ec9,hard,37,H,H,Algebra,H.D.,Systems of two linear equations in two variables,5257886e-562b-4f68-8a62-0fbc2bcc95bb,,0f1da768-8b7b-41f1-8dd8-2a7dc0e60131
+1ef276d9,hard,38,H,H,Algebra,H.C.,Linear equations in two variables,,120904-DC,0f9fa4d5-2731-4fee-8f2f-4da852744a7f
+820dd10f,hard,39,H,H,Algebra,H.C.,Linear equations in two variables,,108306-DC,101008ed-6025-4886-aace-7d29e87e9a1f
+08f41a64,hard,40,H,H,Algebra,H.D.,Systems of two linear equations in two variables,035f0111-6c69-44da-8acb-f056f699bc58,,105cbf1d-0dd3-4e64-8026-a7588f891cc3
+b9684b12,hard,41,H,H,Algebra,H.B.,Linear functions,37013502-bfe7-491e-a987-e1f657485d7c,,106101a4-7179-4568-8c60-4a329c3107a3
+f9ce1362,hard,42,H,H,Algebra,H.C.,Linear equations in two variables,4f659f2d-b717-4ce4-80c8-e4a2cd1343ae,,106c674d-e826-4058-848b-005c3074a72a
+218a2380,hard,43,H,H,Algebra,H.C.,Linear equations in two variables,b6c96a5f-08cd-4e8b-873e-ce7fa3d5cf73,,10725b0f-3ed0-403b-82d4-f7f78b46e9b8
+5954983f,hard,44,H,H,Algebra,H.A.,Linear equations in one variable,a89de876-09db-468b-8937-5ddd578dd7b5,,10b17673-d712-4aad-a210-8d847c468b19
+7a38bb8e,hard,45,H,H,Algebra,H.C.,Linear equations in two variables,a58be2b2-9253-42b8-b7ff-43f5a409c794,,11077648-3fc6-480a-8aa8-9d8931562665
+f5c6e56a,hard,46,H,H,Algebra,H.A.,Linear equations in one variable,6a1e4145-722b-45be-af32-2e86ba6fda36,,12ed8ab5-22fb-4e11-ab89-376cd94dd622
+ba7f4462,hard,47,H,H,Algebra,H.D.,Systems of two linear equations in two variables,7fe52855-fbaf-4eeb-9787-f30c7f5d2e2f,,13c75edc-c79a-46a5-9227-4cc72963439c
+569c5959,hard,48,H,H,Algebra,H.B.,Linear functions,8446f97a-c02a-49f8-aa65-2af5613cdc00,,140b6811-8839-4f82-9835-83ff9ff84acf
+eef1b67d,hard,49,H,H,Algebra,H.C.,Linear equations in two variables,1cd8ee0b-4c42-4990-9994-0dfe16521d0b,,14f95502-639a-45ea-b281-234e02c5e9f1
+c3736893,hard,50,H,H,Algebra,H.C.,Linear equations in two variables,82cc2759-b449-43f8-a8e1-b85cf1aa0967,,15208b96-ae76-4a73-9f58-315b56709ca0
+56f698b8,hard,51,H,H,Algebra,H.C.,Linear equations in two variables,b69b7c74-5902-443d-8a27-ac3729fd25f0,,15a11d3b-c54a-471f-b8b9-1e62ed01915f
+000d7513,hard,52,H,H,Algebra,H.A.,Linear equations in one variable,1df86701-d5be-4909-a24e-7b98f234d383,,16a0316a-77a3-4c3f-96b9-8501775392bc
+96b18afb,hard,53,H,H,Algebra,H.E.,Linear inequalities in one or two variables,1e9e169e-dbf7-4a44-8e36-cbd0ca829152,,16d2442f-6f40-46e1-b445-63f5979c15d5
+c1359e79,hard,54,H,H,Algebra,H.C.,Linear equations in two variables,014e25dc-591f-47e6-bbc4-d2d4e2633c54,,16e333db-0fd2-43f9-9299-2370f39909b1
+25a3a45d,hard,55,H,H,Algebra,H.D.,Systems of two linear equations in two variables,74fcf4c1-a8a3-424c-9e44-a61a23aaed4f,,17bc24af-71fb-4e33-8344-b0e1f1dcccea
+7bc7284f,hard,56,H,H,Algebra,H.C.,Linear equations in two variables,0ceeb10f-fb82-4e92-b2c6-3300fbf848d7,,19b4da6d-e448-4ac7-b1ae-56335cc047e0
+847237ba,hard,57,H,H,Algebra,H.D.,Systems of two linear equations in two variables,27acd85c-8fb1-4255-8558-042cabee1fd7,,1ae6a3f7-2a2f-43ec-ad35-d9bc37fa7928
+a8a2da36,hard,58,H,H,Algebra,H.D.,Systems of two linear equations in two variables,02a8a90a-1caa-425f-803b-eb2fba72a135,,1afe1300-c5c5-46a0-8fa9-0bded50e2d5c
+09d97d94,hard,59,H,H,Algebra,H.C.,Linear equations in two variables,48a9f462-f696-4661-82d0-9af38f4684f6,,1affd92c-1196-43e4-99b2-d987499689ec
+f378cd9c,hard,60,H,H,Algebra,H.C.,Linear equations in two variables,112622d0-dcfa-4a1b-ac95-64416c89bc9f,,1b59f18d-e407-4b3d-a6a0-51a58ebf3300
+cba60504,hard,61,H,H,Algebra,H.C.,Linear equations in two variables,039508b6-e197-4bf9-a5ce-0b3df994ee34,,1c21da06-c45e-4aef-b2a7-44df67026734
+65b742f4,hard,62,H,H,Algebra,H.E.,Linear inequalities in one or two variables,485eab6d-d24e-47ab-9074-4c73dc8b76a1,,1d2e5849-2411-4ca6-98d7-052a6fb5ac93
+4c226f58,hard,63,H,H,Algebra,H.D.,Systems of two linear equations in two variables,4d7c3972-2f3e-4285-8bd2-6da0cd55e2fa,,1d97ada7-cc53-470d-97a2-b1f8f149f893
+6ef4c2ad,hard,64,H,H,Algebra,H.B.,Linear functions,,053102-DC,1ddb186b-918c-458e-83f6-70af010d395e
+31a04cc6,hard,65,H,H,Algebra,H.C.,Linear equations in two variables,,041406-DC,1f3924d0-4be2-43e7-8923-38608ceb87d7
+42950ce2,hard,66,H,H,Algebra,H.D.,Systems of two linear equations in two variables,7ff23d0e-6162-4775-92ef-75a884821146,,212f8ef5-831d-463c-bf90-706d493c896d
+06e5af45,hard,67,H,H,Algebra,H.B.,Linear functions,bd8c4715-39eb-4221-9de2-804e9f24f265,,22af27c7-c84b-46f4-97a9-8fac8a73aaf3
+d949becb,hard,68,H,H,Algebra,H.C.,Linear equations in two variables,a964900a-f6f5-41f3-b690-b6bfa455f944,,22fb8a5b-35cc-4c23-a6a5-00355c3a8d47
+4bd2557b,hard,69,H,H,Algebra,H.A.,Linear equations in one variable,0a8ef772-3d8b-4fa8-83db-1dd41dc3c9cf,,23193832-6bfe-43c5-a264-2c42fc128387
+92ccf030,hard,70,H,H,Algebra,H.A.,Linear equations in one variable,,048006-DC,24562486-201a-4e8c-be26-6f3f2e338b68
+452f0013,hard,71,H,H,Algebra,H.D.,Systems of two linear equations in two variables,cd4b9f7e-a736-4d47-bf95-f20f3af337f7,,25159529-141c-4800-a39a-a08a76d403d0
+f72d8733,hard,72,H,H,Algebra,H.C.,Linear equations in two variables,,115813-DC,27d14088-7b72-446f-915c-f9bb307ca014
+1766c1da,hard,73,H,H,Algebra,H.D.,Systems of two linear equations in two variables,9be24ef3-fcd3-4e3b-9f4e-2ab35eb4f52e,,27f0b548-8283-491f-8a17-a0cd2665b665
+06d5446b,hard,74,H,H,Algebra,H.C.,Linear equations in two variables,8a6d9e4e-6de9-4797-a7e7-1597c3775e58,,27fc0713-a569-4245-9a92-860bd01dd7de
+90676d6e,hard,75,H,H,Algebra,H.C.,Linear equations in two variables,5f9c6f93-d179-44e0-ab1a-3e1de70ba4b2,,28b10826-0095-484d-8c75-1a350fa7f267
+544cd9eb,hard,76,H,H,Algebra,H.A.,Linear equations in one variable,d328d770-0a79-4d4c-b8c7-a0d0723c1717,,28e7b5db-4d4b-4604-94b8-ee419c3b8864
+6a73a3f1,hard,77,H,H,Algebra,H.C.,Linear equations in two variables,30ee9fa9-3b57-4424-bbed-cf7158f5926f,,28fab6c4-9e55-49f1-a987-baa70937da81
+a02f06c1,hard,78,H,H,Algebra,H.A.,Linear equations in one variable,1452ce01-d547-4a35-aa10-bc985d2425b3,,29001c02-5bbf-4563-a1b6-9881985362c9
+7cb92d27,hard,79,H,H,Algebra,H.B.,Linear functions,387b78e5-13e8-43d5-a1e3-9e311d723c79,,2c06529b-2d91-43ed-9388-9c8c17b0bf53
+7e4eb562,hard,80,H,H,Algebra,H.C.,Linear equations in two variables,46a9e237-5907-40ff-bea4-a0f3cb8f6712,,2c3cdbd0-22f9-471e-a226-0d447f80866b
+d51592c5,hard,81,H,H,Algebra,H.D.,Systems of two linear equations in two variables,cf4103fe-a873-41d1-9421-518975b286cc,,2c8ebf5f-c7ef-4ec0-9035-0cf757ddbe1f
+4c85accf,hard,82,H,H,Algebra,H.C.,Linear equations in two variables,30c0356f-9768-4b39-987d-e0d22ded81c9,,2d7ad977-0461-4dcb-bfe5-2023f44fae77
+5056e17a,hard,83,H,H,Algebra,H.A.,Linear equations in one variable,af79f18f-ce32-4e6d-9958-5a60e9214d20,,2dd542e5-b06f-47c7-ae6b-b2a654f55938
+54b98bb2,hard,84,H,H,Algebra,H.B.,Linear functions,22d9ed1a-67a8-4c98-b921-105780947fe1,,2ff46891-a95c-4933-9f17-be0877e6d647
+31f29113,hard,85,H,H,Algebra,H.C.,Linear equations in two variables,9271672d-1f44-4f7b-9a43-cb2a924d3c05,,32dc454f-9b9e-44fb-a76b-a44f8735235d
+60c4f1bb,hard,86,H,H,Algebra,H.D.,Systems of two linear equations in two variables,3ffbc065-a332-405d-a2b2-f9fca7af8ff6,,334ec2f1-2f5e-427a-b21f-2bb662af6165
+81827bca,hard,87,H,H,Algebra,H.D.,Systems of two linear equations in two variables,1ee69152-ce73-4bd1-a9c5-e26fc985f2cc,,341a1120-667f-4e72-a5cb-a22a687a7492
+3ad3d296,hard,88,H,H,Algebra,H.D.,Systems of two linear equations in two variables,fbcc5b08-7edb-49ca-9844-a17f4d7ab6f6,,358cc1b5-4d6e-4661-b09e-c57968368008
+f6db8a59,hard,89,H,H,Algebra,H.A.,Linear equations in one variable,607c5365-fbe5-41cf-b868-92730cb7fd24,,383e77bd-3ad2-4978-a7b2-ea2fa18dcd3b
+6aa0d7f7,hard,90,H,H,Algebra,H.D.,Systems of two linear equations in two variables,468369c6-10ba-430b-9c61-e893b6a87589,,39c962e0-f0e3-435a-8d1e-14c055d867cf
+c15679c6,hard,91,H,H,Algebra,H.B.,Linear functions,a4f632c8-967e-4cd5-844e-717c1232b9a3,,3a303cd7-4b06-4de5-a372-6b52eb8bb09f
+c5464480,hard,92,H,H,Algebra,H.D.,Systems of two linear equations in two variables,8ef683af-c956-4d52-92cf-228fd92db23f,,3a7f596c-0298-41af-96f2-ec4e410af6d4
+6df00d49,hard,93,H,H,Algebra,H.C.,Linear equations in two variables,3cf261ee-c04f-420d-950b-f87d856065e5,,3f82b5c1-5614-4424-adca-4708e3a4d9a6
+693d678f,hard,94,H,H,Algebra,H.D.,Systems of two linear equations in two variables,,069707-DC,40885871-2256-411e-85f8-4a25488bd8d5
+968ba0d0,hard,95,H,H,Algebra,H.A.,Linear equations in one variable,a329bb24-7142-470f-94d4-76ff2ba1fdfe,,40f4a03a-1851-4733-8949-40bf2c462d16
+27405c12,hard,96,H,H,Algebra,H.D.,Systems of two linear equations in two variables,9583d1f0-59bb-4e45-8945-38a94e8fd2fb,,41988d40-a47b-43e9-840b-990ff93d320e
+91101a47,hard,97,H,H,Algebra,H.D.,Systems of two linear equations in two variables,f07dfc86-225f-447a-9823-e9412a4ab460,,4231c470-c73e-43cc-83db-b22a578d4ab6
+4454d5f7,hard,98,H,H,Algebra,H.A.,Linear equations in one variable,2ab1e9c5-2368-4010-9548-1fe7f80f31f0,,427a471b-5507-4d00-a62b-f463d67fb463
+59bb1619,hard,99,H,H,Algebra,H.A.,Linear equations in one variable,,047808-DC,4460d5b4-2107-4298-a173-f928955201a6
+7f7cb3f3,hard,100,H,H,Algebra,H.C.,Linear equations in two variables,a0b015f7-f6d9-4be0-98d3-a0e930675b4e,,44781e14-663a-46ae-a0ba-0d4255e2b369
+a24e9a49,hard,101,H,H,Algebra,H.E.,Linear inequalities in one or two variables,e777fb75-d125-4641-857e-9a28e157b42e,,45dfeb16-340d-486d-a7db-d1a858048e6d
+87b9e4c3,hard,102,H,H,Algebra,H.D.,Systems of two linear equations in two variables,baafcd20-4de1-40ff-a6be-ad15cc6e0e4e,,473bf4af-7c74-4641-8767-b5ef09227444
+eef8d49a,hard,103,H,H,Algebra,H.C.,Linear equations in two variables,416cb680-a841-49bf-8049-d61b976648af,,47ae705a-c43f-4581-8dac-59b617f952ff
+91df7cdc,hard,104,H,H,Algebra,H.D.,Systems of two linear equations in two variables,14df15ec-c455-4a29-bb01-75c5069a47ec,,48030eb3-73cb-44d7-be41-acf71aa9e5a0
+5148dc5b,hard,105,H,H,Algebra,H.C.,Linear equations in two variables,0eb60f25-b330-4a5d-a1cb-22b216168c56,,48985105-c019-40fe-8246-073514c762b6
+15676ce3,hard,106,H,H,Algebra,H.C.,Linear equations in two variables,6c3ac06a-b257-40be-88eb-a425bde5d6c5,,4bfec3de-a33d-4e31-a322-14ad7e947283
+b27b70f5,hard,107,H,H,Algebra,H.E.,Linear inequalities in one or two variables,53da6540-8083-4494-a658-8d3ca8cd92c2,,4e1447f2-333f-49f4-85b0-06be3704ee3d
+3aec81fb,hard,108,H,H,Algebra,H.A.,Linear equations in one variable,07b49b74-2ba5-4de3-b452-6c5657dcd0cf,,4e664415-b80a-458d-a6a0-66ec4a3a56e7
+23f9d1ff,hard,109,H,H,Algebra,H.C.,Linear equations in two variables,e9a28b5e-c14c-4f6f-91fd-62bd34f06130,,4f4bd531-f328-4d55-b8f0-1c255f12ecf1
+b1a89b84,hard,110,H,H,Algebra,H.D.,Systems of two linear equations in two variables,,048108-DC,51a9c57d-2e84-4280-8831-9dc9ae2c1809
+e97bb686,hard,111,H,H,Algebra,H.D.,Systems of two linear equations in two variables,,115001-DC,5363d0af-b0f3-4f8e-968b-0d0b9f51356a
+1545ef83,hard,112,H,H,Algebra,H.D.,Systems of two linear equations in two variables,14086546-7320-4b42-8af5-85961ea737b4,,538c2de6-4f1d-4384-8e8f-3d03ef73eff4
+81c9b50d,hard,113,H,H,Algebra,H.D.,Systems of two linear equations in two variables,9e275b16-46a3-4acf-9854-cbf807314f17,,55cb05ec-efc4-4cce-a878-76ac505e6cec
+5356b834,hard,114,H,H,Algebra,H.D.,Systems of two linear equations in two variables,3ab164eb-ad32-4805-b153-5dd77333cc3e,,560dd84e-9799-4927-9d6b-70896945a9dd
+6bb61653,hard,115,H,H,Algebra,H.D.,Systems of two linear equations in two variables,9676cd6f-a21c-4aca-80f4-017d99295b2d,,56b724ce-3268-4b7c-9523-af66c8a34d06
+3481df3b,hard,116,H,H,Algebra,H.B.,Linear functions,,088809-DC,5722ced7-1607-4be1-8728-0931d5e95cfb
+4fe17b9a,hard,117,H,H,Algebra,H.C.,Linear equations in two variables,4aa4d3d6-00dc-41d5-9480-f6a28500d668,,572b69c0-b341-4495-a2f4-b630ac994bda
+fa8f64cd,hard,118,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,111109-DC,57481ba2-0cbb-4a3d-bad4-77c1504a03dd
+fe52f3c7,hard,119,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1422df34-7971-479e-9a3e-f9b079b1d769,,578146e1-99fa-4f2b-9532-be08084d2cd9
+5aa580a6,hard,120,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5668fc8e-1681-4e39-89ea-8cf54e11bd7d,,57b5ee10-f09d-4d76-9e67-b76ad6ba523b
+87517a95,hard,121,H,P,Advanced Math,P.C.,Nonlinear functions,364e93ea-e58e-4025-ad69-93f58f9677be,,581cfcbf-f37b-4236-aaec-04ec00b33aa3
+8fcde369,hard,122,H,P,Advanced Math,P.C.,Nonlinear functions,ea2b5392-d1f8-4f13-9c7b-e86c0401e6b1,,59acf7e3-e205-4e11-86da-7a6ed534b1a5
+12a644c8,hard,123,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,869a9183-5514-468a-b4ea-163c46216c2e,,59b86563-c112-4c9d-96d7-fae7cb36a4a8
+65f9baaa,hard,124,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,54152fc5-8105-445f-b214-532a3499211e,,5ac09c59-b9d2-49b0-8008-f488f1ec3cab
+6ff4b962,hard,125,H,P,Advanced Math,P.C.,Nonlinear functions,e5f92edf-3602-4468-bd4b-416e44641336,,5b72eafd-e4af-4410-a41f-21c42b02948a
+2a00e67b,hard,126,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1c0eef0a-ce5b-4e28-a1e8-52f6f36c8bcf,,5dbe4a74-1106-4605-8718-b6d1f886af85
+bc6d46dc,hard,127,H,P,Advanced Math,P.A.,Equivalent expressions,831cb89f-0bee-43d1-8b3a-68d69d205c15,,5df8a269-f56a-409f-a090-243d961d4c01
+9f50801a,hard,128,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,266a7ca1-4eb0-4286-8ebd-e2a305019c11,,5e9e9649-22a2-4aeb-8376-d49e729a9d3b
+14a49f04,hard,129,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,854d872e-3ca4-4dfc-b4fa-8a064871d87e,,5ecfc110-7047-4911-847b-2753de7deec8
+57f1d60d,hard,130,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,bf8569a7-3dd4-4eee-bd5b-32d9d26313c6,,5f531bcf-6ca4-40b6-95ca-e5919cc33395
+1b153cf2,hard,131,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0b53d359-9239-41c2-b5eb-27b6911bb235,,5f733943-30bb-42d4-aefe-a2e5aaa0ad8f
+5c0754fe,hard,132,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,bfcecfb6-c335-47b2-bd91-6e46ac2c190d,,5fc4696f-b9f2-415c-bcc9-6672c45bbb51
+cb4ec666,hard,133,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,ef0135ab-531c-4aed-94aa-e3ec8e6d8c9e,,602f6087-cc1a-49f2-b07a-b2dde6fe44ec
+040d3380,hard,134,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,060103-DC,6064f374-ae4b-4296-b1db-7c0faebf5865
+c4468796,hard,135,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5f6e2e68-b3f8-429f-ab4d-0888e9f43ec2,,615702e6-d99a-4e12-a58f-05ae21bac8f9
+73e26055,hard,136,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,b6c73138-ce96-47ec-b342-72f759df3057,,61d14681-2440-48c4-bff5-81ad03f1aaee
+cb0d1056,hard,137,H,P,Advanced Math,P.A.,Equivalent expressions,7a20f0cb-87b5-4f9b-a478-c4816f969b22,,63a7b427-a0a5-40c5-ab9c-a65b9314462f
+5b6af83d,hard,138,H,P,Advanced Math,P.C.,Nonlinear functions,8bbce21f-248e-4c49-8d04-d8de44efc0db,,640b5c3c-b954-4e72-8cc2-606a19a8ee89
+af770278,hard,139,H,P,Advanced Math,P.C.,Nonlinear functions,d6cbe949-da03-4195-96fa-055a28d21824,,646185ca-f6bf-4697-8038-97f2714a2b23
+0737bd12,hard,140,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,090507-DC,6469cc22-e746-45b0-906a-e77be74856b8
+94f0ccd2,hard,141,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0535d543-72bb-4619-8469-713f92fa620e,,64e28294-2cc5-4a4c-99f1-f491ca5e2734
+76d0ce68,hard,142,H,P,Advanced Math,P.C.,Nonlinear functions,f90116d1-8954-41c4-b997-2c9e4a164c04,,652ca448-392c-4585-b526-978b0b6942d8
+7f84aec0,hard,143,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,3672d9da-a4e8-4b28-a846-d8b346a979d9,,670183f6-5e03-40a1-94bd-a36a27fe4bbf
+6f076658,hard,144,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,630e3f5c-6598-4494-bc3b-e383f44a23b9,,68004128-3f0e-480b-bf40-07ec69a3d48f
+720a8e88,hard,145,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,44d55d61-9260-4a64-90c4-71f4531d1603,,6821f667-e549-4b53-b851-ddd753802daf
+aece4e6c,hard,146,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,6803b447-2182-477a-a0b1-ebf9f1557846,,682b9232-b419-41c9-b110-06259feec8d0
+4d62942e,hard,147,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,57b00b1a-7e33-4632-a330-8e3ab9662ef3,,682bdd6d-f9bc-4ad0-ad31-8852f6ee761d
+9ee845cc,hard,148,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,480b804d-5a5c-42fb-80e5-ef92edf3b99c,,68626fbc-b2b2-4706-8a80-9e8d545e78bd
+f0cb6512,hard,149,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,7569d76f-9242-4832-9fc0-24e96afc34aa,,6b442043-cff0-4269-874d-27c9b588cb27
+84c56795,hard,150,H,P,Advanced Math,P.A.,Equivalent expressions,1419ab6c-2c41-4c67-8a4b-430f9faec96b,,6b7dfb6a-46d5-4f4f-8a0e-a10ae181428d
+c910f533,hard,151,H,P,Advanced Math,P.C.,Nonlinear functions,17633821-8119-4755-99f7-1d6d5c1fb50b,,6ba70cc5-8296-4a97-8a7d-5f0ee4b05b72
+5cecb1c3,hard,152,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a324a943-c735-41cd-9198-a4bc026f2718,,6c5611e6-d1b6-4691-8efb-6c6c71af2b29
+532bf206,hard,153,H,P,Advanced Math,P.A.,Equivalent expressions,46fb10c4-3f31-478d-8f85-0a6cba00a6b9,,6c869057-c68b-4ddd-81e2-782d4cac694a
+32b5fd36,hard,154,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0842f646-be94-4de7-b61d-10b543207d27,,6ea5f9a7-cc0b-44f4-bd2d-80d0b9d2c07c
+65444752,hard,155,H,P,Advanced Math,P.A.,Equivalent expressions,,074204-DC,6f2a8f0c-c156-4d6f-b32c-caa736cf6044
+dabc397a,hard,156,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0cdf8fb7-3b56-4437-8dc1-4d15affdf215,,6fef636f-54b3-433c-a0aa-947086d868ef
+782a5bc3,hard,157,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,66e884da-c82b-4ace-bfc6-c644aaf7d6b0,,6ff25028-96f9-412d-85f4-1169fc2ed448
+4e5c23f9,hard,158,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1b98cab1-2057-4d07-84ef-66643d6f834b,,700506f4-0a2f-41f3-8dfc-e0665ff19bd7
+22fcc68b,hard,159,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,2021d6eb-0ae7-4317-9533-035808fba965,,7183cb66-a834-43af-bce0-b39e21f0d74d
+5f360e57,hard,160,H,P,Advanced Math,P.C.,Nonlinear functions,,046207-DC,71bca04f-130d-4a87-9f6b-bb13b571773f
+ccf2f586,hard,161,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,7ba21071-1141-4bb0-8798-e04ddaaf1826,,728b9b6a-7234-45a0-8f1a-8be49ee6945c
+e18b1412,hard,162,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1a5bc51a-b8aa-4583-9678-daebc0e42927,,731786dc-4a70-491e-a827-1310b2d3698a
+247816fe,hard,163,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,529f22f6-06f3-4a4f-8383-fd84367b1f46,,73ced410-a939-4a47-96f6-868a6af24f8a
+0070c4f4,hard,164,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,f3d90a02-5459-445f-a8c6-4245145f2ba5,,74201e96-be66-41ed-b11c-1ed8da5b6c65
+026cc024,hard,165,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5d6c4953-b9a7-4c3b-a36a-14542f795730,,749e2b14-89a3-4776-aa6c-d5c7d784f8b4
+d7df9ba7,hard,166,H,P,Advanced Math,P.C.,Nonlinear functions,cc86bc57-1ce6-448b-9043-579ef1f26a62,,76519dc0-0648-489e-ad44-5eaf73b9c486
+72da7141,hard,167,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,526608cf-d70f-45e5-bea8-326762f90468,,766a14be-b5b6-443d-820e-90056077dc17
+f3a027f8,hard,168,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5d53f667-881b-4218-a6b0-d72b162b0c2b,,76a9d83c-661e-4307-b429-2d6d79e65e12
+d715255b,hard,169,H,P,Advanced Math,P.C.,Nonlinear functions,ca775cc2-747e-4f66-b9f9-9dd14c79d43b,,78365938-01a4-4f04-a8ac-b19ae7f3f377
+2cba9232,hard,170,H,P,Advanced Math,P.A.,Equivalent expressions,4ee034ab-3f23-46fd-887d-e88d58e5001d,,78b4000f-27ed-4be3-92e1-a0a523fac897
+6874b04c,hard,171,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,ad835aeb-a1cd-4db9-a4cc-87b72997a149,,7977d64d-07e2-46b5-aeec-a92a2d6acbe3
+674c18ac,hard,172,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,543c01ae-5868-4a21-992e-920031eb3eca,,7a88f2ac-8ac6-4b56-b957-ad0a282d1660
+3dd767fa,hard,173,H,P,Advanced Math,P.C.,Nonlinear functions,75af0689-9146-4df4-a928-3b96bc053665,,7b39ec76-880e-4ba6-b5a9-d9efec7425d7
+b9d02328,hard,174,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,056102-DC,7c5772e0-2f76-4318-80f8-36d10c713049
+98f0385b,hard,175,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,ea33fca3-769f-445d-a462-30a7fedec314,,7d6f99fe-e085-4026-ad55-08b1b72156c2
+29b27be9,hard,176,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,7040a6cb-2996-4ef5-99e0-3983407f38cb,,7d7a5a45-c04c-4cb7-a68d-a61714aa1798
+ca2b60d3,hard,177,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,2851a17b-141c-4a63-8bcc-ddf0467dd2c1,,7e41c007-0e7e-4f5a-8ca9-68321466a39e
+b54363f4,hard,178,H,P,Advanced Math,P.A.,Equivalent expressions,ea7ee8b3-e3bc-4888-b3af-98df6b10a940,,7fa6d059-021e-4b69-a05d-634312d95015
+a06d6911,hard,179,H,P,Advanced Math,P.C.,Nonlinear functions,78576058-2903-43cc-ae60-1476fc76184d,,80cac7b0-f499-4b2a-9e90-1e1c44b4d5ed
+72698f4e,hard,180,H,P,Advanced Math,P.C.,Nonlinear functions,58ac893f-bb9d-47ee-af8d-c8f9f164268d,,813f37b9-80f7-4f86-92c0-f153ae5b2f42
+92f8c8f0,hard,181,H,P,Advanced Math,P.C.,Nonlinear functions,9d5c913c-8f14-46e3-8f69-d5806622481e,,8338da4b-85b8-490f-8f46-f92813f15c32
+2c7c3839,hard,182,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,f8b1a59d-a756-46a0-b6e6-06e668010ae5,,83703016-8450-4b71-b279-8bdca1f32003
+85aa9ca4,hard,183,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,897b4d47-5571-4ba4-929d-f423944ca268,,8401e7fa-38b9-40a5-a22c-e6183389843c
+7117f82a,hard,184,H,P,Advanced Math,P.A.,Equivalent expressions,3193c0d6-bbed-4880-a899-34771b874752,,844f189e-d3e7-4393-9f7f-1aba105af27d
+19c2763f,hard,185,H,P,Advanced Math,P.C.,Nonlinear functions,309d7d1e-9441-4a5d-9473-43688aa132b3,,84f86cab-67c6-4986-856d-90b710275f90
+55b896c5,hard,186,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a1edc5ed-8bb5-4ded-8fef-9ce4fe73b3e5,,853d0f2e-3805-4a0b-af5b-52927116c74e
+92fa1faf,hard,187,H,P,Advanced Math,P.C.,Nonlinear functions,be568a88-c292-45ae-8736-5a43f8af722f,,85d389a9-8c88-41cf-8191-6057bef5eb29
+20d4fd77,hard,188,H,P,Advanced Math,P.C.,Nonlinear functions,ae73cae8-fbb1-4f53-8b74-cd4bad175d85,,85e95eb7-aa5e-4776-9768-8233237bc87a
+1b39e214,hard,189,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a8845cae-8e87-49a5-960d-2f7790fbdbf0,,86cd9990-8775-4ee3-913b-e370102f8658
+8f3da449,hard,190,H,P,Advanced Math,P.C.,Nonlinear functions,3c6a701c-0427-4c26-ae70-df690c9c59ec,,86ee60a0-b552-4420-aa05-c5c68f2d4f38
+721e247e,hard,191,H,P,Advanced Math,P.C.,Nonlinear functions,15f52c47-1780-40ea-86d6-aad67dcdb440,,878f4fb2-7ca5-4bc3-8dc4-147eb0518d2f
+5043511b,hard,192,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,ae98661f-1203-47b2-8fb1-0f6c5fb2e999,,87d825a0-a27d-4493-8774-a93ac11afb60
+8a855841,hard,193,H,P,Advanced Math,P.A.,Equivalent expressions,e8158bbb-ab94-4fd9-952f-0f7e8ce656b5,,887099a2-aa5c-4e10-9cbd-5d7c7d440555
+7e0e4cb0,hard,194,H,P,Advanced Math,P.C.,Nonlinear functions,0667a930-0118-4129-a374-d97b7c7996de,,8b67bf73-341c-4275-a3d4-01cf855fa9ba
+f5a0f210,hard,195,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,95648659-0292-4087-8949-be8f9ad4a835,,8bc1f268-2e33-420f-a72a-82064c1618ac
+d99a3c91,hard,196,H,P,Advanced Math,P.C.,Nonlinear functions,5b5a923a-21b5-4864-90fe-ad6c981d65cf,,8d06f58d-5721-40e0-9208-228db0a39ba2
+f87611cc,hard,197,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,6cae8d2d-273b-44ee-89f9-7c0a411efdd5,,8ecddffb-f421-41fe-8f4e-8ae309433df7
+f4399b53,hard,198,H,P,Advanced Math,P.C.,Nonlinear functions,e85a61a1-b9cc-4386-ac31-5649a82371cd,,8efcf881-30a7-4738-8e0a-f0156236db1b
+967ebae4,hard,199,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,597e7f1a-4ea7-4e7b-a637-86450f14e67f,,906497a4-cf48-4707-b2f2-5bf1c1ebd9f4
+d63a143a,hard,200,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,c56a7e04-45b8-4b80-9fd4-c0764ea9baba,,9113ec56-fbdc-484c-a5e2-969870f87eb5
+9ab348d3,hard,201,H,P,Advanced Math,P.C.,Nonlinear functions,c53ccdc3-a853-4bf0-9078-b8457c3411cc,,9235bc8e-50d2-4129-b180-f821c4202c82
+5405250e,hard,202,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,083703-DC,92dd6121-b4cf-4974-a960-05d431c6e8e7
+895714a3,hard,203,H,P,Advanced Math,P.A.,Equivalent expressions,fc857db7-663a-4a3a-a122-787bf4f00bea,,94da0f98-3e30-485f-840f-aa2f02645c1d
+321ad54d,hard,204,H,P,Advanced Math,P.C.,Nonlinear functions,28e3ddbd-7294-4ba1-8ddb-5dd88d35b879,,950686bc-7850-4879-b816-a13da78257e9
+8a51cb84,hard,205,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1a688cae-5689-40c2-998a-3693831eeeff,,9582d9dc-8f8e-41b7-9cd8-e98575f875e4
+3dc1105e,hard,206,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,6a8a253b-de3c-483e-bbc0-a3348595dcc1,,96734a7a-a73f-42af-9300-48b9c448e248
+a459c56a,hard,207,H,P,Advanced Math,P.C.,Nonlinear functions,ad124bcb-44e2-4459-9685-ef37d9f44a0b,,971bfbb9-c2b2-4542-8f54-4f1700c1a93f
+9c6e36c8,hard,208,H,P,Advanced Math,P.C.,Nonlinear functions,a6d2538e-1a97-434d-a2cf-876a97cf66f5,,9826c618-cc3b-4cfe-a281-03dccd93e160
+c749f7e0,hard,209,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,9cfa8272-368d-4197-b83c-98f66c7693a8,,9969f1ee-b318-4d72-ac76-bb9eb398ea60
+f716ac7b,hard,210,H,P,Advanced Math,P.C.,Nonlinear functions,c6125fe9-a212-4845-87e1-01cbb2c93e41,,9ce87da9-301a-41da-8c62-2602198abb8a
+1bc354c8,hard,211,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,4f5cc739-816b-480a-a2bd-c4ee04946aca,,9cf702b7-d7d8-4ef7-933f-f981a2d1de4d
+60dfc4be,hard,212,H,P,Advanced Math,P.A.,Equivalent expressions,45583ba2-59ce-4dd3-9b9f-816f7043a2d8,,9d01256f-6755-4c54-a9d7-186d47586ea0
+16c12d41,hard,213,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,4a398c8f-d2a7-4023-be91-d10866f84ddc,,9dfc5216-a62d-460b-bf14-3a1b35136df6
+048b1689,hard,214,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,3d2c5c58-ce28-4525-907b-2982e774126a,,9e5bcf26-a017-406f-9964-b8c3046fbc35
+2c829f9c,hard,215,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,306f443b-0f46-4eca-890b-85333c3e3b96,,9efb45d4-8a6f-4e06-90c7-1c36764460fc
+06523526,hard,216,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,9cffb17d-18e0-4965-a943-208319f27835,,9f6c9217-869f-41a4-ac06-613b844ad956
+493cf3c2,hard,217,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,bb2ec1a2-0f29-4ee7-a724-a9a5dfd7763d,,a0709011-902d-4992-b003-da747c8e9259
+9a86a7a5,hard,218,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,4ab06857-fd1a-4854-a91f-2a0baef37acd,,a12416cf-7ef2-47ec-8df4-ec66bed2379e
+dc273a40,hard,219,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,3e990f83-ddb0-4598-924f-328a758aa90a,,a1ace736-63ad-4a79-b471-4e196c837253
+0c417490,hard,220,H,P,Advanced Math,P.C.,Nonlinear functions,aa2ab15a-6d2d-4d08-9f06-21b7130cf5d1,,a264f73c-43d1-4dcd-9272-73cd181995b1
+94b8a29e,hard,221,H,P,Advanced Math,P.C.,Nonlinear functions,f07df355-7fc8-4882-9522-5bc1ec96ab94,,a3f90fb8-3f69-4561-b699-eb647e53b4fb
+dde5a6f4,hard,222,H,P,Advanced Math,P.A.,Equivalent expressions,7dfb4929-d523-4c12-99f2-7249aad71b28,,a409db1b-bd54-4f55-a72a-ccbd3e17e311
+d38c7323,hard,223,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1d42ebfb-43be-417a-b209-1613c4032afc,,a4730522-59fd-4c2b-a451-7a9890a62761
+82500af4,hard,224,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a94b4332-54a3-41ff-8ba2-43532df2af95,,a532f995-08f3-401d-a447-7cc06d3badb4
+0a85d75f,hard,225,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,961802cd-2963-40de-aeeb-ed72788fc2ce,,a60dc5ea-3d9a-4270-a9da-f3351475cbc8
+c68324e7,hard,226,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,16175057-dd08-4f26-b81d-d3146d0e07e7,,a68d1ecd-fba0-4019-a712-edf6056969e5
+b1071526,hard,227,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,9801c5ac-3ff6-4220-a669-0da98d475669,,a6eb01dd-d3b8-4fac-9006-3e483184466e
+616120e3,hard,228,H,P,Advanced Math,P.C.,Nonlinear functions,da06409c-80b2-493d-b2bc-ec3be495e248,,a6f5406f-d7db-4e90-aad5-1c998c75785c
+f17e3215,hard,229,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,58573d81-c447-44d1-b022-45216e35456c,,a74a18b4-921f-4894-87df-6f505143e008
+6f89df72,hard,230,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,929338ea-e310-42f8-809a-5344a0648fc5,,a9118f83-b953-4bf7-be89-6c3a9203a44c
+994df4ba,hard,231,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,324711d9-a4c0-4ba5-b889-19bc54304aba,,a914c272-6f29-42f3-89a8-1082263d5535
+1bc4f329,hard,232,H,P,Advanced Math,P.A.,Equivalent expressions,9c1b3f64-dd42-41b1-9698-5ca06f59eeb7,,aa405f10-bd24-41c0-a0b7-27ebd55d0b8f
+efa6f6bf,hard,233,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,101303-DC,ab223df4-b7ac-4377-b650-dd778f47d072
+9279d64a,hard,234,H,P,Advanced Math,P.C.,Nonlinear functions,4abe0349-7236-4634-a930-c7caf0c5adfa,,abbcb2ea-c2c0-4be1-9ce8-0cc5473be72a
+32659392,hard,235,H,P,Advanced Math,P.A.,Equivalent expressions,157286cf-2bf1-4d2b-b179-b2dbc8627143,,ac09fe38-b50a-4aaa-b3b8-64940dbc1df7
+0acf5b56,hard,236,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,45f00b80-0137-44c1-971f-cb9915fcd83d,,acb99eed-1999-4fc4-85f7-8ce635c69a03
+0656940d,hard,237,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,3eff30d1-e3d5-44d9-a00f-a8f6ef88b070,,ad07d483-51e7-4bb5-a2da-5364d6f3997c
+8058727a,hard,238,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,eb2e437c-d3a4-4c66-8290-fd58c72e049f,,ad6c0a5f-d470-4ee6-8e14-8dc9e32fd926
+3c2fe901,hard,239,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1a64ff9e-ce9a-4134-969e-b279e450bf40,,ae045846-1589-4b5a-8d7c-81bcd05ed117
+84e64319,hard,240,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,58a2b084-1a79-425c-ae25-f1e06eb16d0c,,b234e9f0-6d87-4246-8c1c-c1da4eed5f02
+31e42268,hard,241,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a6ea449f-7cd1-4837-a26c-62bd0b218989,,b2851635-40ae-49d3-9b62-f94dd34ae690
+35f751e9,hard,242,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,958a054a-c458-4753-9db6-10520799c2b5,,b2aa5f90-a640-48b0-8862-22df02485e25
+03f5fb10,hard,243,H,P,Advanced Math,P.C.,Nonlinear functions,82c46a05-2fb7-41f3-b65d-8d9ce1b7b8e6,,b2d4aeef-223d-45df-9de8-68fb32a1d408
+f7a2d9fe,hard,244,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,19e1cfb1-d2e0-4495-850f-211c3910815e,,b3974dd1-b271-4d9f-8b34-5e0a6ed8262f
+8224eb02,hard,245,H,P,Advanced Math,P.C.,Nonlinear functions,94fb3df8-4f52-41b0-921d-3c7ee3070b4e,,b43c363a-f494-460a-a2fc-60a507bc9833
+d98a955d,hard,246,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,904604fd-5aee-48e0-94d8-c790edce357d,,b5027590-e7c7-4d0d-9918-b0653351c164
+5ed1893e,hard,247,H,P,Advanced Math,P.A.,Equivalent expressions,0e43189b-cceb-441f-a925-22d0aafc79b2,,b5528891-752b-45a2-82ed-e217e05f4459
+9832a016,hard,248,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,fb537d19-1cfa-4ab5-bcd7-6db0d272e7a3,,b7a812a6-d48b-4bee-bb64-0ee758077a93
+4385b3df,hard,249,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,62b2363a-238f-43d7-9f7b-4164f6e426db,,b904c9f7-de8b-4e38-9524-655a42633ae9
+08b9bf1d,hard,250,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,d880844c-6c8e-4534-9f59-6c35a2f8a2d5,,b95d298a-2d04-43da-9280-78d234555cd8
+fbb47b63,hard,251,H,P,Advanced Math,P.C.,Nonlinear functions,a2fd066f-2826-480a-9f1a-df7bb12bb517,,b98f7b4b-df9f-4ece-8084-d5630818cdf8
+7109db66,hard,252,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1880c817-a268-46b0-ab09-8393d576d090,,b9bbf0e8-c938-48f0-b9d2-52e25ad0c420
+98c24d68,hard,253,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1cc5e58f-e7f7-4c6f-98d1-f0d85214f9b4,,b9d6c426-8f19-4b7c-a4e8-e4f348cf91a6
+b43f5f5b,hard,254,H,P,Advanced Math,P.C.,Nonlinear functions,a1e6a8b2-cfea-4669-b29a-42ccf07bce01,,ba84a123-a382-441a-aa97-b4d3feee0870
+1dff7e80,hard,255,H,P,Advanced Math,P.C.,Nonlinear functions,06efdf82-8d69-40b0-8ee2-9f2938df11bc,,baf78be5-5a36-4a4e-82bc-c4461e2978a7
+751e8f53,hard,256,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,93a12587-e94f-49a4-9809-a270ac0c8e26,,bb554cf3-8a2b-46b9-9b18-2a07cf7ebf42
+007a3cd0,hard,257,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,32bce84b-e42c-437c-8216-77ba46763b82,,bb9a9e6e-0689-4d73-92aa-0b71ed015b08
+84d17ecb,hard,258,H,P,Advanced Math,P.C.,Nonlinear functions,a38f7c31-6127-4aa5-b43f-07fde89047b7,,bc2fbc89-76c7-47d4-a9a3-2feb8e591847
+566c2575,hard,259,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,43a93361-b880-45b0-a88c-0f12f6ad5a73,,bc540515-fd48-4d06-b4a3-3ad5b0895e9c
+7b43d724,hard,260,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,169fcf6b-6152-48c1-8e0e-3412339b8150,,bd90977a-98e8-4868-af60-b80077196e6d
+036f4a20,hard,261,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,8a22c0e2-f9fd-4e01-98b6-c6b2a412e6a3,,bd9da960-641a-46a3-b367-eb74f0486092
+b017e533,hard,262,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,21f9053f-890c-4e04-ab5b-39575a6d8b3a,,be45567b-a1e7-46ed-be02-3005a0e43a89
+58d11ec9,hard,263,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0efb1aff-b793-461c-b46c-c2a51df51f42,,bec2414c-a378-4563-a0d5-c183fa9e46ff
+39a915d1,hard,264,H,P,Advanced Math,P.C.,Nonlinear functions,5e72730b-6fd0-4c55-88c8-61414d4d0f79,,c1f2a156-d922-4ba5-aee1-71e67016aec9
+53d88235,hard,265,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,d4b3bd87-bbe9-407b-ab3d-9b934f412a42,,c2e56a89-7724-484c-8b67-c07d172bb155
+b0eb8e2d,hard,266,H,P,Advanced Math,P.C.,Nonlinear functions,48a05037-fc28-47fb-802e-9068b867d6e8,,c413499b-2951-40a5-9c4f-9d9a1bb0d1ba
+10b9e5ae,hard,267,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,eb5f87ee-114f-4db0-b2cb-59b0fd965e37,,c605c2a2-ff0f-4882-9104-ed062b5017db
+d368bf11,hard,268,H,P,Advanced Math,P.C.,Nonlinear functions,ba49162a-0686-42e8-b46c-fcd213f9161e,,c6080339-6101-48a8-995a-93226d284382
+71fe6d75,hard,269,H,P,Advanced Math,P.C.,Nonlinear functions,4005b362-54fd-46e6-bf01-e80e3d3cf538,,c6746e6a-7bcd-424e-8917-3a88285e379f
+3f5f7958,hard,270,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,95743c79-08bb-4ab9-9313-e9209b184183,,c80075ca-7a42-4bf9-b435-0955f394a102
+3e37cce2,hard,271,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,038903-DC,ca298305-924f-4eb5-a9e4-bec8b7341acd
+f9d505db,hard,272,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,7bef0f86-73e6-487a-bc46-fd91ab2d463c,,caeb659b-aa87-4320-b084-b58c30eea302
+8de8f379,hard,273,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5d70beb5-a486-4658-b76b-aaef8d84d258,,cb609d65-0846-442f-9a18-133ac53fb0cf
+8b2bd2ca,hard,274,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a59cce9f-0a25-48e8-ad9f-fb177c37322f,,cc161798-e382-44d7-b1bc-4758061cf658
+ba32e80b,hard,275,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,103615-DC,cc39fbd1-ac07-4d86-a7e4-fcc64598fd62
+74c11b4e,hard,276,H,P,Advanced Math,P.C.,Nonlinear functions,dca5862f-b7ea-4d90-8f26-7dd9603d5b6b,,ccb491aa-31df-4c69-b411-12a16eedde3e
+c2af37d6,hard,277,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0bcc8b25-133c-4b04-8e37-dc162be437d4,,cce0f46e-1850-4375-901d-1846a2c0cd78
+870fb036,hard,278,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a8d48b04-8b5b-456b-b5a3-8378c102bcaf,,cd261b3a-070c-441f-a224-8432ccd17f12
+56f4e7a8,hard,279,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1a1492f7-099b-423b-9249-9b7801563e69,,cdd043d8-cf44-426b-bb91-dbd7331eeeb2
+c66d5dc4,hard,280,H,P,Advanced Math,P.C.,Nonlinear functions,cb8bd8a3-fcc3-486f-bc66-abf0e8260b7c,,cde932af-0903-4337-8b92-4ce5d29870d2
+351a1619,hard,281,H,P,Advanced Math,P.C.,Nonlinear functions,d9d72ef2-295a-4d10-b2b3-bee9a76ecefc,,cf2b3e07-b0b6-4f0e-8af9-58d712a1ae14
+86357e45,hard,282,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,63b9ed21-0dd3-4eb2-8f91-8db251e9c8d1,,cf2fbd44-3f92-4a63-9f5d-f9a718329965
+b2da3b65,hard,283,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,995f1af2-b590-4a73-bdef-5909ce87ad02,,d04224df-d74b-494a-80bd-de84c00a40d5
+0d726114,hard,284,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,30a22d56-2098-4cdc-ab47-b9a55d78ca0d,,d088ebaa-c6af-4fa5-aa1b-0b987daff8f8
+f3984906,hard,285,H,P,Advanced Math,P.C.,Nonlinear functions,a46c936d-487d-45ea-88a6-e5c064d5429f,,d0dd4685-6170-4226-80a0-9a3f2739c0dd
+767ae765,hard,286,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0fc5c084-d942-498b-9fc2-65d53ba3ea50,,d189816d-e214-4c7d-aa26-e28d26491178
+3a881c18,hard,287,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,ef926ef2-9ef7-49d8-af18-eed615579c9a,,d30a6c8f-6322-40b4-b107-7aebfc7efe2e
+b5458702,hard,288,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,adf5ae7d-4bf2-4702-98fd-f373ca782b44,,d53eec3e-b77f-40b5-90e5-1e20881948fd
+9aebed42,hard,289,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,4246bf03-dc19-45e5-810c-2b90c786a4cf,,d5c4c301-4e81-4487-92a2-f1bc54792086
+0b4b8982,hard,290,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,10adf442-225a-4935-a797-8dfa34b36510,,d6987265-f3ef-45f5-be01-59450a917cc0
+a1b39095,hard,291,H,P,Advanced Math,P.C.,Nonlinear functions,d30e781d-68c1-439f-aabb-02cedf42aaa8,,d74b5070-acba-4b00-8b5d-f8524fdd9011
+1960a6ab,hard,292,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,053004-DC,d88f51b1-599f-4804-89f8-058e5ea42f85
+9ca9caab,hard,293,H,P,Advanced Math,P.C.,Nonlinear functions,26b43d9e-7865-41bf-8854-4c1149df2bd1,,d9e12cad-ecdf-4ae7-b3e0-9260a975e635
+89182e60,hard,294,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,ceeead78-35fc-4af5-9312-8c847d2ef2b7,,da665384-0045-4cbc-8674-7b599dd4119f
+13a3f025,hard,295,H,P,Advanced Math,P.C.,Nonlinear functions,6989993c-206d-4f4b-8bee-0455f2a22acd,,dadfe193-45c7-4a2d-b642-4463f1be6327
+1b6d2189,hard,296,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,7f1b9e14-8d38-49fd-9e65-68e02c870236,,db54072e-f43b-4162-957a-1943d63e03dd
+83e1fdb2,hard,297,H,P,Advanced Math,P.C.,Nonlinear functions,a671f363-778e-42b4-a831-dc8734e19f3e,,db9823e6-791a-48f8-99e8-0722d87ba209
+0950e9d8,hard,298,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0b2692c2-6fa7-4ea1-951b-27fa0faed0ef,,dcb1e599-34dd-4f1d-a7df-9af990c4fd53
+749920f5,hard,299,H,P,Advanced Math,P.A.,Equivalent expressions,7aad2a67-e6a0-4a69-b08e-3180b2820939,,dcb782e8-6ce3-424c-9c1f-8d9e5e954cf6
+c22b7778,hard,300,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,9558af9a-d376-45ca-9c47-b578d38eeb08,,dd122194-2a6f-4c51-89da-278cb01e6ebd
+02711977,hard,301,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,039807-DC,dd1c8c46-6fb4-43da-a587-c08e4eb864af
+e7281081,hard,302,H,P,Advanced Math,P.A.,Equivalent expressions,3ea2ba77-49e1-4427-a022-5248e3cf8552,,de073f5b-c5f9-425f-8cbd-907c752a27bc
+6ee20b62,hard,303,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,863c95bd-7141-4440-8248-e5fec11067e6,,de4adf68-e42f-40f8-9993-f7d057f80d4b
+92e557bd,hard,304,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,b43081bf-eb3e-4b08-9abf-6e525771beef,,dfbe2530-80cc-4bc0-b4eb-798880038ef3
+00770ac7,hard,305,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,2ff665b8-65e6-4b29-aeca-f73b1c26fbc7,,e050ed36-14af-443c-b59d-739969afcbe9
+9a8923f1,hard,306,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,152470e1-2295-4737-b7be-edbd16ed12b0,,e193900e-f86c-480d-81be-0d4bef188a6f
+80e61e86,hard,307,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,110414-DC,e1c9afe9-7595-44af-af64-4709b3e962e4
+824c52da,hard,308,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,051710-DC,e2cb3cf8-4652-4343-b63b-b35ff36c671b
+f7e56237,hard,309,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,74f2107e-5be6-4ce2-a31b-d49192ccb974,,e361c9a4-b1fa-416b-a284-c89bc7e176bc
+748917f4,hard,310,H,P,Advanced Math,P.C.,Nonlinear functions,,032406-DC,e3b5210c-11ed-4175-8f37-00ad1b0f3367
+c5852c6d,hard,311,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,144e0b61-a2cc-4e3a-a6e3-5db32e1153f4,,e4989013-c578-4802-9ff7-8f7389e5fbaa
+21616307,hard,312,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,edcbf91e-25d8-462f-a9e3-b13e12b62854,,e5ef0a13-4188-4886-b195-715c4d1f0186
+118ee3e8,hard,313,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,08fd3b65-3366-4340-816b-48510a80a4a1,,e66fe2c3-042b-4cbd-a05c-fd6737b4ce5e
+177335f0,hard,314,H,P,Advanced Math,P.C.,Nonlinear functions,aee32ba7-2d72-4f59-992c-142225218ff8,,e7f61409-19ba-4aa8-bef1-a19e6406caa5
+59ef42aa,hard,315,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,,060103-DC,e819cbbf-968d-4382-923b-590e820a105a
+2a639259,hard,316,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,46f98bf4-b7a7-452a-85bf-68e754e565d2,,e88c0263-b62a-451c-be24-f78222455dcd
+175d13fd,hard,317,H,P,Advanced Math,P.C.,Nonlinear functions,e6c5ced8-746d-43be-acd0-468c90412fc4,,e9662666-5c0f-45f6-90ca-14c48bd3a49c
+c718227d,hard,318,H,P,Advanced Math,P.C.,Nonlinear functions,71d2161c-aa56-4247-bab7-fb9aa776120b,,eb7781af-507f-4448-8801-54d4af85e9f4
+4168e4cd,hard,319,H,P,Advanced Math,P.C.,Nonlinear functions,b621dff3-4ba8-4f2e-a20d-d4112017ac9a,,ebeb3cbc-9bc8-4482-9a46-42c631601bdd
+1ce6649b,hard,320,H,P,Advanced Math,P.A.,Equivalent expressions,07c05e3f-a1bd-4a95-a9bb-fdc9de46ff05,,ec2b905f-107a-4ffb-a473-3568a9ee1ae1
+aa05da5a,hard,321,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,a0b7b501-a829-43f6-91b6-65dc9906d420,,ec387947-18d8-4241-a8a8-c87a475fc9ce
+bb0d5d2f,hard,322,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,9d54a75b-742f-47e1-8a0f-c88a57eeea3d,,ec5dc267-2143-49df-9379-5fa95aca4b2c
+9af0598a,hard,323,H,P,Advanced Math,P.C.,Nonlinear functions,0217a5ab-e07e-43f9-96f3-cda3e022b8d8,,ee1a10a7-a925-4599-9761-6109d258cb3e
+9fa53718,hard,324,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,53a3b530-d91f-44fa-b691-8c16573165b6,,ee262a72-714f-4766-ae13-e4c2611f15d6
+d747dcca,hard,325,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,60c7df90-b97c-4492-8c8c-c2b324778e97,,ef01e5c9-1165-4069-8d3b-10d76e639fd3
+b9a48777,hard,326,H,P,Advanced Math,P.C.,Nonlinear functions,,071803-DC,ef43dbd0-de2c-470c-a143-98c3483d99aa
+e7b323ab,hard,327,H,P,Advanced Math,P.A.,Equivalent expressions,ea084050-c59b-4938-9274-ddf388f9c5de,,f02d1e2d-e70d-4848-a29e-85673074eea6
+9a0070e5,hard,328,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,2bebfcf7-b29f-4fa7-8c0e-961f2a460989,,f248f019-3cdf-44e6-8632-a0f17c18a357
+2c0ba609,hard,329,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,03e484ec-f23b-425b-964b-d17cb55ebd0e,,f29a2af1-dc43-4792-838b-73236bfdc24e
+ab23be56,hard,330,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,2ef4a06a-e2b5-4ab9-89dd-c470edfa9a59,,f2d4c8e0-0be3-4748-a7f9-a08bd77c03f1
+5a1763cc,hard,331,H,P,Advanced Math,P.C.,Nonlinear functions,db9548f0-bf02-441d-877b-2183c1ba3a20,,f43295f5-c30c-479e-931e-1ad50bd393bb
+ad6cbf39,hard,332,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,f03bf89c-3091-4bd8-9e48-3e8034590ba2,,f4386914-809b-44d8-a5f6-85ba5a2da535
+af1c5d09,hard,333,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,347b0042-a46d-407e-b68e-f777da45a484,,f47bc868-c37d-48b5-938c-e8165b9994b4
+3f095dc7,hard,334,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,78f2cf4c-1d48-4af2-8c5f-0a8e54e35542,,f4ae2826-23a4-4443-8076-530cb3610786
+e3af952d,hard,335,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0e2f46ae-d616-4fb0-b252-14cbac17004a,,f5034643-f092-4e01-9980-edf75138d934
+50568422,hard,336,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,5a31cbf2-5727-4c84-a459-fcdbf5cec548,,f8a116e6-6755-4691-a0a8-2897cb3e3d94
+22b4bfd2,hard,337,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,0939ff5d-926a-42f9-9a7f-9c50d12ae70c,,fba0d56c-0ea1-49d2-9a0f-36c29c44ec93
+fa907280,hard,338,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,3c03a29e-adf1-4768-8278-3ae4789570f4,,fca03f5d-e7fe-4574-afba-f80624bb3e35
+80917bf2,hard,339,H,P,Advanced Math,P.B.,Nonlinear equations in one variable and systems of equations in two variables,1abfb17e-913c-491d-ae37-9676cf035f9b,,fd2bec37-0608-4e73-b239-a29a88522289
+afd1fda2,hard,340,H,P,Advanced Math,P.C.,Nonlinear functions,022cf125-1e51-490c-937e-f8bdfc33e7bc,,fde2e569-4f5a-44c8-b95d-b703c17d62cc
+60f0de17,hard,341,H,P,Advanced Math,P.A.,Equivalent expressions,0a85091c-1f63-428b-b02b-697b6a525118,,fee8d349-e55f-4c72-a8ec-bf64cae2c103
+0e6e3ea6,hard,342,H,P,Advanced Math,P.C.,Nonlinear functions,f54eaf6d-91ce-46b1-81c6-d8e4b4c098de,,fff8f95a-f8a4-4c05-8ef8-1cf216af45a8
+f5835c6c,hard,343,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,,048301-DC,012c5573-0891-4914-bf02-97d89aeef618
+03d390fd,hard,344,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,2540b18a-2a6a-4fae-8690-f2f5b44403de,,02017208-40e5-48f7-901b-f2d662e1fe65
+cd252645,hard,345,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,9b207ca9-753b-4ffd-a001-5c0fd10d37ec,,0340af2f-1a30-4f7a-a829-008d425eb97d
+95f5e88b,hard,346,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,3108b112-71b5-43fa-9e6b-398958f1025a,,03b8f542-a9e8-43d8-a44f-34f74df45778
+5eff542c,hard,347,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,3d75b504-b21a-4d10-aac4-7776ac42e020,,057e366f-0093-4300-a808-27787a9c890d
+be56aa76,hard,348,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,29dc7f9a-3315-46c2-8393-8446b50e554d,,05ada9a9-a7e0-4e1c-a104-ebcfbeeb7118
+9ca39bb2,hard,349,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,052912-DC,06c248af-fb5a-4587-8169-a89ad5d8cf1a
+2540666b,hard,350,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,5a170243-f543-46a8-8e46-2c293d0d640a,,073485b7-5d69-429f-8975-afd37589ea30
+1c11e40b,hard,351,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,9ad02236-efdf-431b-9e79-6078e6e2fac3,,08c1964e-a9d1-41ca-973d-1335828d7934
+375728b3,hard,352,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,,048610-DC,0a1c7365-2030-4368-a0ef-081df25b28a0
+f3b07562,hard,353,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,3444be26-3bc4-4dd3-b970-bbd21a0b973c,,0a9d937c-6702-4b4b-9140-265429e43f72
+95661dd4,hard,354,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,050209-DC,0c2f1d4f-3acc-48a7-a446-1666a2d9d723
+6de9c03a,hard,355,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,260ff57b-9aa2-4476-a088-a27244a7b8b5,,0ce76505-e491-4a05-9665-8eaac38f894b
+b09c8936,hard,356,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,1f50ee40-c7d0-4cbe-82fe-98678806f151,,0da02f8f-09a2-4726-822e-3f40139c6113
+d39e7a06,hard,357,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,70c8b573-c3fb-47c7-b9c5-ec7c020dc315,,0df158f1-af8b-438d-8860-3c3d537e093b
+99475ba5,hard,358,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,,049303-DC,108fb9ef-e90e-449e-9c37-871170f73aef
+0f503075,hard,359,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,35baf65c-e49a-45f0-903f-42f9f888b931,,1109129c-f52a-4e6e-961a-1a11b96e6771
+5aa3c072,hard,360,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,a0a4daeb-9c4a-47e7-9f9c-ffb76717ce9a,,141222a3-8cc4-44ca-98fa-424d84d821dd
+b6329b73,hard,361,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,aa51a380-9532-4372-975a-1d9fd9932c84,,1563f2f5-f5ba-4546-8774-ff84c8292930
+04b49373,hard,362,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,,064314-DC,15ed5cb7-2c20-4814-b9a5-796037f07815
+742cc85e,hard,363,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,327a2428-1ea7-4260-9e63-c4e9ec0cdaf6,,171d846f-41d1-4c30-9674-f315d643c29a
+4a1b6e24,hard,364,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,544d6e2a-e359-4d38-9820-fb3567910f21,,17248f71-230d-41c6-a0d1-f12a2393ba34
+fb038d21,hard,365,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,4d784750-feb1-4420-aaf0-07383ee3053e,,1e1e76f2-3163-4d5b-ae14-45da6fa3c7aa
+fda701f8,hard,366,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,2c130770-298f-4ab7-884f-692a6272a9af,,1e72dfd6-b416-4132-9dbd-ce30abbb60b5
+e0d56d56,hard,367,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,49581974-448b-4e9c-a25e-02dcb428015f,,202746a3-cd9e-460f-b106-0eac445fb015
+17452141,hard,368,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,da1030c8-55fa-43b0-a4f9-a332c7ecb6df,,23786e0a-9e18-44ef-956e-3e0b450a35dd
+9de410d9,hard,369,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,d75b8fb0-e543-4d9d-b0f8-6e48a35680aa,,2426180b-0a41-4149-a41d-b2c49036df57
+57053bef,hard,370,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,,045507-DC,27ade3e7-780b-4964-a162-0970c39fedba
+0dc10d32,hard,371,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,d8e9321b-21e9-4154-a584-87fb013f4637,,2969abac-4f2a-4f91-83e9-b5bf43202943
+130a703b,hard,372,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,,067213-DC,2b69dd06-9fa7-410b-937c-025e4917c131
+b3df6038,hard,373,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,7d81403c-56ca-4a4e-be22-40b75682981d,,2ef2261b-92c1-4cd3-b859-a94136fc5227
+b1bd2d8a,hard,374,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,224f6238-a6f0-47d3-a852-c26d2bf23771,,3058a95c-3eec-4a62-b58c-49ba3d56aee7
+9b3b21e4,hard,375,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,22b5d4d7-439d-46e6-9574-cd4565638c32,,34849db8-3c44-4920-89a8-66888c236eea
+8c043670,hard,376,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,325629ae-45e1-4e1e-99fb-008eea28c883,,34cb58cb-3cd4-4a7a-90f2-ec115c0301e2
+0a9a8a10,hard,377,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,,066809-DC,37fed786-f42a-4704-8851-4adcbb7a7ee0
+bc5ce5d8,hard,378,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,3dc0ec57-4cad-4beb-9c05-f85cb0e4b0b4,,3967cf67-457b-4498-b7c4-29c413841aba
+6e772075,hard,379,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,51ee23eb-b997-4bb4-b19c-09153f850731,,3fbfeea1-aa9d-4426-8911-2a8a413b4f03
+6e6a2cd9,hard,380,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,eb6e8ae0-f03c-46bf-a108-50574cb01671,,408326eb-a8fc-41f7-a0b5-7a8c15c65943
+be2f3e61,hard,381,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,5f9091e3-359c-414c-8fe8-1f3b666f3934,,42b1a88c-ddaa-4259-a14a-bc6f8843f1f0
+b3c31aa9,hard,382,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,1d644ccf-3435-451f-af23-992125409cb6,,434c499c-6757-4ab5-96e2-14664d9e75d9
+9c6cfc92,hard,383,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,047909-DC,4489096d-262a-4ba4-8e7b-4eae6fa7c649
+3a3b9c38,hard,384,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,294b4625-3a85-458b-ad5a-74181fc8ddf8,,4581528e-9549-438f-a25e-bd372bd1e6bb
+02594858,hard,385,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,fb009053-d82b-4559-a7fd-bdc728b162c2,,47718291-6b5b-4171-840d-baf86726213d
+6389d7ba,hard,386,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,9287038a-0850-47b3-95b0-f0c1ee32d6f8,,477d676d-e4a4-4111-acf8-a6c1ce953eda
+5caeac6d,hard,387,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,9b982da1-8fa5-409f-bdaf-111f410b7493,,47e35a05-006d-4974-8b29-803a13251b06
+182d579e,hard,388,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,cb05a564-f9b0-4168-83ec-7ee7d51662dc,,49093e6e-a792-4ca7-a8a4-4e15dd375c51
+fb0bf9d5,hard,389,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,,115803-DC,499f9781-90ce-4f29-a797-6640b978416d
+7dfca1ed,hard,390,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,6b0fa953-48a3-4e6a-b3bf-f89f238a2e5f,,4a075e68-0df1-458f-8885-51336e3103ae
+c797ac5a,hard,391,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,6a8b6e9c-0f6a-4142-bb00-4c010ea78463,,4aa3de51-b901-4503-95b6-fc1e96bff699
+93e6d3a0,hard,392,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,3c079e14-5f5a-4f91-870d-f3f362b09515,,4c0f2c40-4b5b-430b-ae57-4f522c560e21
+3d8fb665,hard,393,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,ee96cf63-6e0d-4e56-987b-8a430180ff83,,4c9f0ffc-328a-422c-a627-3c5366b3b8ed
+8fcfbb5b,hard,394,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,5de1f8df-f0d7-45dc-b747-aa3739f165e7,,4df8cf6b-4150-4f5d-a030-f9462da29d79
+1deca22c,hard,395,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,,033406-DC,4e128b05-2d97-4607-9593-083269e52e2e
+3d052252,hard,396,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,a03c2423-1897-424c-af02-396df76a2077,,5144f462-89df-41c3-a8ed-901719a0e1c1
+73146db7,hard,397,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,5a1e8e69-72b2-45ed-874a-cb8da6e14e53,,5185064f-632b-4176-b713-4ce9f6bb0379
+e8833808,hard,398,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,b7e525bc-46c8-4b02-9334-69c34603d8b8,,52a2d7e0-7645-4d82-bd1c-6f1220a5fe9e
+3315276f,hard,399,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,c7a13f48-1708-4770-b8a9-8ab030980d56,,557d12ca-12c3-4247-88c2-77c799eb3a08
+fae7852f,hard,400,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,2f7d5fbf-4e96-48e5-bad0-6a8d5af2fd04,,57c407d3-8016-4b7f-a817-0c91d96befb5
+4d47b97e,hard,401,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,b1a28b32-78df-48a9-8dd8-d6ce869d8c97,,593719b2-bc92-43f7-932a-2d82d17df059
+34897627,hard,402,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,,068208-DC,5a751005-3f4e-49af-96d7-33ebd629a760
+781840ee,hard,403,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,6d570b69-0f2f-493b-90a9-704de4cbcc90,,5af4d759-43c0-4c29-912f-2464ed3b9d20
+4ea51fe3,hard,404,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,7d7f2573-8023-4a84-94f0-5b6b97238f13,,5c23225c-0f8d-44b4-8e43-1a56a0239b77
+292ef340,hard,405,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,ebdb3335-46cd-4624-a94a-8608e5b61832,,5d58218e-2220-42c4-84db-46468f11094d
+b9f49384,hard,406,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,5b3a6153-fcbb-4a43-846d-414865842f2a,,5e37e0a9-5d9c-4679-8d5f-808763862685
+5f8ea288,hard,407,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,4528d065-9b74-4632-b326-0fd9a3972338,,5f8cb105-e3e9-4bf8-bcee-ae8d1e178b61
+2fa41ac1,hard,408,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,580cb7b5-4bb4-4268-a60c-c384d1b3eac9,,60d5e63b-3924-464a-a348-52dc569191e1
+f85ae6b5,hard,409,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,620cc46a-4388-438a-a9b5-5241f4f0e28f,,61d3897c-1530-4daa-ad9d-f50dd5b4ed7e
+a669919a,hard,410,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,9449ebd8-b04d-4a59-afde-61e2a89f5795,,62c5bd2e-72d6-4389-9455-1e05b37fc125
+99e5953d,hard,411,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,6696338b-3d53-4743-9bf4-ce5e9bb1de29,,6360acd6-4657-4fa6-8790-7f6dc56e155f
+22967e2c,hard,412,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,8730f165-2006-48d9-9419-e17475e10595,,64fd8ddd-1863-4aa8-b84f-5590588228c1
+49836ee7,hard,413,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,2ab903d5-57a6-4b4e-bab0-06d30a33eaf3,,66b66c36-6c36-49db-8ce0-99350600c1c4
+889822a0,hard,414,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,b78e8b33-aa76-43f7-aa14-79031f0dd51f,,67016aa6-a17d-42bd-9377-6791ae30396a
+422ee6ea,hard,415,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,,048708-DC,6734646e-6bea-490b-83fb-2f80a6907dc0
+6ad8cf7a,hard,416,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,cc970a21-3dbc-4195-8fe1-5d40126e72dc,,67a27333-cd0c-40ff-9f6c-ee65795eb793
+f302df7a,hard,417,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,19e7cddc-a87a-4604-a3d7-1be079f980fa,,6c6b69a5-de86-44bf-b093-f08e5236968a
+00288440,hard,418,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,1019ea18-b894-4abc-8648-7666a69e897f,,6d8e0078-3d65-4448-adc6-1ba141636d13
+a455c87b,hard,419,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,4ded7601-1db1-4833-b691-5be953c44a95,,70145037-8b35-46b6-84ad-a0e965ee69b6
+11605f7d,hard,420,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,,050205-DC,7224da1d-7fca-45f0-9f05-da8a92c93177
+f82a259c,hard,421,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,21828806-3df3-4583-9ad0-70f9f91d5fb4,,75840aeb-708e-46b7-98fe-b60ea21403bb
+bb3edaf5,hard,422,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,7bf2b9f4-e018-4da8-86e0-6c4ee604a156,,7705430a-f78f-437b-8f2f-ef128abce663
+2587c008,hard,423,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,5ad876ae-8409-4b86-afbc-36a475295927,,78c278c7-dc75-4234-9999-585b1de5fd2b
+69ac501a,hard,424,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,8ac171ea-f21d-4a83-8c25-ff71672ef96f,,79021c1d-6dbd-43d5-91c0-4488c05c7ea7
+a2adefb6,hard,425,H,Q,Problem-Solving and Data Analysis,Q.H.,Evaluating statistical claims: Observational studies and experiments,4f8ba93d-57b9-4397-8954-a03900573b60,,7974cab8-6aa6-4e89-9346-d0550cf379ea
+9a090778,hard,426,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,45668c56-9094-4659-9046-94c0a3dd5abe,,7acee505-8c5d-4b31-ad4d-c64cb452d785
+67c303c7,hard,427,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,3760077d-168b-4366-a814-18d609973e4d,,7b095b8e-ecc4-4d1c-ac74-732c467fd973
+53e120db,hard,428,H,Q,Problem-Solving and Data Analysis,Q.G.,Inference from sample statistics and margin of error,858211c8-150f-4557-b469-c8266363d3f1,,7d50a94e-5b50-4121-9545-bc77310bcfd9
+335b385e,hard,429,H,Q,Problem-Solving and Data Analysis,Q.E.,Two-variable data: Models and scatterplots,ff648c0e-3b4a-4610-9fb7-abcb0f800b01,,7d758967-17af-4946-a82a-a55d3f5a5c37
+7142d26b,hard,430,H,Q,Problem-Solving and Data Analysis,Q.F.,Probability and conditional probability,8939f2cc-e134-4090-8c4f-95c795e55c2f,,7d84fa01-d28c-434e-8292-c33554f1834b
+3aba791d,hard,431,H,Q,Problem-Solving and Data Analysis,Q.A.,Ratios, rates, proportional relationships, and units,3d9ac1e5-3c28-4012-8d67-9fe4e57e15c7,,81912eb5-e69e-4020-9c2c-f59816993601
+0e114044,hard,432,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,,060715-DC,835282d0-ad64-4f42-8dc6-a3e6fe80b356
+299f0191,hard,433,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,ce8d5ce3-77c0-4191-8554-8c766cbe11ed,,89ca17ab-0be9-47cd-9610-ed9f87085a53
+34bc0a33,hard,434,H,Q,Problem-Solving and Data Analysis,Q.D.,One-variable data: Distributions and measures of center and spread,74260a1f-cd0a-488c-b275-af183a20dc9d,,8a52d5c8-4430-4eaa-9d71-47085ee268a7
+cb8fab88,hard,435,H,Q,Problem-Solving and Data Analysis,Q.B.,Percentages,62c2cb28-7b20-4ff2-ad0e-d8733522c0a9,,8c1f6fe8-fc0f-4844-85f2-bc262c53b9ef
+513068df,hard,436,H,S,Geometry and Trigonometry,S.A.,Area and volume,e2984ace-a4e1-455c-b5a2-23a935f2a1d7,,8d754a1a-c9b5-45bf-9131-66263b4bef25
+79f67b29,hard,437,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,180ea69a-bcb1-4428-bca9-990ebaddb2d1,,8da1b35d-6b13-4240-8b1f-e945d66b9ef7
+cf48cb11,hard,438,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,d930845f-4e51-4236-a70b-81faf57f70bd,,8eb14964-e546-46a7-848e-ab0844dd19fa
+c0e6c59e,hard,439,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,e56a71f3-d031-49f8-815c-928c36116a0d,,8f88afe8-0990-49f1-aee0-741cde0c6c52
+7809bf8b,hard,440,H,S,Geometry and Trigonometry,S.D.,Circles,24794b5f-bd46-49ff-82bb-fe9d49d087e7,,900786d1-a4d5-4714-b491-909b22b63007
+742739f3,hard,441,H,S,Geometry and Trigonometry,S.A.,Area and volume,,036314-DC,927ef1dd-a0d4-43ce-8a94-2d7ddfe3fe9f
+f0631489,hard,442,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,10235c94-cef9-498d-a581-970be26ae297,,938ed105-f023-4d67-9b27-837bd517a9c6
+501defe7,hard,443,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,,044404-DC,9545e9a0-6ce1-4ee8-9a5e-d5c528614a14
+dded52d9,hard,444,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,379764fd-59f4-44fb-bcf4-34b6b54774b4,,96c015e0-c9ef-47ae-9def-a43e14b6e4b9
+40747bf0,hard,445,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,c293fb5d-814a-45a6-af55-d82a901225c8,,97227633-53c6-4913-9220-5311c813b7de
+f4a1e68a,hard,446,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,da0dbf37-70d9-406b-8789-aedab9b5a6e3,,991b5188-f317-4900-8c02-9ea176df629c
+7e82b538,hard,447,H,S,Geometry and Trigonometry,S.A.,Area and volume,d7915025-23a8-479e-ac82-381386ff6467,,9979650c-1064-4654-89ea-05ed0772c3e0
+5a824e9c,hard,448,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,b7905b9c-2ce6-4f4c-8fda-b2b9c95d0746,,99bc1aa6-64a2-416b-82b9-3bf39163b122
+9fe0f754,hard,449,H,S,Geometry and Trigonometry,S.A.,Area and volume,1ce39f54-7b78-4515-8f90-fd2fc27b0531,,9a671355-f7a0-4130-9742-d28d210a649c
+102d6d94,hard,450,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,0c4ea319-4886-4b0c-88ae-7c63ff11f0d1,,9a7aca1b-6499-4bb1-8d7b-22cf7b920235
+ad4d0090,hard,451,H,S,Geometry and Trigonometry,S.A.,Area and volume,677380cb-e930-47b6-8508-e3328d7c78c0,,9a95c304-97e2-42af-b5b2-9242b0265e74
+611f332e,hard,452,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,71bf5f77-70de-48e5-9a2d-49ce20d6e898,,9b63c166-705f-41b4-9a1d-9d0e781893d7
+10017486,hard,453,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,1ce14dc3-e928-48e5-b6b2-0d7d11551f50,,9caf2af7-c15d-416a-9040-2d4c49705257
+888f8b00,hard,454,H,S,Geometry and Trigonometry,S.D.,Circles,20217034-c9e6-4099-a894-2d97184a2fa9,,9cc27361-f3f4-47b7-989e-b995bb4a2b51
+1eb1505c,hard,455,H,S,Geometry and Trigonometry,S.D.,Circles,d79ea34a-cb43-4a33-a802-eed5a763d80b,,9db9c1c3-cffc-4a35-93b1-8cbff48ecb8c
+32484034,hard,456,H,S,Geometry and Trigonometry,S.D.,Circles,cb6397f1-67ec-4e81-a797-27d0bb0ef0d6,,9e11f8fd-9804-4ae6-807f-9b10ae6b63ae
+b44ec8de,hard,457,H,S,Geometry and Trigonometry,S.D.,Circles,a8d9b7e5-657b-499c-8ca6-e3acb925fab3,,9e3bfb0a-8b4c-43de-8006-cba916002eef
+b15ef0b0,hard,458,H,S,Geometry and Trigonometry,S.A.,Area and volume,35a4fe32-ea5e-4052-8b93-e04f79b55563,,9ea4ae5d-70ec-44bb-85a7-b6fc4cead284
+2fb3b9d8,hard,459,H,S,Geometry and Trigonometry,S.A.,Area and volume,4b6bc1ce-ae86-42ad-82b7-f5c4d564ed9b,,9edda10d-4e7e-466d-9d00-d046a983f579
+b52f8740,hard,460,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,71618015-17f8-4be5-84ee-d68f5a0303cb,,9ef92130-c5b4-4f72-85ce-fc1e7f23be67
+57fa49f5,hard,461,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,72f1653e-8342-4f7f-ab68-48ccd41c6131,,9f622cca-659c-49c4-bf03-f7d0a7de0abc
+888c1e41,hard,462,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,9bf512c9-d60d-45d4-82b5-f3406405311b,,a0a1f53f-ed60-49b2-b902-06a82fc47215
+3381c770,hard,463,H,S,Geometry and Trigonometry,S.D.,Circles,5f71e532-2653-45ed-b1b0-350d61fc39a3,,a0ef7163-30c0-4445-a84b-4347dfb618a8
+736a0cad,hard,464,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,5da6be76-b7ba-49bc-8edc-43023ff22437,,a225f15f-c15e-418e-917d-9c3b613d8e3b
+f2b52d15,hard,465,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,0847837e-216b-4b14-beea-a26743d22822,,a23b386d-b4c9-4e8f-9803-a8283fe6a37a
+deed71c8,hard,466,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,c37e5fc4-18cf-4640-bb58-4d3706922d46,,a3daee68-159e-41e1-a560-c48f4262e800
+2ed44ee1,hard,467,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,4a660867-b6b1-4a05-8680-7345ee525e7d,,a5263d2e-4634-4eb4-97b6-949a37d8f8fc
+82344a78,hard,468,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,bb79026e-13c4-4b08-a7b9-aa42fc49d679,,a9a39efc-7933-43da-89e8-22966679767c
+79d986bb,hard,469,H,S,Geometry and Trigonometry,S.D.,Circles,07697179-7f7d-4403-9ae4-a8e3e24f4800,,aa235ab7-510d-49e2-a50a-bd1f08be4b4d
+4210245d,hard,470,H,S,Geometry and Trigonometry,S.D.,Circles,56b00a08-97bf-40c6-9242-fc9bc809a788,,ad54c900-9b4f-4fb0-9ace-499a865587b7
+046685d9,hard,471,H,S,Geometry and Trigonometry,S.D.,Circles,4d97e10c-b4f0-4b56-bc69-94c96d754e7d,,ae655f99-241b-427f-b14e-006c65000182
+2c39182c,hard,472,H,S,Geometry and Trigonometry,S.A.,Area and volume,1659a829-8af0-46fa-9944-0dc7478a6534,,af213cb5-6181-4a78-80a2-6439b6bb8060
+d006b42f,hard,473,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,01ec6c1a-1e50-4be9-9860-7deee4e84867,,b0f026ed-d41b-4392-bb21-03b7bd852b31
+ca923be4,hard,474,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,dadf76ce-533f-4555-bc5e-9f4f7ebfbc6a,,b3b6442f-294e-4bf3-b634-ae58837f8424
+fa5fc830,hard,475,H,S,Geometry and Trigonometry,S.A.,Area and volume,6fb52b1a-d3f2-4ff6-964d-dc66932782a7,,b3d9383e-2fe5-480b-b667-b51b303ff2fc
+5b7328fd,hard,476,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,7c986a30-bdc2-46bd-9d0a-5b7813ce92ff,,b445fd56-4ab2-4bdb-9a7e-abec9c805ff3
+c56a9a70,hard,477,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,dfffa73a-650c-46e1-9a18-65bdcaa6d31e,,b4d2fd7d-7370-47cb-8538-ab4395a73a8c
+425f2188,hard,478,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,d1a87ba0-8850-4b9a-aa6a-51afae3bca4e,,b687042b-4d7e-492c-bc9e-d5d0a7db4860
+4ea3ec15,hard,479,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,ed519548-5579-4d28-a3e0-126fe585ddf2,,b6e31ee4-4fa1-46a2-b3a3-026d46146bdf
+c0e2b9b3,hard,480,H,S,Geometry and Trigonometry,S.B.,Lines, angles, and triangles,69574fba-6cb1-4761-8c5d-8458e7fe11cb,,b770b63e-b97d-4c01-8fcf-4110cd780a94
+e0124b5e,hard,481,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,45c3e07e-e6bd-4150-8d1d-3ece58e53c53,,b7994807-9d52-4f01-aa36-04abf02013fe
+6b042995,hard,482,H,S,Geometry and Trigonometry,S.C.,Right triangles and trigonometry,9e585927-fbfa-4156-b2ac-97141215a66b,,b79a8a03-f66e-43c8-b5a9-08c09bb1e345
