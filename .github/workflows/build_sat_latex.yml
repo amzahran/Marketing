@@ -32,22 +32,25 @@ jobs:
             --json source-bank/data/cb-digital-questions.json \
             --out output/Digital_SAT_LaTeX_Tests
 
-      - name: Convert SVG diagrams to PNG
+      - name: Convert usable SVG diagrams to PNG
         run: |
           python - <<'PY'
           from pathlib import Path
           import cairosvg
           root=Path('output/Digital_SAT_LaTeX_Tests')
-          for svg in root.rglob('*.svg'):
-              png=svg.with_suffix('.png')
-              cairosvg.svg2png(bytestring=svg.read_bytes(), write_to=str(png))
-              for tex in root.rglob('*.tex'):
-                  s=tex.read_text(encoding='utf-8')
-                  old='images/'+svg.name
-                  new='images/'+png.name
-                  if old in s:
-                      tex.write_text(s.replace(old,new),encoding='utf-8')
-              svg.unlink()
+          for svg in list(root.rglob('*.svg')):
+              try:
+                  png=svg.with_suffix('.png')
+                  cairosvg.svg2png(bytestring=svg.read_bytes(), write_to=str(png))
+                  for tex in root.rglob('*.tex'):
+                      s=tex.read_text(encoding='utf-8')
+                      old='images/'+svg.name
+                      new='images/'+png.name
+                      if old in s:
+                          tex.write_text(s.replace(old,new),encoding='utf-8')
+                  svg.unlink()
+              except Exception as exc:
+                  print(f'Keeping SVG {svg}: {exc}')
           PY
 
       - name: Package files
