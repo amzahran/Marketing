@@ -23,6 +23,13 @@ jobs:
       - name: Get source question data
         run: git clone --depth 1 https://github.com/mdn522/sat-question-bank.git source-bank
 
+      - name: Probe current question site
+        run: |
+          mkdir -p probes
+          curl -L --fail --silent --show-error https://satquestionbank.org/question/ac472881 -o probes/ac472881.html
+          curl -L --fail --silent --show-error https://satquestionbank.org/question/9b0a4eae -o probes/9b0a4eae.html
+          grep -Eo 'https?[^" ]+|/api/[^" ]+' probes/ac472881.html | head -100 > probes/links.txt || true
+
       - name: Install converter dependencies
         run: python -m pip install --disable-pip-version-check beautifulsoup4 lxml cairosvg
 
@@ -61,11 +68,9 @@ jobs:
       - name: Upload generated tests and source data
         uses: actions/upload-artifact@v4
         with:
-          name: sat-latex-tests-with-source
+          name: sat-latex-probe
           path: |
-            output/Digital_SAT_LaTeX_Tests.zip
-            output/Digital_SAT_LaTeX_Tests/Conversion_Audit.csv
-            output/Digital_SAT_LaTeX_Tests/Conversion_Summary.txt
+            probes
             source-bank/data/cb-digital-questions.json
           if-no-files-found: error
           retention-days: 7
