@@ -13,37 +13,24 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Probe College Board question bank frontend
+      - name: Download College Board frontend bundle
         run: |
           set -eux
-          mkdir -p probes/assets
+          mkdir -p probes
           base=https://satsuiteeducatorquestionbank.collegeboard.org
-          curl -L --silent --show-error "$base/" -o probes/index.html
-          python - <<'PY'
-          import re, pathlib, urllib.request
-          root=pathlib.Path('probes')
-          text=(root/'index.html').read_text(errors='ignore')
-          urls=[]
-          for u in re.findall(r'(?:src|href)=["\']([^"\']+\.(?:js|json)(?:\?[^"\']*)?)["\']',text):
-              if u.startswith('http'): full=u
-              else: full='https://satsuiteeducatorquestionbank.collegeboard.org/'+u.lstrip('/')
-              urls.append(full)
-          (root/'asset_urls.txt').write_text('\n'.join(urls))
-          for i,u in enumerate(urls):
-              try:
-                  data=urllib.request.urlopen(u,timeout=60).read()
-                  (root/'assets'/f'{i:02d}_'+u.rsplit('/',1)[-1].split('?')[0]).write_bytes(data)
-              except Exception as e:
-                  print('FAIL',u,e)
-          PY
-          grep -RhoE 'https?://[^"'"'"' )]+' probes/assets | sort -u > probes/http_urls.txt || true
-          grep -RhoE '/[A-Za-z0-9_./-]*(api|question|search)[A-Za-z0-9_?&=./${}-]*' probes/assets | sort -u > probes/path_candidates.txt || true
-          grep -RniE 'questionId|questionbank|graphql|baseURL|axios|fetch\(' probes/assets | head -500 > probes/interesting.txt || true
-          wc -c probes/index.html probes/assets/* > probes/sizes.txt || true
+          ua='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/150 Safari/537.36'
+          curl -A "$ua" -L --silent --show-error "$base/" -o probes/index.html
+          js=$(grep -oE '/assets/index-[A-Za-z0-9_-]+\.js' probes/index.html | head -1)
+          echo "$js" > probes/js_path.txt
+          curl -A "$ua" -L --silent --show-error -D probes/js.headers "$base$js" -o probes/index.js
+          grep -Eo 'https?://[^"'"'"' )]+' probes/index.js | sort -u > probes/http_urls.txt || true
+          grep -Eo '/[A-Za-z0-9_./-]*(api|question|search|export)[A-Za-z0-9_?&=./${}:-]*' probes/index.js | sort -u > probes/path_candidates.txt || true
+          grep -oE '.{0,180}(questionId|questionbank|graphql|baseURL|axios|fetch\().{0,300}' probes/index.js | head -1000 > probes/interesting.txt || true
+          wc -c probes/* > probes/sizes.txt
       - name: Upload probes
         uses: actions/upload-artifact@v4
         with:
-          name: collegeboard-eqb-probe
+          name: collegeboard-eqb-bundle
           path: probes
           if-no-files-found: error
           retention-days: 7
