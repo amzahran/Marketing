@@ -1,0 +1,92 @@
+name: OCR Legacy SAT Math
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  ocr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install OCR dependencies
+        run: |
+          python -m pip install --disable-pip-version-check requests beautifulsoup4 pillow pix2tex
+
+      - name: Extract and OCR legacy math images
+        run: |
+          mkdir -p legacy_ocr/images legacy_ocr/out
+          python - <<'PY'
+          import base64, gzip, json, re, time
+          from io import BytesIO
+          from pathlib import Path
+          import requests
+          from bs4 import BeautifulSoup
+          from PIL import Image
+          from pix2tex.cli import LatexOCR
+
+          raw=''.join(Path('sat_build/selected_legacy_questions.json.gz.b64').read_text().split())
+          selected=json.loads(gzip.decompress(base64.b64decode(raw)))
+          model=LatexOCR()
+          session=requests.Session()
+          session.headers.update({'Accept':'application/json','User-Agent':'Mozilla/5.0'})
+          results={}
+          failures=[]
+
+          def prep(data):
+              im=Image.open(BytesIO(data)).convert('RGBA')
+              bg=Image.new('RGBA',im.size,'white'); bg.alpha_composite(im); im=bg.convert('RGB')
+              bbox=im.getbbox()
+              if bbox: im=im.crop(bbox)
+              scale=max(2,min(5,120/max(1,im.height)))
+              im=im.resize((max(20,int(im.width*scale)),max(20,int(im.height*scale))),Image.Resampling.LANCZOS)
+              canvas=Image.new('RGB',(im.width+40,im.height+40),'white'); canvas.paste(im,(20,20))
+              return canvas
+
+          for n,item in enumerate(selected,1):
+              qid=item['qid']; ibn=item['ibn']
+              try:
+                  r=session.get(f'https://saic.collegeboard.org/disclosed/{ibn}.json',timeout=90)
+                  r.raise_for_status(); rec=r.json(); rec=rec[0] if isinstance(rec,list) else rec
+                  fields=[('body',rec.get('body','')),('prompt',rec.get('prompt',''))]
+                  for lab,ch in (rec.get('answer',{}).get('choices',{}) or {}).items():
+                      fields.append((f'choice_{lab}',ch.get('body','')))
+                  for field,html in fields:
+                      soup=BeautifulSoup(html or '','html.parser'); idx=0
+                      for img in soup.find_all('img'):
+                          ismath=img.get('role')=='math' or 'math-img' in (img.get('class') or [])
+                          if not ismath: continue
+                          src=img.get('src',''); alt=img.get('alt','')
+                          key=f'{qid}|{field}|{idx}'; idx+=1
+                          if not src.startswith('data:image'):
+                              failures.append({'key':key,'error':'not data image','alt':alt}); continue
+                          data=base64.b64decode(src.split(',',1)[1])
+                          im=prep(data)
+                          p=Path('legacy_ocr/images')/(key.replace('|','__')+'.png')
+                          im.save(p)
+                          try:
+                              pred=model(im)
+                              results[key]={'latex':pred.strip(),'alt':alt,'test':item['test'],'module':item['module'],'question':item['question']}
+                          except Exception as exc:
+                              failures.append({'key':key,'error':repr(exc),'alt':alt})
+              except Exception as exc:
+                  failures.append({'qid':qid,'error':repr(exc)})
+              if n%10==0 or n==len(selected): print('questions',n,'/',len(selected),'expressions',len(results),'failures',len(failures),flush=True)
+
+          Path('legacy_ocr/out/legacy_math_ocr.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
+          Path('legacy_ocr/out/failures.json').write_text(json.dumps(failures,ensure_ascii=False,indent=2),encoding='utf-8')
+          Path('legacy_ocr/out/summary.txt').write_text(f'questions={len(selected)}\nexpressions={len(results)}\nfailures={len(failures)}\n',encoding='utf-8')
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: legacy-math-ocr
+          path: legacy_ocr/out
+          if-no-files-found: error
+          retention-days: 7
