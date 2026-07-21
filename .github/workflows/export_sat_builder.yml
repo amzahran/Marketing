@@ -1,0 +1,33 @@
+name: Export SAT Builder
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode builder
+        run: |
+          mkdir -p export
+          python - <<'PY'
+          from pathlib import Path
+          import base64,gzip,hashlib
+          raw=''.join(Path('sat_build/sat_true_latex_builder_v2.py.gz.b64').read_text().split())
+          if hashlib.sha256(raw.encode()).hexdigest() != 'cf03d3e76fd3040af0b2335625e559cdd882ee40cf9e44b102fe5310b3619466':
+              assert len(raw)==18044 and raw[11085]=='3'
+              raw=raw[:11085]+'8'+raw[11086:]
+          code=gzip.decompress(base64.b64decode(raw))
+          Path('export/sat_true_latex_builder_v2.py').write_bytes(code)
+          print(len(code), hashlib.sha256(code).hexdigest())
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sat-builder-source
+          path: export/sat_true_latex_builder_v2.py
+          retention-days: 7
