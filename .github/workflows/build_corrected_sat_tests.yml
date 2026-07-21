@@ -1,0 +1,169 @@
+name: Build Corrected Digital SAT LaTeX Tests
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore verified builder and exact filtered selection
+        run: |
+          mkdir -p output work
+          python - <<'PY'
+          from pathlib import Path
+          import base64, gzip, hashlib
+
+          b64=''.join(Path('sat_build/sat_true_latex_builder_v2.py.gz.b64').read_text().split())
+          if hashlib.sha256(b64.encode()).hexdigest() != 'cf03d3e76fd3040af0b2335625e559cdd882ee40cf9e44b102fe5310b3619466':
+              assert len(b64)==18044 and b64[11085]=='3'
+              b64=b64[:11085]+'8'+b64[11086:]
+          code=gzip.decompress(base64.b64decode(b64))
+          assert hashlib.sha256(code).hexdigest() == '28d017f98614fb52502a12fa4f5b6b847678a9c22fdb06dba7f043d8943c4c7e'
+          Path('sat_true_latex_builder_v2.py').write_bytes(code)
+
+          sel64=''.join(Path('sat_build/filtered_selection.csv.gz.b64').read_text().split())
+          actual=hashlib.sha256(sel64.encode()).hexdigest()
+          Path('output/selection_payload_sha.txt').write_text(actual+'\n',encoding='utf-8')
+          assert actual == '7e3d433de583dc22c6c4116781287f3ded33547f65faf1a237e033c099f74a19', actual
+          selection=gzip.decompress(base64.b64decode(sel64))
+          assert hashlib.sha256(selection).hexdigest() == 'd3ba5ccab728942f01357293da594c3ad4d9ead79f55aad3409e048395480e8a'
+          Path('work/filtered_selection.csv').write_bytes(selection)
+          PY
+          python -m py_compile sat_true_latex_builder_v2.py
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 lxml pillow cairosvg
+
+      - name: Rebuild exact filtered metadata index
+        run: |
+          python - <<'PY'
+          import csv, json
+          from pathlib import Path
+          from collections import Counter
+          import requests
+
+          selected=list(csv.DictReader(open('work/filtered_selection.csv',encoding='utf-8-sig')))
+          payload={'asmtEventId':99,'test':2,'domain':'H,P,Q,S'}
+          r=requests.post('https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-questions',json=payload,headers={'Accept':'application/json','Content-Type':'application/json','User-Agent':'Mozilla/5.0'},timeout=180)
+          r.raise_for_status(); data=r.json()
+          byid={str(x.get('questionId') or ''):x for x in data}
+          missing=[x['qid'] for x in selected if x['qid'] not in byid]
+          assert not missing, f'missing metadata for {len(missing)} ids: {missing[:20]}'
+          fields=['qid','source','page','difficulty','domain_code','domain','skill_code','skill','external_id','ibn','uid']
+          rows=[]
+          for s in selected:
+              x=byid[s['qid']]
+              rows.append({
+                  'qid':s['qid'],'source':s['source'],'page':s['page'],
+                  'difficulty':x.get('difficulty') or '',
+                  'domain_code':x.get('primary_class_cd') or '',
+                  'domain':x.get('primary_class_cd_desc') or '',
+                  'skill_code':x.get('skill_cd') or '',
+                  'skill':x.get('skill_desc') or '',
+                  'external_id':x.get('external_id') or '',
+                  'ibn':x.get('ibn') or '',
+                  'uid':x.get('uId') or ''})
+          with open('work/filtered_question_index.csv','w',newline='',encoding='utf-8') as f:
+              w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(rows)
+          stats=Counter((x['difficulty'],x['domain_code']) for x in rows)
+          text=f'official_pool={len(data)}\nselected={len(rows)}\nstats={stats}\n'
+          Path('output/index_summary.txt').write_text(text,encoding='utf-8')
+          print(text)
+          assert len(rows)==1000
+          expected={('M','H'):172,('H','H'):117,('M','P'):165,('H','P'):167,('M','Q'):109,('H','Q'):94,('M','S'):72,('H','S'):104}
+          assert dict(stats)==expected, (stats,expected)
+          PY
+
+      - name: Prefetch selected official question records
+        run: |
+          python - <<'PY'
+          import csv, json, time
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from collections import Counter
+          import requests
+
+          rows=list(csv.DictReader(open('work/filtered_question_index.csv',encoding='utf-8-sig')))
+          cache={}; errors=[]
+          headers={'Accept':'application/json','Content-Type':'application/json','User-Agent':'Mozilla/5.0'}
+          def fetch_one(row):
+              last=None
+              for attempt in range(3):
+                  try:
+                      if row.get('external_id'):
+                          resp=requests.post('https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-question',json={'external_id':row['external_id']},headers=headers,timeout=45)
+                          resp.raise_for_status(); rec=resp.json(); kind='digital'
+                      elif row.get('ibn'):
+                          resp=requests.get(f"https://saic.collegeboard.org/disclosed/{row['ibn']}.json",headers=headers,timeout=45)
+                          resp.raise_for_status(); rec=resp.json(); kind='legacy'
+                          if isinstance(rec,list): rec=rec[0] if rec else None
+                      else: raise RuntimeError('no identifier')
+                      if not isinstance(rec,dict) or not rec: raise RuntimeError('empty or invalid record')
+                      return row,kind,rec,None
+                  except Exception as exc:
+                      last=exc; time.sleep(1.5*(attempt+1))
+              return row,'',None,repr(last)
+
+          with ThreadPoolExecutor(max_workers=24) as pool:
+              futures=[pool.submit(fetch_one,row) for row in rows]
+              for n,fut in enumerate(as_completed(futures),1):
+                  row,kind,rec,err=fut.result()
+                  if err: errors.append({'qid':row['qid'],'difficulty':row['difficulty'],'domain':row['domain_code'],'error':err})
+                  else: cache[row['qid']]={'meta':row,'record_type':kind,'record':rec}
+                  if n%50==0 or n==len(futures): print('records',n,'/',len(futures),'ok',len(cache),'errors',len(errors),flush=True)
+          Path('work/full_records.json').write_text(json.dumps(cache,ensure_ascii=False),encoding='utf-8')
+          Path('output/prefetch_errors.json').write_text(json.dumps(errors,ensure_ascii=False,indent=2),encoding='utf-8')
+          summary=f'requested={len(rows)}\nfetched={len(cache)}\nerrors={len(errors)}\nby_cell={Counter((v["meta"]["difficulty"],v["meta"]["domain_code"]) for v in cache.values())}\n'
+          Path('output/prefetch_summary.txt').write_text(summary,encoding='utf-8'); print(summary)
+          PY
+
+      - name: Build corrected tests
+        run: |
+          python sat_true_latex_builder_v2.py \
+            --index work/filtered_question_index.csv \
+            --out output/Digital_SAT_Corrected_LaTeX_Tests \
+            --cache work/full_records.json \
+            --workers 24 2>&1 | tee output/build.log
+
+      - name: Package and independently audit
+        if: always()
+        run: |
+          mkdir -p output
+          if [ -d output/Digital_SAT_Corrected_LaTeX_Tests ]; then
+            cd output
+            zip -r -9 Digital_SAT_Corrected_LaTeX_Tests.zip Digital_SAT_Corrected_LaTeX_Tests
+            cd ..
+          fi
+          python - <<'PY'
+          from pathlib import Path
+          root=Path('output/Digital_SAT_Corrected_LaTeX_Tests')
+          report=[]
+          if root.exists():
+              texs=sorted(root.glob('Test_*/*.tex'))
+              report.append(f'tests={len(texs)}')
+              for p in texs:
+                  s=p.read_text(encoding='utf-8')
+                  report.append(f'{p.parent.name}: questions={s.count(chr(92)+"begin{question}")}, medium={s.count(chr(92)+"difficulty{medium}")}, hard={s.count(chr(92)+"difficulty{hard}")}')
+          else: report.append('tests=0')
+          Path('output/independent_audit.txt').write_text('\n'.join(report)+'\n',encoding='utf-8')
+          PY
+
+      - name: Upload corrected tests
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: corrected-digital-sat-latex-tests
+          path: |
+            output
+            work/filtered_question_index.csv
+            work/full_records.json
+          if-no-files-found: warn
+          retention-days: 7

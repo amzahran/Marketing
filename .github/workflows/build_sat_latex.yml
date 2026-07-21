@@ -1,0 +1,49 @@
+name: Probe College Board Records
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe missing digital records
+        run: |
+          mkdir -p probe
+          python - <<'PY'
+          import json, requests, time
+          h={'Accept':'application/json','Content-Type':'application/json','User-Agent':'Mozilla/5.0'}
+          ids={
+          '9b0a4eae':'4d7cd4c5-d45b-40fb-8391-76021972ba43',
+          'e3cf671f':'0d590b1e-c165-452b-bd68-2c7ae4a0a55d',
+          '0451d754':'ac7b345b-6b45-4f69-945c-5e7e16ca8909',
+          '9e5863bd':'1d4cae8e-913c-4a09-b279-259bf349f1f5',
+          '1087f6c4':'02a67ccb-75a5-4787-89d5-0516399af231',
+          '9d4270fe':'8e8223b7-2824-48a9-a122-1abf78976190',
+          '0c541d87':'c470d4b9-a5d3-44e7-9e33-d10b5151dcde',
+          '3c03cbd8':'7ebcee2e-7a57-4d43-ae10-fe0a44f7791e',
+          '0b221d05':'efb5e6bb-bcbd-403b-9d21-1e079c979104',
+          '7625073d':'6b671d8f-d733-464f-b0d9-9d825d5fd66c'}
+          results={}
+          for qid,eid in ids.items():
+              t=time.time()
+              try:
+                  r=requests.post('https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-question',json={'external_id':eid},headers=h,timeout=20)
+                  results[qid]={'status':r.status_code,'seconds':round(time.time()-t,2),'length':len(r.content),'body':r.text[:500]}
+                  if r.ok: open(f'probe/{qid}.json','wb').write(r.content)
+              except Exception as e: results[qid]={'error':repr(e),'seconds':round(time.time()-t,2)}
+          open('probe/results.json','w').write(json.dumps(results,indent=2,ensure_ascii=False))
+          print(json.dumps(results,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: qbank-record-probe
+          path: probe
+          if-no-files-found: error
+          retention-days: 7
